@@ -1,0 +1,10 @@
+{
+  "experiment_version": "3C.1",
+  "dense_run": "evals/results/dense/3deb29d60b899b2a",
+  "output_dir": "evals/results/lexical_hybrid",
+  "bm25": {"k1": 1.2, "b": 0.75, "tokenizer": "sec_conservative_v1", "query_term_frequency": "binary"},
+  "rrf": {"constant": 60, "candidate_depth": null},
+  "save_top_k": 10,
+  "selection_metric": "recall@10",
+  "complementarity_solved": "recall@10 == 1"
+}

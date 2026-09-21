@@ -1,0 +1,11 @@
+{
+  "user_agent_env": "SEC_USER_AGENT",
+  "timeout_seconds": 30,
+  "request_interval_seconds": 0.25,
+  "cache_dir": "data/processed/sec_company_facts",
+  "companies": [
+    {"ticker": "AAPL", "company": "Apple Inc.", "cik": "0000320193"},
+    {"ticker": "MSFT", "company": "Microsoft Corporation", "cik": "0000789019"},
+    {"ticker": "NVDA", "company": "NVIDIA Corporation", "cik": "0001045810"}
+  ]
+}

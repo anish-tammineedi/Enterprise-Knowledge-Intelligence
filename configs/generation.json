@@ -1,0 +1,22 @@
+{
+  "version": "4A.1",
+  "llm": {
+    "provider": "openai",
+    "model": "gpt-4.1-mini-2025-04-14",
+    "temperature": 0,
+    "max_output_tokens": 1000,
+    "timeout_seconds": 45,
+    "max_retries": 2,
+    "retry_delay_seconds": 1,
+    "api_key_env": "OPENAI_API_KEY"
+  },
+  "retrieval": {
+    "mode": "bm25",
+    "top_k": 5,
+    "dense_run": "evals/results/dense/3deb29d60b899b2a",
+    "lexical_config": "configs/lexical_hybrid.json"
+  },
+  "prompt": {"version": "sec_grounded_v1", "max_context_characters": 60000},
+  "protected_manifest": "configs/generation_protected.json",
+  "output_dir": "evals/generation/phase4a"
+}

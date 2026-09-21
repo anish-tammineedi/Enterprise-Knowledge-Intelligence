@@ -1,0 +1,15 @@
+{
+  "input_dir": "data/processed/parsed",
+  "output_dir": "data/processed/chunks",
+  "defaults": {
+    "chunk_size": 2000,
+    "overlap": 200,
+    "min_chunk_size": 200,
+    "boundary_min_fraction": 0.5
+  },
+  "experiments": [
+    {"strategy": "fixed_size"},
+    {"strategy": "recursive"},
+    {"strategy": "sec_section"}
+  ]
+}

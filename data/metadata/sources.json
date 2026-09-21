@@ -1,0 +1,115 @@
+{
+  "source": "U.S. Securities and Exchange Commission EDGAR",
+  "dataset_type": "public_company_filings",
+  "access_method": "SEC EDGAR",
+  "documents": [
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "form": "10-K",
+      "filing_date": "2025-10-31",
+      "report_date": "2025-09-27",
+      "accession_number": "0000320193-25-000079",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+      "downloaded_at": "2026-09-15T00:11:25.712879+00:00",
+      "local_path": "data/raw/sec_filings/AAPL_000032019325000079.html"
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "form": "10-K",
+      "filing_date": "2024-11-01",
+      "report_date": "2024-09-28",
+      "accession_number": "0000320193-24-000123",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+      "downloaded_at": "2026-09-15T00:11:26.049564+00:00",
+      "local_path": "data/raw/sec_filings/AAPL_000032019324000123.html"
+    },
+    {
+      "company": "Apple Inc.",
+      "ticker": "AAPL",
+      "cik": "0000320193",
+      "form": "10-K",
+      "filing_date": "2023-11-03",
+      "report_date": "2023-09-30",
+      "accession_number": "0000320193-23-000106",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+      "downloaded_at": "2026-09-15T00:11:26.359353+00:00",
+      "local_path": "data/raw/sec_filings/AAPL_000032019323000106.html"
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "form": "10-K",
+      "filing_date": "2026-07-29",
+      "report_date": "2026-06-30",
+      "accession_number": "0001193125-26-323660",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "downloaded_at": "2026-09-15T00:11:26.986885+00:00",
+      "local_path": "data/raw/sec_filings/MSFT_000119312526323660.html"
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "form": "10-K",
+      "filing_date": "2025-07-30",
+      "report_date": "2025-06-30",
+      "accession_number": "0000950170-25-100235",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+      "downloaded_at": "2026-09-15T00:11:27.303607+00:00",
+      "local_path": "data/raw/sec_filings/MSFT_000095017025100235.html"
+    },
+    {
+      "company": "Microsoft Corporation",
+      "ticker": "MSFT",
+      "cik": "0000789019",
+      "form": "10-K",
+      "filing_date": "2024-07-30",
+      "report_date": "2024-06-30",
+      "accession_number": "0000950170-24-087843",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+      "downloaded_at": "2026-09-15T00:11:27.596851+00:00",
+      "local_path": "data/raw/sec_filings/MSFT_000095017024087843.html"
+    },
+    {
+      "company": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form": "10-K",
+      "filing_date": "2026-02-25",
+      "report_date": "2026-01-25",
+      "accession_number": "0001045810-26-000021",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "downloaded_at": "2026-09-15T00:11:28.195969+00:00",
+      "local_path": "data/raw/sec_filings/NVDA_000104581026000021.html"
+    },
+    {
+      "company": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form": "10-K",
+      "filing_date": "2025-02-26",
+      "report_date": "2025-01-26",
+      "accession_number": "0001045810-25-000023",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+      "downloaded_at": "2026-09-15T00:11:28.491445+00:00",
+      "local_path": "data/raw/sec_filings/NVDA_000104581025000023.html"
+    },
+    {
+      "company": "NVIDIA Corporation",
+      "ticker": "NVDA",
+      "cik": "0001045810",
+      "form": "10-K",
+      "filing_date": "2024-02-21",
+      "report_date": "2024-01-28",
+      "accession_number": "0001045810-24-000029",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+      "downloaded_at": "2026-09-15T00:11:28.789426+00:00",
+      "local_path": "data/raw/sec_filings/NVDA_000104581024000029.html"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "llm": {
+    "api_key_env": "OLLAMA_UNUSED_API_KEY",
+    "max_output_tokens": 1000,
+    "max_retries": 0,
+    "model": "qwen3:4b-instruct-2507-q4_K_M",
+    "provider": "ollama",
+    "provider_options": {
+      "base_url": "http://127.0.0.1:11434",
+      "keep_alive": "5m",
+      "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+      "num_ctx": 16384,
+      "seed": 0
+    },
+    "retry_delay_seconds": 1,
+    "temperature": 0,
+    "timeout_seconds": 600
+  },
+  "output_dir": "evals/generation/phase4a_ollama",
+  "prompt": {
+    "max_context_characters": 60000,
+    "version": "sec_grounded_v1"
+  },
+  "protected_manifest": "configs/generation_protected.json",
+  "retrieval": {
+    "dense_run": "evals/results/dense/3deb29d60b899b2a",
+    "lexical_config": "configs/lexical_hybrid.json",
+    "mode": "bm25",
+    "top_k": 5
+  },
+  "version": "4A.1"
+}

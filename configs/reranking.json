@@ -1,0 +1,21 @@
+{
+  "experiment_version": "3D.1",
+  "phase3c_run": "evals/results/lexical_hybrid/7bc596de695ce349",
+  "strategy": "sec_section",
+  "candidate_sources": ["bm25", "hybrid"],
+  "candidate_depths": [20, 50],
+  "output_dir": "evals/results/reranking",
+  "model_cache": "data/processed/reranking/models",
+  "score_cache": "data/processed/reranking/scores",
+  "model": {
+    "name": "cross-encoder/ms-marco-MiniLM-L6-v2",
+    "revision": "233902d25c440f23af6f7d6e94d2946bac0bee0a",
+    "max_length": 512,
+    "device": "cpu",
+    "batch_size": 32,
+    "threads": 4,
+    "seed": 0
+  },
+  "selection_metric": "mrr",
+  "movement_question_metric": "recall@5"
+}
