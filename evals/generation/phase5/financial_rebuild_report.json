@@ -1,0 +1,1684 @@
+{
+  "apple_2025_trace": {
+    "annual_fy2025_raw_rows": [
+      {
+        "accn": "0000320193-25-000079",
+        "end": "2023-09-30",
+        "filed": "2025-10-31",
+        "form": "10-K",
+        "fp": "FY",
+        "frame": "CY2023",
+        "fy": 2025,
+        "start": "2022-09-25",
+        "val": 383285000000
+      },
+      {
+        "accn": "0000320193-25-000079",
+        "end": "2024-09-28",
+        "filed": "2025-10-31",
+        "form": "10-K",
+        "fp": "FY",
+        "frame": "CY2024",
+        "fy": 2025,
+        "start": "2023-10-01",
+        "val": 391035000000
+      },
+      {
+        "accn": "0000320193-25-000079",
+        "end": "2025-09-27",
+        "filed": "2025-10-31",
+        "form": "10-K",
+        "fp": "FY",
+        "frame": "CY2025",
+        "fy": 2025,
+        "start": "2024-09-29",
+        "val": 416161000000
+      }
+    ],
+    "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+    "normalized_fact": {
+      "accession_number": "0000320193-25-000079",
+      "cik": "0000320193",
+      "company": "Apple Inc.",
+      "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+      "duplicate_rows_resolved": 0,
+      "end": "2025-09-27",
+      "filing_date": "2025-10-31",
+      "fiscal_year": 2025,
+      "form": "10-K",
+      "metric": "revenue",
+      "period_anchor": "Assets: latest instant end in the same annual accession",
+      "raw_fact_pointer": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/111",
+      "raw_file": "data/processed/sec_company_facts/raw/AAPL-855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5.json",
+      "raw_sha256": "855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5",
+      "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+      "start": "2024-09-29",
+      "ticker": "AAPL",
+      "unit": "USD",
+      "value": 416161000000
+    }
+  },
+  "companies": {
+    "AAPL": {
+      "metrics": {
+        "cash_and_cash_equivalents": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "annual_candidate_count": 58,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 228,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 40,
+            "form_filter": 170,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "unavailable_years": {}
+        },
+        "net_income": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "NetIncomeLoss": {
+              "annual_candidate_count": 142,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 338,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 113,
+            "form_filter": 196,
+            "nonannual_duration": 11,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "NetIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "operating_income": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "OperatingIncomeLoss": {
+              "annual_candidate_count": 54,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 234,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 36,
+            "form_filter": 180,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "revenue": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {
+              "annual_candidate_count": 37,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 117,
+              "units": [
+                "USD"
+              ]
+            },
+            "Revenues": {
+              "annual_candidate_count": 11,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2018
+              ],
+              "forms": [
+                "10-K"
+              ],
+              "raw_fact_count": 11,
+              "units": [
+                "USD"
+              ]
+            },
+            "SalesRevenueNet": {
+              "annual_candidate_count": 94,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 210,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 113,
+            "form_filter": 196,
+            "nonannual_duration": 11,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues",
+            "SalesRevenueNet"
+          ],
+          "unavailable_years": {}
+        },
+        "total_assets": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "Assets": {
+              "annual_candidate_count": 38,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 146,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 20,
+            "form_filter": 108,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "Assets"
+          ],
+          "unavailable_years": {}
+        },
+        "total_liabilities": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2009,
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025
+          ],
+          "concepts": {
+            "Liabilities": {
+              "annual_candidate_count": 36,
+              "annual_forms": [
+                "10-K",
+                "10-K/A"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-K/A",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 144,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 18,
+            "form_filter": 108,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "Liabilities"
+          ],
+          "unavailable_years": {}
+        }
+      },
+      "normalized_sha256": "db56132272536b4e7c92c150fc1e8de97722b297165bb5b39a9c7f7f2681a8ab",
+      "raw_file": "data/processed/sec_company_facts/raw/AAPL-855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5.json",
+      "raw_sha256": "855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5"
+    },
+    "MSFT": {
+      "metrics": {
+        "cash_and_cash_equivalents": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "annual_candidate_count": 54,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 266,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 37,
+            "form_filter": 212,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "unavailable_years": {}
+        },
+        "net_income": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "NetIncomeLoss": {
+              "annual_candidate_count": 143,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 340,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 115,
+            "form_filter": 197,
+            "nonannual_duration": 11,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "NetIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "operating_income": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "OperatingIncomeLoss": {
+              "annual_candidate_count": 91,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 278,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 69,
+            "form_filter": 187,
+            "nonannual_duration": 5,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "revenue": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {
+              "annual_candidate_count": 51,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "8-K"
+              ],
+              "raw_fact_count": 134,
+              "units": [
+                "USD"
+              ]
+            },
+            "Revenues": {
+              "annual_candidate_count": 15,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2010,
+                2011
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 31,
+              "units": [
+                "USD"
+              ]
+            },
+            "SalesRevenueNet": {
+              "annual_candidate_count": 77,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 173,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 115,
+            "form_filter": 195,
+            "nonannual_duration": 11,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues",
+            "SalesRevenueNet"
+          ],
+          "unavailable_years": {}
+        },
+        "total_assets": {
+          "accepted_count": 17,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "Assets": {
+              "annual_candidate_count": 34,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 142,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 17,
+            "form_filter": 108,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "Assets"
+          ],
+          "unavailable_years": {}
+        },
+        "total_liabilities": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2011,
+            2012,
+            2013,
+            2014,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "Liabilities": {
+              "annual_candidate_count": 32,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "10-Q/A",
+                "8-K"
+              ],
+              "raw_fact_count": 134,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 16,
+            "form_filter": 102,
+            "period_eligible": 16
+          },
+          "period_eligible_count": 16,
+          "selected_concepts": [
+            "Liabilities"
+          ],
+          "unavailable_years": {
+            "2010": "no_eligible_fact_in_latest_annual_filing"
+          }
+        }
+      },
+      "normalized_sha256": "f6fc1c47d9c48c8ccda159bfc692d6342045bfec332582e83781f5218068937b",
+      "raw_file": "data/processed/sec_company_facts/raw/MSFT-974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a.json",
+      "raw_sha256": "974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a"
+    },
+    "NVDA": {
+      "metrics": {
+        "cash_and_cash_equivalents": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "CashAndCashEquivalentsAtCarryingValue": {
+              "annual_candidate_count": 54,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 219,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 37,
+            "form_filter": 165,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "unavailable_years": {}
+        },
+        "net_income": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "NetIncomeLoss": {
+              "annual_candidate_count": 132,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q",
+                "DEF 14A"
+              ],
+              "raw_fact_count": 314,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 105,
+            "form_filter": 182,
+            "nonannual_duration": 10,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "NetIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "operating_income": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "OperatingIncomeLoss": {
+              "annual_candidate_count": 51,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 225,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 34,
+            "form_filter": 174,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "unavailable_years": {}
+        },
+        "revenue": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "RevenueFromContractWithCustomerExcludingAssessedTax": {
+              "annual_candidate_count": 28,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2019,
+                2020,
+                2021,
+                2022
+              ],
+              "forms": [
+                "10-K"
+              ],
+              "raw_fact_count": 28,
+              "units": [
+                "USD"
+              ]
+            },
+            "Revenues": {
+              "annual_candidate_count": 106,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 280,
+              "units": [
+                "USD"
+              ]
+            },
+            "SalesRevenueNet": {
+              "annual_candidate_count": 0,
+              "annual_forms": [],
+              "exists": false,
+              "fiscal_years": [],
+              "forms": [],
+              "raw_fact_count": 0,
+              "units": []
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 106,
+            "form_filter": 174,
+            "nonannual_duration": 10,
+            "period_eligible": 18
+          },
+          "period_eligible_count": 18,
+          "selected_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "Revenues"
+          ],
+          "unavailable_years": {}
+        },
+        "total_assets": {
+          "accepted_count": 16,
+          "accepted_fiscal_years": [
+            2010,
+            2011,
+            2012,
+            2013,
+            2015,
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "Assets": {
+              "annual_candidate_count": 34,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2009,
+                2010,
+                2011,
+                2012,
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 138,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 17,
+            "form_filter": 104,
+            "period_eligible": 17
+          },
+          "period_eligible_count": 17,
+          "selected_concepts": [
+            "Assets"
+          ],
+          "unavailable_years": {}
+        },
+        "total_liabilities": {
+          "accepted_count": 11,
+          "accepted_fiscal_years": [
+            2016,
+            2017,
+            2018,
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2025,
+            2026
+          ],
+          "concepts": {
+            "Liabilities": {
+              "annual_candidate_count": 22,
+              "annual_forms": [
+                "10-K"
+              ],
+              "exists": true,
+              "fiscal_years": [
+                2016,
+                2017,
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023,
+                2024,
+                2025,
+                2026,
+                2027
+              ],
+              "forms": [
+                "10-K",
+                "10-Q"
+              ],
+              "raw_fact_count": 86,
+              "units": [
+                "USD"
+              ]
+            }
+          },
+          "filter_counts": {
+            "comparative_period": 11,
+            "form_filter": 64,
+            "period_eligible": 11
+          },
+          "period_eligible_count": 11,
+          "selected_concepts": [
+            "Liabilities"
+          ],
+          "unavailable_years": {
+            "2010": "no_eligible_fact_in_latest_annual_filing",
+            "2011": "no_eligible_fact_in_latest_annual_filing",
+            "2012": "no_eligible_fact_in_latest_annual_filing",
+            "2013": "no_eligible_fact_in_latest_annual_filing",
+            "2015": "no_eligible_fact_in_latest_annual_filing"
+          }
+        }
+      },
+      "normalized_sha256": "4400df5f35c09687b8740fa080b07646c1c53edb81ba53df50f1a24bd59ff4b1",
+      "raw_file": "data/processed/sec_company_facts/raw/NVDA-a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d.json",
+      "raw_sha256": "a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d"
+    }
+  },
+  "direct_tool_tests": [
+    {
+      "input": {
+        "fiscal_year": 2025,
+        "metric": "revenue",
+        "ticker": "AAPL"
+      },
+      "result": {
+        "error": null,
+        "evidence": [
+          {
+            "accession_number": "0000320193-25-000079",
+            "cik": "0000320193",
+            "company": "Apple Inc.",
+            "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "concept_mapping": [
+              "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "SalesRevenueNet",
+              "Revenues"
+            ],
+            "duplicate_rows_resolved": 0,
+            "end": "2025-09-27",
+            "filing_date": "2025-10-31",
+            "fiscal_year": 2025,
+            "form": "10-K",
+            "metric": "revenue",
+            "period_anchor": "Assets: latest instant end in the same annual accession",
+            "raw_fact_pointer": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/111",
+            "raw_file": "data/processed/sec_company_facts/raw/AAPL-855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5.json",
+            "raw_sha256": "855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+            "start": "2024-09-29",
+            "ticker": "AAPL",
+            "unit": "USD",
+            "value": 416161000000
+          }
+        ],
+        "latency_seconds": 1.058299676515162e-05,
+        "output": {
+          "accession_number": "0000320193-25-000079",
+          "available": true,
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "concept_mapping": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet",
+            "Revenues"
+          ],
+          "duplicate_rows_resolved": 0,
+          "end": "2025-09-27",
+          "filing_date": "2025-10-31",
+          "fiscal_year": 2025,
+          "form": "10-K",
+          "metric": "revenue",
+          "period_anchor": "Assets: latest instant end in the same annual accession",
+          "raw_fact_pointer": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/111",
+          "raw_file": "data/processed/sec_company_facts/raw/AAPL-855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5.json",
+          "raw_sha256": "855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+          "start": "2024-09-29",
+          "ticker": "AAPL",
+          "unit": "USD",
+          "value": 416161000000
+        },
+        "status": "success",
+        "tool_name": "financial_data"
+      }
+    },
+    {
+      "input": {
+        "fiscal_year": 2025,
+        "metric": "net_income",
+        "ticker": "MSFT"
+      },
+      "result": {
+        "error": null,
+        "evidence": [
+          {
+            "accession_number": "0000950170-25-100235",
+            "cik": "0000789019",
+            "company": "Microsoft Corporation",
+            "concept": "NetIncomeLoss",
+            "concept_mapping": [
+              "NetIncomeLoss"
+            ],
+            "duplicate_rows_resolved": 0,
+            "end": "2025-06-30",
+            "filing_date": "2025-07-30",
+            "fiscal_year": 2025,
+            "form": "10-K",
+            "metric": "net_income",
+            "period_anchor": "Assets: latest instant end in the same annual accession",
+            "raw_fact_pointer": "/facts/us-gaap/NetIncomeLoss/units/USD/332",
+            "raw_file": "data/processed/sec_company_facts/raw/MSFT-974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a.json",
+            "raw_sha256": "974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+            "start": "2024-07-01",
+            "ticker": "MSFT",
+            "unit": "USD",
+            "value": 101832000000
+          }
+        ],
+        "latency_seconds": 4.62500611320138e-06,
+        "output": {
+          "accession_number": "0000950170-25-100235",
+          "available": true,
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "concept": "NetIncomeLoss",
+          "concept_mapping": [
+            "NetIncomeLoss"
+          ],
+          "duplicate_rows_resolved": 0,
+          "end": "2025-06-30",
+          "filing_date": "2025-07-30",
+          "fiscal_year": 2025,
+          "form": "10-K",
+          "metric": "net_income",
+          "period_anchor": "Assets: latest instant end in the same annual accession",
+          "raw_fact_pointer": "/facts/us-gaap/NetIncomeLoss/units/USD/332",
+          "raw_file": "data/processed/sec_company_facts/raw/MSFT-974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a.json",
+          "raw_sha256": "974fed2f5da5dc0257723606efb3ffbc07ebc32975a99174305fbd91d298586a",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+          "start": "2024-07-01",
+          "ticker": "MSFT",
+          "unit": "USD",
+          "value": 101832000000
+        },
+        "status": "success",
+        "tool_name": "financial_data"
+      }
+    },
+    {
+      "input": {
+        "fiscal_year": 2025,
+        "metric": "revenue",
+        "ticker": "NVDA"
+      },
+      "result": {
+        "error": null,
+        "evidence": [
+          {
+            "accession_number": "0001045810-25-000023",
+            "cik": "0001045810",
+            "company": "NVIDIA Corporation",
+            "concept": "Revenues",
+            "concept_mapping": [
+              "RevenueFromContractWithCustomerExcludingAssessedTax",
+              "SalesRevenueNet",
+              "Revenues"
+            ],
+            "duplicate_rows_resolved": 0,
+            "end": "2025-01-26",
+            "filing_date": "2025-02-26",
+            "fiscal_year": 2025,
+            "form": "10-K",
+            "metric": "revenue",
+            "period_anchor": "Assets: latest instant end in the same annual accession",
+            "raw_fact_pointer": "/facts/us-gaap/Revenues/units/USD/266",
+            "raw_file": "data/processed/sec_company_facts/raw/NVDA-a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d.json",
+            "raw_sha256": "a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d",
+            "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+            "start": "2024-01-29",
+            "ticker": "NVDA",
+            "unit": "USD",
+            "value": 130497000000
+          }
+        ],
+        "latency_seconds": 2.9999937396496534e-06,
+        "output": {
+          "accession_number": "0001045810-25-000023",
+          "available": true,
+          "cik": "0001045810",
+          "company": "NVIDIA Corporation",
+          "concept": "Revenues",
+          "concept_mapping": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet",
+            "Revenues"
+          ],
+          "duplicate_rows_resolved": 0,
+          "end": "2025-01-26",
+          "filing_date": "2025-02-26",
+          "fiscal_year": 2025,
+          "form": "10-K",
+          "metric": "revenue",
+          "period_anchor": "Assets: latest instant end in the same annual accession",
+          "raw_fact_pointer": "/facts/us-gaap/Revenues/units/USD/266",
+          "raw_file": "data/processed/sec_company_facts/raw/NVDA-a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d.json",
+          "raw_sha256": "a5b61a2364e00eef646b2f94cc84d099c5e27a5b0b7f0339dddfd5bba81c0a2d",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+          "start": "2024-01-29",
+          "ticker": "NVDA",
+          "unit": "USD",
+          "value": 130497000000
+        },
+        "status": "success",
+        "tool_name": "financial_data"
+      }
+    },
+    {
+      "input": {
+        "fiscal_year": 1900,
+        "metric": "revenue",
+        "ticker": "AAPL"
+      },
+      "result": {
+        "error": null,
+        "evidence": [],
+        "latency_seconds": 1.4589750207960606e-06,
+        "output": {
+          "available": false,
+          "reason": "No unambiguous local SEC fact"
+        },
+        "status": "unavailable",
+        "tool_name": "financial_data"
+      }
+    }
+  ],
+  "normalization_version": 2,
+  "validation": {
+    "all_accepted_facts_match_raw_value_and_accession": true,
+    "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
+    "protected_files_unchanged": 154,
+    "raw_hashes_verified": true
+  }
+}

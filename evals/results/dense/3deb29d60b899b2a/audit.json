@@ -1,0 +1,45 @@
+{
+  "failure_review": {
+    "SEC-004": "NVIDIA FY2026 wafer foundries: financial segment tables outrank manufacturing evidence. Direct re-encoding verified saved vector alignment; this is a measured ranking failure.",
+    "SEC-016": "NVIDIA FY2025 Item 8 cross-reference: higher ranks favor business/investor information and other years.",
+    "SEC-018": "Apple FY2025 chief operating decision maker: product and MD&A material outranks the segment note.",
+    "SEC-029": "NVIDIA FY2026 revenue: top ranks favor deferred-revenue/other-asset tables and other years.",
+    "SEC-056": "Apple outsourcing versus NVIDIA fabless manufacturing: required manufacturing evidence is displaced by unrelated introductions and financial notes.",
+    "SEC-057": "Apple 2023 versus 2024 cybersecurity disclosures: top ranks favor MD&A/product introductions rather than the required Items.",
+    "SEC-091": "Apple/Intelligent Cloud false premise: Microsoft segment terminology attracts rank 1; required Apple segment evidence is absent.",
+    "SEC-094": "Microsoft FY2026 GAAP net income: rank 1 contains only the adjusted-income tail of the gold table. Rank 4 contains the correct GAAP value in a different reconciliation table, a confirmed alternative-evidence false negative under the frozen anchors.",
+    "SEC-098": "Apple FY2023 cybersecurity Item versus risk disclosure: other years and sections dominate.",
+    "SEC-100": "NVIDIA FY2026 fiscal year-end: rank 1 has the date in a deferred-revenue table and rank 3 describes the fiscal calendar, outside the frozen highlights-table evidence. Potential evidence-anchor false negative."
+  },
+  "repeat_run": {
+    "cache_hits": 5463,
+    "cache_misses": 0,
+    "identical_bytes_and_mtimes": true,
+    "output_files_checked": 20
+  },
+  "sampled_real_encoder_alignment": {
+    "maximum_absolute_vector_difference": 1.4901161e-07,
+    "note": "Re-encoding sampled query and rank 1 / rank 182 chunks agrees within floating-point tolerance.",
+    "question_id": "SEC-004"
+  },
+  "tests": {
+    "passed": 41
+  },
+  "unanswerable_top1_scores": {
+    "fixed_size": {
+      "maximum": 0.8058618903160095,
+      "mean": 0.7567489802837372,
+      "minimum": 0.6958059072494507
+    },
+    "recursive": {
+      "maximum": 0.7892259359359741,
+      "mean": 0.7491013944149018,
+      "minimum": 0.683478832244873
+    },
+    "sec_section": {
+      "maximum": 0.8023492097854614,
+      "mean": 0.7479615330696106,
+      "minimum": 0.683478832244873
+    }
+  }
+}

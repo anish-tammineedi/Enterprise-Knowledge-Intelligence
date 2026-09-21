@@ -1,0 +1,517 @@
+{
+  "by_source": {
+    "phase4b": {
+      "abstention_label_accuracy": {
+        "denominator": 20,
+        "numerator": 12,
+        "unavailable": 0,
+        "value": 0.6
+      },
+      "abstention_rate": {
+        "denominator": 20,
+        "numerator": 10,
+        "unavailable": 0,
+        "value": 0.5
+      },
+      "all_failure_counts": {
+        "citation_failure": 2,
+        "expected_abstention": 2,
+        "generation_failure": 0,
+        "invalid_output": 2,
+        "partial_evidence": 0,
+        "retrieval_failure": 11,
+        "routing_failure": 0,
+        "success": 5,
+        "tool_failure": 0,
+        "unsupported_query": 0
+      },
+      "citation_validation_rate": {
+        "denominator": 20,
+        "numerator": 18,
+        "unavailable": 0,
+        "value": 0.9
+      },
+      "classification_unavailable": 0,
+      "definitions": {
+        "citation_validation": "contract/provenance validity, not semantic claim support; valid empty abstention citations count as valid",
+        "failure_counts": "primary counts are exclusive; all_failure_counts overlap",
+        "missing_values": "null means unavailable, never replaced with zero",
+        "p95": "nearest rank ceil(0.95*n), sorted known observations",
+        "tool_denominator": "invoked tools only; historical missing tools excluded",
+        "total_queries": "unique trace IDs, not unique query text"
+      },
+      "expected_abstention_accuracy": {
+        "denominator": 2,
+        "numerator": 2,
+        "unavailable": 0,
+        "value": 1.0
+      },
+      "latency_seconds": {
+        "end_to_end": {
+          "count": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "unavailable": 20
+        },
+        "generation": {
+          "count": 20,
+          "mean": 16.943328253999063,
+          "median": 15.716475332999835,
+          "p95": 23.91132899999502,
+          "unavailable": 0
+        },
+        "recorded_by_scope": {
+          "historical_generation_pipeline": {
+            "count": 20,
+            "mean": 16.946587270904274,
+            "median": 15.719801604020176,
+            "p95": 23.91248583397828,
+            "unavailable": 0
+          }
+        },
+        "retrieval": {
+          "count": 20,
+          "mean": 0.002813456251169555,
+          "median": 0.0016863124910742044,
+          "p95": 0.006393540999852121,
+          "unavailable": 0
+        }
+      },
+      "output_contract_validity": {
+        "denominator": 20,
+        "numerator": 18,
+        "unavailable": 0,
+        "value": 0.9
+      },
+      "primary_failure_counts": {
+        "citation_failure": 2,
+        "expected_abstention": 2,
+        "generation_failure": 0,
+        "invalid_output": 0,
+        "partial_evidence": 0,
+        "retrieval_failure": 11,
+        "routing_failure": 0,
+        "success": 5,
+        "tool_failure": 0,
+        "unsupported_query": 0
+      },
+      "retrieval_evidence_sufficiency_rate": {
+        "denominator": 18,
+        "numerator": 7,
+        "unavailable": 2,
+        "value": 0.3888888888888889
+      },
+      "retrieval_sufficiency_by_basis": {
+        "benchmark_required_evidence_coverage": {
+          "denominator": 18,
+          "numerator": 7,
+          "unavailable": 0,
+          "value": 0.3888888888888889
+        }
+      },
+      "routing_success_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "unavailable": 20,
+        "value": null
+      },
+      "schema_version": "6.1",
+      "structured_output_validity": {
+        "denominator": 20,
+        "numerator": 20,
+        "unavailable": 0,
+        "value": 1.0
+      },
+      "telemetry_coverage": {
+        "queries_with_tool_records": 0,
+        "routing_queries": 0,
+        "timestamps": 0
+      },
+      "tokens": {
+        "input_tokens": {
+          "average": 4597.25,
+          "count": 20,
+          "known_mean": 4597.25,
+          "known_sum": 91945,
+          "total": 91945,
+          "unavailable": 0
+        },
+        "output_tokens": {
+          "average": 78.85,
+          "count": 20,
+          "known_mean": 78.85,
+          "known_sum": 1577,
+          "total": 1577,
+          "unavailable": 0
+        },
+        "total_tokens": {
+          "average": 4676.1,
+          "count": 20,
+          "known_mean": 4676.1,
+          "known_sum": 93522,
+          "total": 93522,
+          "unavailable": 0
+        }
+      },
+      "tool_success_rate": {
+        "denominator": 0,
+        "numerator": 0,
+        "unavailable": 0,
+        "value": null
+      },
+      "total_queries": 20
+    },
+    "phase5": {
+      "abstention_label_accuracy": {
+        "denominator": 4,
+        "numerator": 3,
+        "unavailable": 0,
+        "value": 0.75
+      },
+      "abstention_rate": {
+        "denominator": 4,
+        "numerator": 2,
+        "unavailable": 0,
+        "value": 0.5
+      },
+      "all_failure_counts": {
+        "citation_failure": 1,
+        "expected_abstention": 2,
+        "generation_failure": 1,
+        "invalid_output": 1,
+        "partial_evidence": 1,
+        "retrieval_failure": 1,
+        "routing_failure": 0,
+        "success": 1,
+        "tool_failure": 0,
+        "unsupported_query": 1
+      },
+      "citation_validation_rate": {
+        "denominator": 4,
+        "numerator": 3,
+        "unavailable": 0,
+        "value": 0.75
+      },
+      "classification_unavailable": 0,
+      "definitions": {
+        "citation_validation": "contract/provenance validity, not semantic claim support; valid empty abstention citations count as valid",
+        "failure_counts": "primary counts are exclusive; all_failure_counts overlap",
+        "missing_values": "null means unavailable, never replaced with zero",
+        "p95": "nearest rank ceil(0.95*n), sorted known observations",
+        "tool_denominator": "invoked tools only; historical missing tools excluded",
+        "total_queries": "unique trace IDs, not unique query text"
+      },
+      "expected_abstention_accuracy": {
+        "denominator": 3,
+        "numerator": 2,
+        "unavailable": 0,
+        "value": 0.6666666666666666
+      },
+      "latency_seconds": {
+        "end_to_end": {
+          "count": 2,
+          "mean": 9.332703020510962,
+          "median": 9.332703020510962,
+          "p95": 15.236229041038314,
+          "unavailable": 2
+        },
+        "generation": {
+          "count": 4,
+          "mean": 7.693613843759522,
+          "median": 7.314610146000632,
+          "p95": 15.235263083013706,
+          "unavailable": 0
+        },
+        "recorded_by_scope": {
+          "generation_pipeline_excluding_orchestration": {
+            "count": 2,
+            "mean": 6.055323624503217,
+            "median": 6.055323624503217,
+            "p95": 11.200584416015772,
+            "unavailable": 0
+          },
+          "preparation_and_generation_including_orchestration": {
+            "count": 2,
+            "mean": 9.332703020510962,
+            "median": 9.332703020510962,
+            "p95": 15.236229041038314,
+            "unavailable": 0
+          }
+        },
+        "retrieval": {
+          "count": 0,
+          "mean": null,
+          "median": null,
+          "p95": null,
+          "unavailable": 2
+        }
+      },
+      "output_contract_validity": {
+        "denominator": 4,
+        "numerator": 3,
+        "unavailable": 0,
+        "value": 0.75
+      },
+      "primary_failure_counts": {
+        "citation_failure": 0,
+        "expected_abstention": 0,
+        "generation_failure": 0,
+        "invalid_output": 0,
+        "partial_evidence": 1,
+        "retrieval_failure": 1,
+        "routing_failure": 0,
+        "success": 1,
+        "tool_failure": 0,
+        "unsupported_query": 1
+      },
+      "retrieval_evidence_sufficiency_rate": {
+        "denominator": 2,
+        "numerator": 0,
+        "unavailable": 0,
+        "value": 0.0
+      },
+      "retrieval_sufficiency_by_basis": {
+        "saved_phase5_review": {
+          "denominator": 2,
+          "numerator": 0,
+          "unavailable": 0,
+          "value": 0.0
+        }
+      },
+      "routing_success_rate": {
+        "denominator": 4,
+        "numerator": 4,
+        "unavailable": 0,
+        "value": 1.0
+      },
+      "schema_version": "6.1",
+      "structured_output_validity": {
+        "denominator": 4,
+        "numerator": 4,
+        "unavailable": 0,
+        "value": 1.0
+      },
+      "telemetry_coverage": {
+        "queries_with_tool_records": 3,
+        "routing_queries": 4,
+        "timestamps": 0
+      },
+      "tokens": {
+        "input_tokens": {
+          "average": 2177.75,
+          "count": 4,
+          "known_mean": 2177.75,
+          "known_sum": 8711,
+          "total": 8711,
+          "unavailable": 0
+        },
+        "output_tokens": {
+          "average": 38.25,
+          "count": 4,
+          "known_mean": 38.25,
+          "known_sum": 153,
+          "total": 153,
+          "unavailable": 0
+        },
+        "total_tokens": {
+          "average": 2216,
+          "count": 4,
+          "known_mean": 2216,
+          "known_sum": 8864,
+          "total": 8864,
+          "unavailable": 0
+        }
+      },
+      "tool_success_rate": {
+        "denominator": 4,
+        "numerator": 4,
+        "unavailable": 0,
+        "value": 1.0
+      },
+      "total_queries": 4
+    }
+  },
+  "overall": {
+    "abstention_label_accuracy": {
+      "denominator": 24,
+      "numerator": 15,
+      "unavailable": 0,
+      "value": 0.625
+    },
+    "abstention_rate": {
+      "denominator": 24,
+      "numerator": 12,
+      "unavailable": 0,
+      "value": 0.5
+    },
+    "all_failure_counts": {
+      "citation_failure": 3,
+      "expected_abstention": 4,
+      "generation_failure": 1,
+      "invalid_output": 3,
+      "partial_evidence": 1,
+      "retrieval_failure": 12,
+      "routing_failure": 0,
+      "success": 6,
+      "tool_failure": 0,
+      "unsupported_query": 1
+    },
+    "citation_validation_rate": {
+      "denominator": 24,
+      "numerator": 21,
+      "unavailable": 0,
+      "value": 0.875
+    },
+    "classification_unavailable": 0,
+    "definitions": {
+      "citation_validation": "contract/provenance validity, not semantic claim support; valid empty abstention citations count as valid",
+      "failure_counts": "primary counts are exclusive; all_failure_counts overlap",
+      "missing_values": "null means unavailable, never replaced with zero",
+      "p95": "nearest rank ceil(0.95*n), sorted known observations",
+      "tool_denominator": "invoked tools only; historical missing tools excluded",
+      "total_queries": "unique trace IDs, not unique query text"
+    },
+    "expected_abstention_accuracy": {
+      "denominator": 5,
+      "numerator": 4,
+      "unavailable": 0,
+      "value": 0.8
+    },
+    "latency_seconds": {
+      "end_to_end": {
+        "count": 2,
+        "mean": 9.332703020510962,
+        "median": 9.332703020510962,
+        "p95": 15.236229041038314,
+        "unavailable": 22
+      },
+      "generation": {
+        "count": 24,
+        "mean": 15.401709185625805,
+        "median": 15.259439812012715,
+        "p95": 23.91132899999502,
+        "unavailable": 0
+      },
+      "recorded_by_scope": {
+        "generation_pipeline_excluding_orchestration": {
+          "count": 2,
+          "mean": 6.055323624503217,
+          "median": 6.055323624503217,
+          "p95": 11.200584416015772,
+          "unavailable": 0
+        },
+        "historical_generation_pipeline": {
+          "count": 20,
+          "mean": 16.946587270904274,
+          "median": 15.719801604020176,
+          "p95": 23.91248583397828,
+          "unavailable": 0
+        },
+        "preparation_and_generation_including_orchestration": {
+          "count": 2,
+          "mean": 9.332703020510962,
+          "median": 9.332703020510962,
+          "p95": 15.236229041038314,
+          "unavailable": 0
+        }
+      },
+      "retrieval": {
+        "count": 20,
+        "mean": 0.002813456251169555,
+        "median": 0.0016863124910742044,
+        "p95": 0.006393540999852121,
+        "unavailable": 2
+      }
+    },
+    "output_contract_validity": {
+      "denominator": 24,
+      "numerator": 21,
+      "unavailable": 0,
+      "value": 0.875
+    },
+    "primary_failure_counts": {
+      "citation_failure": 2,
+      "expected_abstention": 2,
+      "generation_failure": 0,
+      "invalid_output": 0,
+      "partial_evidence": 1,
+      "retrieval_failure": 12,
+      "routing_failure": 0,
+      "success": 6,
+      "tool_failure": 0,
+      "unsupported_query": 1
+    },
+    "retrieval_evidence_sufficiency_rate": {
+      "denominator": 20,
+      "numerator": 7,
+      "unavailable": 2,
+      "value": 0.35
+    },
+    "retrieval_sufficiency_by_basis": {
+      "benchmark_required_evidence_coverage": {
+        "denominator": 18,
+        "numerator": 7,
+        "unavailable": 0,
+        "value": 0.3888888888888889
+      },
+      "saved_phase5_review": {
+        "denominator": 2,
+        "numerator": 0,
+        "unavailable": 0,
+        "value": 0.0
+      }
+    },
+    "routing_success_rate": {
+      "denominator": 4,
+      "numerator": 4,
+      "unavailable": 20,
+      "value": 1.0
+    },
+    "schema_version": "6.1",
+    "structured_output_validity": {
+      "denominator": 24,
+      "numerator": 24,
+      "unavailable": 0,
+      "value": 1.0
+    },
+    "telemetry_coverage": {
+      "queries_with_tool_records": 3,
+      "routing_queries": 4,
+      "timestamps": 0
+    },
+    "tokens": {
+      "input_tokens": {
+        "average": 4194,
+        "count": 24,
+        "known_mean": 4194,
+        "known_sum": 100656,
+        "total": 100656,
+        "unavailable": 0
+      },
+      "output_tokens": {
+        "average": 72.08333333333333,
+        "count": 24,
+        "known_mean": 72.08333333333333,
+        "known_sum": 1730,
+        "total": 1730,
+        "unavailable": 0
+      },
+      "total_tokens": {
+        "average": 4266.083333333333,
+        "count": 24,
+        "known_mean": 4266.083333333333,
+        "known_sum": 102386,
+        "total": 102386,
+        "unavailable": 0
+      }
+    },
+    "tool_success_rate": {
+      "denominator": 4,
+      "numerator": 4,
+      "unavailable": 0,
+      "value": 1.0
+    },
+    "total_queries": 24
+  }
+}

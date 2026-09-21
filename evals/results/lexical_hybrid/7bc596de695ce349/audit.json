@@ -1,0 +1,82 @@
+{
+  "diagnostics": {
+    "fixed_size": {
+      "bm25": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 22.950799641834333,
+        "unanswerable_top1_score_min": 14.801156313143744
+      },
+      "dense": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.8058618903160095,
+        "unanswerable_top1_score_min": 0.6958059072494507
+      },
+      "hybrid": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.03252247488101534,
+        "unanswerable_top1_score_min": 0.02557544757033248
+      }
+    },
+    "recursive": {
+      "bm25": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 24.20298326260353,
+        "unanswerable_top1_score_min": 14.56457372697065
+      },
+      "dense": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.7892259359359741,
+        "unanswerable_top1_score_min": 0.683478832244873
+      },
+      "hybrid": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.03278688524590164,
+        "unanswerable_top1_score_min": 0.026597524255603883
+      }
+    },
+    "sec_section": {
+      "bm25": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 23.06947364729206,
+        "unanswerable_top1_score_min": 14.546014466387057
+      },
+      "dense": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.8023492097854614,
+        "unanswerable_top1_score_min": 0.683478832244873
+      },
+      "hybrid": {
+        "first_evidence_with_zero_bm25_score": [],
+        "unanswerable_count": 10,
+        "unanswerable_top1_score_max": 0.03252247488101534,
+        "unanswerable_top1_score_min": 0.026279628993473032
+      }
+    }
+  },
+  "failure_review": {
+    "SEC-016": "NVIDIA Item 8 cross-reference: MD&A references and exhibit text outrank the short actual Item 8.",
+    "SEC-018": "Apple FY2025 decision maker: accounting policies and financial-note page furniture outrank the specific segment disclosure.",
+    "SEC-029": "NVIDIA FY2026 revenue: the exact value is present at rank 2 in an alternative table, but the frozen highlights evidence ranks 95.",
+    "SEC-041": "Apple workforce across years: financial-note page furniture outranks human-capital evidence.",
+    "SEC-042": "Microsoft employee geography across years: employee stock plans and NVIDIA tax tables displace workforce counts.",
+    "SEC-052": "Apple versus Microsoft segments: accounting policies and Microsoft MD&A displace the required business-description anchors.",
+    "SEC-056": "Apple/NVIDIA manufacturing comparison: generic MD&A references to Item 1A dominate over manufacturing evidence.",
+    "SEC-069": "NVIDIA FY2025 Item 8 / net income: MD&A and other years outrank the required cross-reference and statement.",
+    "SEC-091": "Apple/Intelligent Cloud false premise: Microsoft segment disclosures dominate the ranking.",
+    "SEC-092": "NVIDIA income-statement location: forward-looking text and preamble material outrank the Item cross-reference."
+  },
+  "new_embeddings_computed": 0,
+  "repeat_run": {
+    "files_checked": 31,
+    "identical_bytes_and_mtimes": true
+  },
+  "tests_passed": 47
+}

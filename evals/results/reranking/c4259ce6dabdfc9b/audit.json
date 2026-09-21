@@ -1,0 +1,37 @@
+{
+  "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
+  "failure_review": {
+    "SEC-016": "Actual short Item 8 cross-reference is absent; MD&A references dominate.",
+    "SEC-018": "Apple decision-maker evidence absent; Microsoft CODM and Apple accounting-policy passages rank highly.",
+    "SEC-029": "Highlights evidence absent; exact revenue appears in a different end-market table at rank 2.",
+    "SEC-033": "Correct-year workforce evidence absent; FY2026 workforce is ranked first for a FY2024 question.",
+    "SEC-034": "Requested Apple FY2024 income statement is absent; unrelated revenue/expense notes appear.",
+    "SEC-039": "Apple FY2025 repurchase evidence absent; Microsoft and older Apple disclosures appear.",
+    "SEC-041": "Required workforce passages from both Apple years absent; accounting policies and MD&A dominate.",
+    "SEC-042": "Employee geography evidence absent; stock-purchase-plan disclosures rank highly.",
+    "SEC-052": "Required business-description segment anchors absent; alternative MD&A/accounting text appears.",
+    "SEC-054": "Required original Apple income-statement anchors absent; other years and company expenses dominate."
+  },
+  "first_run_timing": {
+    "average_inference_seconds_per_query": 1.1579675485775807,
+    "average_query_wall_seconds": 1.2287364721103222,
+    "cache_hits": 0,
+    "inference_seconds": 115.79675485775806,
+    "model_load_seconds": 2.9408517089905217,
+    "pairs_scored": 6917,
+    "total_wall_seconds": 123.873245166993
+  },
+  "repeat_cache_hits": 6917,
+  "repeat_inference_pairs": 0,
+  "repeat_timing": {
+    "average_inference_seconds_per_query": 0.0,
+    "average_query_wall_seconds": 0.014431728781783022,
+    "cache_hits": 6917,
+    "inference_seconds": 0,
+    "model_load_seconds": 0,
+    "pairs_scored": 0,
+    "total_wall_seconds": 2.3912114999839105
+  },
+  "tests_passed": 51,
+  "unchanged_result_files_on_repeat": 15
+}

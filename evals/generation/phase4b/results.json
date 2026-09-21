@@ -1,0 +1,1037 @@
+{
+  "metrics": {
+    "questions": 20,
+    "answerable_questions": 18,
+    "unanswerable_questions": 2,
+    "structured_output_validity": 0.9,
+    "answerable_false_abstention_rate": 0.4444444444444444,
+    "unanswerable_abstention_rate": 1.0,
+    "accepted_substantive_answer_rate": 0.4444444444444444,
+    "citation_validity": 1.0,
+    "citation_precision": 0.5416666666666666,
+    "citation_recall": 0.5416666666666666,
+    "groundedness_heuristic": 0.25,
+    "mean_latency_seconds": 16.946587270904274,
+    "median_latency_seconds": 15.719801604020176,
+    "input_tokens": 91945,
+    "output_tokens": 1577,
+    "total_tokens": 93522,
+    "attribution_counts": {
+      "citation_failure": 1,
+      "expected_abstention": 2,
+      "generation_failure": 5,
+      "invalid_structured_output": 2,
+      "retrieval_failure": 10
+    }
+  },
+  "breakdowns": {
+    "category": {
+      "ambiguous_adversarial": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 1.0,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.0,
+        "citation_validity": 1.0,
+        "citation_precision": null,
+        "citation_recall": null,
+        "groundedness_heuristic": null,
+        "mean_latency_seconds": 13.0615067500039,
+        "median_latency_seconds": 13.0615067500039,
+        "input_tokens": 8233,
+        "output_tokens": 46,
+        "total_tokens": 8279,
+        "attribution_counts": {
+          "retrieval_failure": 2
+        }
+      },
+      "comparative": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.5,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.5,
+        "citation_validity": 1.0,
+        "citation_precision": 0.3333333333333333,
+        "citation_recall": 0.3333333333333333,
+        "groundedness_heuristic": 0.0,
+        "mean_latency_seconds": 18.723436708489317,
+        "median_latency_seconds": 18.723436708489317,
+        "input_tokens": 8835,
+        "output_tokens": 304,
+        "total_tokens": 9139,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "cross_document": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 1.0,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.0,
+        "citation_validity": 1.0,
+        "citation_precision": null,
+        "citation_recall": null,
+        "groundedness_heuristic": null,
+        "mean_latency_seconds": 14.357742812513607,
+        "median_latency_seconds": 14.357742812513607,
+        "input_tokens": 8940,
+        "output_tokens": 46,
+        "total_tokens": 8986,
+        "attribution_counts": {
+          "retrieval_failure": 2
+        }
+      },
+      "direct_factual": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.5,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.5,
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "groundedness_heuristic": 0.0,
+        "mean_latency_seconds": 14.93149185400398,
+        "median_latency_seconds": 14.93149185400398,
+        "input_tokens": 7920,
+        "output_tokens": 75,
+        "total_tokens": 7995,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "multi_hop": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 0.5,
+        "answerable_false_abstention_rate": 0.5,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.0,
+        "citation_validity": 1.0,
+        "citation_precision": null,
+        "citation_recall": null,
+        "groundedness_heuristic": null,
+        "mean_latency_seconds": 16.749364250019426,
+        "median_latency_seconds": 16.749364250019426,
+        "input_tokens": 9919,
+        "output_tokens": 81,
+        "total_tokens": 10000,
+        "attribution_counts": {
+          "invalid_structured_output": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "numerical": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.5,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.5,
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "groundedness_heuristic": 1.0,
+        "mean_latency_seconds": 17.876545124992845,
+        "median_latency_seconds": 17.876545124992845,
+        "input_tokens": 10058,
+        "output_tokens": 161,
+        "total_tokens": 10219,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "section_specific": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.0,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 1.0,
+        "citation_validity": 1.0,
+        "citation_precision": 0.5,
+        "citation_recall": 0.5,
+        "groundedness_heuristic": 0.5,
+        "mean_latency_seconds": 15.609191167008248,
+        "median_latency_seconds": 15.609191167008248,
+        "input_tokens": 7696,
+        "output_tokens": 284,
+        "total_tokens": 7980,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "table_oriented": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.0,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 1.0,
+        "citation_validity": 1.0,
+        "citation_precision": 0.5,
+        "citation_recall": 0.5,
+        "groundedness_heuristic": 0.0,
+        "mean_latency_seconds": 25.035304333505337,
+        "median_latency_seconds": 25.035304333505337,
+        "input_tokens": 11671,
+        "output_tokens": 333,
+        "total_tokens": 12004,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "retrieval_failure": 1
+        }
+      },
+      "temporal": {
+        "questions": 2,
+        "answerable_questions": 2,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 0.5,
+        "answerable_false_abstention_rate": 0.0,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.5,
+        "citation_validity": 1.0,
+        "citation_precision": 0.0,
+        "citation_recall": 0.0,
+        "groundedness_heuristic": 0.0,
+        "mean_latency_seconds": 17.207478667012765,
+        "median_latency_seconds": 17.207478667012765,
+        "input_tokens": 8959,
+        "output_tokens": 201,
+        "total_tokens": 9160,
+        "attribution_counts": {
+          "citation_failure": 1,
+          "invalid_structured_output": 1
+        }
+      },
+      "unanswerable": {
+        "questions": 2,
+        "answerable_questions": 0,
+        "unanswerable_questions": 2,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": null,
+        "unanswerable_abstention_rate": 1.0,
+        "accepted_substantive_answer_rate": null,
+        "citation_validity": 1.0,
+        "citation_precision": null,
+        "citation_recall": null,
+        "groundedness_heuristic": null,
+        "mean_latency_seconds": 15.913811041493318,
+        "median_latency_seconds": 15.913811041493318,
+        "input_tokens": 9714,
+        "output_tokens": 46,
+        "total_tokens": 9760,
+        "attribution_counts": {
+          "expected_abstention": 2
+        }
+      }
+    },
+    "difficulty": {
+      "easy": {
+        "questions": 4,
+        "answerable_questions": 4,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 1.0,
+        "answerable_false_abstention_rate": 0.5,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.5,
+        "citation_validity": 1.0,
+        "citation_precision": 1.0,
+        "citation_recall": 1.0,
+        "groundedness_heuristic": 0.5,
+        "mean_latency_seconds": 16.404018489498412,
+        "median_latency_seconds": 16.33886039549543,
+        "input_tokens": 17978,
+        "output_tokens": 236,
+        "total_tokens": 18214,
+        "attribution_counts": {
+          "generation_failure": 2,
+          "retrieval_failure": 2
+        }
+      },
+      "hard": {
+        "questions": 8,
+        "answerable_questions": 8,
+        "unanswerable_questions": 0,
+        "structured_output_validity": 0.875,
+        "answerable_false_abstention_rate": 0.75,
+        "unanswerable_abstention_rate": null,
+        "accepted_substantive_answer_rate": 0.125,
+        "citation_validity": 1.0,
+        "citation_precision": 0.3333333333333333,
+        "citation_recall": 0.3333333333333333,
+        "groundedness_heuristic": 0.0,
+        "mean_latency_seconds": 15.723012630256562,
+        "median_latency_seconds": 14.738665083001251,
+        "input_tokens": 35927,
+        "output_tokens": 477,
+        "total_tokens": 36404,
+        "attribution_counts": {
+          "generation_failure": 1,
+          "invalid_structured_output": 1,
+          "retrieval_failure": 6
+        }
+      },
+      "medium": {
+        "questions": 8,
+        "answerable_questions": 6,
+        "unanswerable_questions": 2,
+        "structured_output_validity": 0.875,
+        "answerable_false_abstention_rate": 0.0,
+        "unanswerable_abstention_rate": 1.0,
+        "accepted_substantive_answer_rate": 0.8333333333333334,
+        "citation_validity": 1.0,
+        "citation_precision": 0.4,
+        "citation_recall": 0.4,
+        "groundedness_heuristic": 0.2,
+        "mean_latency_seconds": 18.441446302254917,
+        "median_latency_seconds": 16.36948554200353,
+        "input_tokens": 38040,
+        "output_tokens": 864,
+        "total_tokens": 38904,
+        "attribution_counts": {
+          "citation_failure": 1,
+          "expected_abstention": 2,
+          "generation_failure": 2,
+          "invalid_structured_output": 1,
+          "retrieval_failure": 2
+        }
+      }
+    }
+  },
+  "results": [
+    {
+      "question_id": "SEC-091",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 13.761101707990747,
+      "token_usage": {
+        "input_tokens": 4311,
+        "output_tokens": 23,
+        "total_tokens": 4334
+      },
+      "category": "ambiguous_adversarial",
+      "difficulty": "hard",
+      "question": "Does Apple’s fiscal 2025 filing use Intelligent Cloud as one of its reportable segments? Give the actual segment list.",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-051",
+      "answerable": true,
+      "status": "success",
+      "attribution": "generation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E2"
+      ],
+      "answer_f1_heuristic": 0.07446808510638298,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 0.3333333333333333,
+      "citation_recall": 0.3333333333333333,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 23.91248583397828,
+      "token_usage": {
+        "input_tokens": 4594,
+        "output_tokens": 281,
+        "total_tokens": 4875
+      },
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "Using each company’s fiscal 2025 filing, rank Apple, Microsoft, and NVIDIA by reported annual net sales or revenue and give the amounts.",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"The provided evidence does not contain the reported annual net sales or revenue for Apple, Microsoft, or NVIDIA for fiscal year 2025. While the evidence includes financial data for Microsoft and NVIDIA in their 2025 filings, the revenue figures for Apple are not explicitly stated in the provided text. Specifically:\\n\\n- Microsoft's 2025 revenue is reported as $281,724 million (in millions, except percentages and per share amounts) in the 'SUMMARY RESULTS OF OPERATIONS' section of its 10-K filing [C002].\\n\\n- NVIDIA's 2025 revenue is not disclosed in the provided text [C005].\\n\\n- Apple's 2025 revenue is not reported in the provided text [C001].\\n\\nTherefore, based on the available evidence, it is not possible to rank Apple, Microsoft, and NVIDIA by reported annual net sales or revenue. The required revenue data for Apple and NVIDIA is absent from the provided context, and while Microsoft's revenue is present, the full set of data needed to rank all three companies is missing. Thus, a complete ranking cannot be established from the supplied evidence.\",\"citations\":[\"C002\",\"C005\",\"C001\"]}",
+      "citations": [
+        "C002",
+        "C005",
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-021",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 18.035831749992212,
+      "token_usage": {
+        "input_tokens": 5733,
+        "output_tokens": 23,
+        "total_tokens": 5756
+      },
+      "category": "numerical",
+      "difficulty": "easy",
+      "question": "Approximately how many full-time-equivalent employees did Apple report at September 30, 2023?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-001",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 14.960462290997384,
+      "token_usage": {
+        "input_tokens": 4138,
+        "output_tokens": 23,
+        "total_tokens": 4161
+      },
+      "category": "direct_factual",
+      "difficulty": "easy",
+      "question": "According to Apple’s fiscal 2025 business description, what does its cloud service do for customers across devices?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-052",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 13.534387583000353,
+      "token_usage": {
+        "input_tokens": 4241,
+        "output_tokens": 23,
+        "total_tokens": 4264
+      },
+      "category": "comparative",
+      "difficulty": "hard",
+      "question": "How does Apple’s segment organization differ from Microsoft’s, according to their fiscal 2025 business descriptions?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-062",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.06666666666666667,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 15.723374750028597,
+      "token_usage": {
+        "input_tokens": 4848,
+        "output_tokens": 23,
+        "total_tokens": 4871
+      },
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "question": "Using Apple’s fiscal 2025 sales table and discussion, approximately what share of total sales came from Services and what drove Services growth?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-072",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.13559322033898305,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 27.731078667013207,
+      "token_usage": {
+        "input_tokens": 5663,
+        "output_tokens": 259,
+        "total_tokens": 5922
+      },
+      "category": "table_oriented",
+      "difficulty": "medium",
+      "question": "From Apple’s fiscal 2023 income statement, give diluted earnings per share and the diluted share count used in the calculation, retaining the table’s share units.",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"From Apple’s fiscal 2023 income statement, the diluted earnings per share was $6.11 and the diluted share count used in the calculation was 15,812,547 shares (in thousands). This information is found in the 'Note 3 – Earnings Per Share' section of Apple Inc.’s 2023 Form 10-K (context ID: C004), which states: 'Diluted earnings per share | $ | 6.13 |  |  | $ | 6.11 |  |  | $ | 5.61' and 'Weighted-average diluted shares | 15,812,547 |  |  | 15,408,095 |  |  | 15,004,697'. The value of $6.11 corresponds to the diluted earnings per share for 2023, and the share count of 15,812,547 is the weighted-average diluted shares outstanding for that year. [C004]\",\"citations\":[\"C004\"]}",
+      "citations": [
+        "C004"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-042",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 15.716228458011756,
+      "token_usage": {
+        "input_tokens": 4837,
+        "output_tokens": 23,
+        "total_tokens": 4860
+      },
+      "category": "cross_document",
+      "difficulty": "hard",
+      "question": "Using Microsoft’s fiscal 2024 and fiscal 2026 filings, give the U.S. and international employee counts for each year.",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-081",
+      "answerable": false,
+      "status": "success",
+      "attribution": "expected_abstention",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": null,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": true,
+      "latency_seconds": 16.537278917006915,
+      "token_usage": {
+        "input_tokens": 5017,
+        "output_tokens": 23,
+        "total_tokens": 5040
+      },
+      "category": "unanswerable",
+      "difficulty": "medium",
+      "question": "How many iPhone 17 units did Apple sell during fiscal 2025?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-041",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.0,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 12.999257167015458,
+      "token_usage": {
+        "input_tokens": 4103,
+        "output_tokens": 23,
+        "total_tokens": 4126
+      },
+      "category": "cross_document",
+      "difficulty": "hard",
+      "question": "Using Apple’s fiscal 2023 and fiscal 2025 filings separately, report the year-end full-time-equivalent workforce in each.",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-092",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.08695652173913043,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": false,
+      "latency_seconds": 12.361911792017054,
+      "token_usage": {
+        "input_tokens": 3922,
+        "output_tokens": 23,
+        "total_tokens": 3945
+      },
+      "category": "ambiguous_adversarial",
+      "difficulty": "hard",
+      "question": "Should a reader assume NVIDIA’s fiscal 2025 income-statement table is physically in Item 8 because that Item is titled Financial Statements? Identify the actual Item.",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-061",
+      "answerable": true,
+      "status": "invalid_output",
+      "attribution": "invalid_structured_output",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1",
+        "E2"
+      ],
+      "answer_f1_heuristic": null,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": false,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 17.775353750010254,
+      "token_usage": {
+        "input_tokens": 5071,
+        "output_tokens": 58,
+        "total_tokens": 5129
+      },
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "question": "In Apple’s fiscal 2025 filing, which geographic segment had the highest reported percentage sales growth and what products or services drove that segment’s increase?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"In Apple’s fiscal 2025 filing, the Americas segment had the highest reported percentage sales growth at 7%. This growth was primarily driven by higher net sales of iPhone and Services.\",\"citations\":[\"C002\"]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-002",
+      "answerable": true,
+      "status": "success",
+      "attribution": "generation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": 0.17391304347826084,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 14.902521417010576,
+      "token_usage": {
+        "input_tokens": 3782,
+        "output_tokens": 52,
+        "total_tokens": 3834
+      },
+      "category": "direct_factual",
+      "difficulty": "easy",
+      "question": "Which co-branded credit card does Apple identify among its payment services in its fiscal 2025 filing?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"Apple identifies the Apple Card® as the co-branded credit card among its payment services in its fiscal 2025 filing. [C001]\",\"citations\":[\"C001\"]}",
+      "citations": [
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-012",
+      "answerable": true,
+      "status": "success",
+      "attribution": "retrieval_failure",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": 0.24299065420560748,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 15.01669016701635,
+      "token_usage": {
+        "input_tokens": 3741,
+        "output_tokens": 125,
+        "total_tokens": 3866
+      },
+      "category": "section_specific",
+      "difficulty": "medium",
+      "question": "In Item 1C of Apple’s fiscal 2025 filing, which board committee oversees cybersecurity and how does it keep the board informed?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"In Item 1C of Apple’s fiscal 2025 filing, the Audit and Finance Committee of the Board oversees cybersecurity. The Company has processes to log, track, address, and escalate cybersecurity incidents to senior management and the Audit and Finance Committee (the \\\"Audit Committee\\\") of the Board. The Audit Committee receives regular information security updates from management, including the Head of Corporate Information Security and members of the security team. This ensures the board is informed through regular updates and incident reporting mechanisms. [C002]\",\"citations\":[\"C002\"]}",
+      "citations": [
+        "C002"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-022",
+      "answerable": true,
+      "status": "success",
+      "attribution": "generation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": 0.05555555555555555,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": true,
+      "citation_validity": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 17.717258499993477,
+      "token_usage": {
+        "input_tokens": 4325,
+        "output_tokens": 138,
+        "total_tokens": 4463
+      },
+      "category": "numerical",
+      "difficulty": "easy",
+      "question": "How many Microsoft employees were in product research and development at June 30, 2024?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"As of June 30, 2024, there were 81,000 employees in product research and development at Microsoft. This is stated in the context: 'Of the total employed people, 86,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 81,000 were in product research and development; 45,000 were in sales and marketing; and 16,000 were in general and administration.' [C001]\",\"citations\":[\"C001\"]}",
+      "citations": [
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-082",
+      "answerable": false,
+      "status": "success",
+      "attribution": "expected_abstention",
+      "retrieval_evidence_present": false,
+      "retrieved_evidence_ids": [],
+      "answer_f1_heuristic": null,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": true,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": true,
+      "expected_abstention": true,
+      "latency_seconds": 15.29034316597972,
+      "token_usage": {
+        "input_tokens": 4697,
+        "output_tokens": 23,
+        "total_tokens": 4720
+      },
+      "category": "unanswerable",
+      "difficulty": "medium",
+      "question": "What is the legal name of NVIDIA’s largest direct customer in fiscal 2026?",
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-031",
+      "answerable": true,
+      "status": "success",
+      "attribution": "citation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": 0.24324324324324326,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 0.0,
+      "citation_recall": 0.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 19.39626941701863,
+      "token_usage": {
+        "input_tokens": 4672,
+        "output_tokens": 148,
+        "total_tokens": 4820
+      },
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "In Apple’s fiscal 2025 filing, how many weeks were in fiscal 2025 and which of the three years discussed had an extra week?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"Apple’s fiscal 2025 spanned 52 weeks. The fiscal year 2023 had an extra week, as it spanned 53 weeks, while fiscal years 2024 and 2025 each spanned 52 weeks. This is stated in the 2025 Form 10-K under the 'Fiscal Period' section: 'The Company’s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks.' [C001]\",\"citations\":[\"C001\"]}",
+      "citations": [
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-032",
+      "answerable": true,
+      "status": "invalid_output",
+      "attribution": "invalid_structured_output",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": null,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "citation_validity": false,
+      "citation_precision": null,
+      "citation_recall": null,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 15.0186879170069,
+      "token_usage": {
+        "input_tokens": 4287,
+        "output_tokens": 53,
+        "total_tokens": 4340
+      },
+      "category": "temporal",
+      "difficulty": "medium",
+      "question": "Use Microsoft’s fiscal 2026 filing: how many full-time employees were in the United States at year-end?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"As of June 30, 2026, Microsoft employed approximately 121,000 people on a full-time basis in the United States.\",\"citations\":[\"C003\"]}",
+      "citations": [],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-071",
+      "answerable": true,
+      "status": "success",
+      "attribution": "generation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": 0.4444444444444445,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "citation_validity": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 22.339529999997467,
+      "token_usage": {
+        "input_tokens": 6008,
+        "output_tokens": 74,
+        "total_tokens": 6082
+      },
+      "category": "table_oriented",
+      "difficulty": "medium",
+      "question": "From Apple’s fiscal 2025 product-category sales table, give the iPhone and Services net sales for fiscal 2025.",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"From Apple’s fiscal 2025 product-category sales table, iPhone net sales for fiscal 2025 were $209,586 million and Services net sales were $109,158 million. [C001]\",\"citations\":[\"C001\"]}",
+      "citations": [
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    },
+    {
+      "question_id": "SEC-011",
+      "answerable": true,
+      "status": "success",
+      "attribution": "generation_failure",
+      "retrieval_evidence_present": true,
+      "retrieved_evidence_ids": [
+        "E1"
+      ],
+      "answer_f1_heuristic": 0.2158273381294964,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": true,
+      "citation_validity": true,
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "abstained": false,
+      "expected_abstention": false,
+      "latency_seconds": 16.201692167000147,
+      "token_usage": {
+        "input_tokens": 3955,
+        "output_tokens": 159,
+        "total_tokens": 4114
+      },
+      "category": "section_specific",
+      "difficulty": "medium",
+      "question": "In Item 1A of Apple’s fiscal 2024 filing, what tradeoff does Apple describe from outsourcing production and distribution?",
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"Apple describes a tradeoff in Item 1A of its fiscal 2024 filing between reduced operating costs from outsourcing production and distribution and diminished direct control over production and distribution, which may adversely affect the quality or quantity of products manufactured or services provided or reduce the Company’s flexibility to respond to changing conditions. This is stated in the context: 'While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions.' [C001]\",\"citations\":[\"C001\"]}",
+      "citations": [
+        "C001"
+      ],
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ]
+    }
+  ]
+}

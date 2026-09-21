@@ -1,0 +1,4226 @@
+{
+  "fixed_size": {
+    "groups": {
+      "bm25_not_dense": {
+        "count": 29,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-004",
+          "SEC-005",
+          "SEC-006",
+          "SEC-009",
+          "SEC-011",
+          "SEC-020",
+          "SEC-023",
+          "SEC-026",
+          "SEC-030",
+          "SEC-034",
+          "SEC-037",
+          "SEC-043",
+          "SEC-044",
+          "SEC-047",
+          "SEC-050",
+          "SEC-060",
+          "SEC-063",
+          "SEC-066",
+          "SEC-067",
+          "SEC-073",
+          "SEC-074",
+          "SEC-075",
+          "SEC-076",
+          "SEC-094",
+          "SEC-095",
+          "SEC-097",
+          "SEC-100"
+        ]
+      },
+      "bm25_solved": {
+        "count": 51,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-004",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-009",
+          "SEC-010",
+          "SEC-011",
+          "SEC-013",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-026",
+          "SEC-027",
+          "SEC-028",
+          "SEC-030",
+          "SEC-031",
+          "SEC-032",
+          "SEC-034",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-040",
+          "SEC-043",
+          "SEC-044",
+          "SEC-047",
+          "SEC-050",
+          "SEC-060",
+          "SEC-063",
+          "SEC-065",
+          "SEC-066",
+          "SEC-067",
+          "SEC-071",
+          "SEC-073",
+          "SEC-074",
+          "SEC-075",
+          "SEC-076",
+          "SEC-078",
+          "SEC-080",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-097",
+          "SEC-100"
+        ]
+      },
+      "both_standalone_solved": {
+        "count": 22,
+        "question_ids": [
+          "SEC-003",
+          "SEC-007",
+          "SEC-010",
+          "SEC-013",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-024",
+          "SEC-025",
+          "SEC-027",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-036",
+          "SEC-040",
+          "SEC-065",
+          "SEC-071",
+          "SEC-078",
+          "SEC-080",
+          "SEC-096"
+        ]
+      },
+      "dense_not_bm25": {
+        "count": 5,
+        "question_ids": [
+          "SEC-038",
+          "SEC-039",
+          "SEC-077",
+          "SEC-079",
+          "SEC-093"
+        ]
+      },
+      "dense_solved": {
+        "count": 27,
+        "question_ids": [
+          "SEC-003",
+          "SEC-007",
+          "SEC-010",
+          "SEC-013",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-024",
+          "SEC-025",
+          "SEC-027",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-036",
+          "SEC-038",
+          "SEC-039",
+          "SEC-040",
+          "SEC-065",
+          "SEC-071",
+          "SEC-077",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-093",
+          "SEC-096"
+        ]
+      },
+      "hybrid_only": {
+        "count": 6,
+        "question_ids": [
+          "SEC-012",
+          "SEC-014",
+          "SEC-033",
+          "SEC-058",
+          "SEC-091",
+          "SEC-099"
+        ]
+      },
+      "hybrid_solved": {
+        "count": 51,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-004",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-009",
+          "SEC-010",
+          "SEC-012",
+          "SEC-013",
+          "SEC-014",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-027",
+          "SEC-028",
+          "SEC-030",
+          "SEC-031",
+          "SEC-032",
+          "SEC-033",
+          "SEC-034",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-047",
+          "SEC-050",
+          "SEC-058",
+          "SEC-060",
+          "SEC-063",
+          "SEC-065",
+          "SEC-067",
+          "SEC-071",
+          "SEC-073",
+          "SEC-076",
+          "SEC-077",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-091",
+          "SEC-093",
+          "SEC-094",
+          "SEC-096",
+          "SEC-097",
+          "SEC-099"
+        ]
+      },
+      "missed_by_all": {
+        "count": 28,
+        "question_ids": [
+          "SEC-008",
+          "SEC-016",
+          "SEC-018",
+          "SEC-021",
+          "SEC-029",
+          "SEC-041",
+          "SEC-042",
+          "SEC-045",
+          "SEC-046",
+          "SEC-048",
+          "SEC-049",
+          "SEC-051",
+          "SEC-052",
+          "SEC-053",
+          "SEC-054",
+          "SEC-055",
+          "SEC-056",
+          "SEC-057",
+          "SEC-059",
+          "SEC-061",
+          "SEC-062",
+          "SEC-064",
+          "SEC-068",
+          "SEC-069",
+          "SEC-070",
+          "SEC-072",
+          "SEC-092",
+          "SEC-098"
+        ]
+      },
+      "standalone_solved_hybrid_missed": {
+        "count": 11,
+        "question_ids": [
+          "SEC-011",
+          "SEC-020",
+          "SEC-026",
+          "SEC-039",
+          "SEC-043",
+          "SEC-044",
+          "SEC-066",
+          "SEC-074",
+          "SEC-075",
+          "SEC-095",
+          "SEC-100"
+        ]
+      },
+      "zero_evidence_all": {
+        "count": 12,
+        "question_ids": [
+          "SEC-008",
+          "SEC-016",
+          "SEC-018",
+          "SEC-021",
+          "SEC-029",
+          "SEC-041",
+          "SEC-054",
+          "SEC-056",
+          "SEC-069",
+          "SEC-072",
+          "SEC-092",
+          "SEC-098"
+        ]
+      }
+    },
+    "per_question_evidence": [
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-001",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-002",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-003",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-004",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-005",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-006",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-007",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-008",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-009",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-010",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-011",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-012",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-013",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-014",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-015",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-016",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-017",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-018",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-019",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-020",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-021",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-022",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-023",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-024",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-025",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-026",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-027",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-028",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-029",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-030",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-031",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-032",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-033",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-034",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-035",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-036",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-037",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-038",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-039",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-040",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-041",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-042",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-043",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-044",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-045",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-046",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-047",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-048",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-049",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-050",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [
+          "E3"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-051",
+        "recall@10": {
+          "bm25": 0.3333333333333333,
+          "dense": 0.3333333333333333,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-052",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-053",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-054",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-055",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-056",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-057",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [
+          "E2"
+        ],
+        "question_id": "SEC-058",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-059",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-060",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-061",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-062",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-063",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-064",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-065",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-066",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-067",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1",
+          "E3"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-068",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.6666666666666666,
+          "hybrid": 0.3333333333333333
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-069",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-070",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-071",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-072",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-073",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-074",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-075",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-076",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-077",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-078",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-079",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-080",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-091",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-092",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-093",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-094",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-095",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-096",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-097",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-098",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [
+          "E2"
+        ],
+        "question_id": "SEC-099",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-100",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      }
+    ],
+    "solved_definition": "All frozen evidence entries recovered at 10 (recall@10 == 1)"
+  },
+  "recursive": {
+    "groups": {
+      "bm25_not_dense": {
+        "count": 27,
+        "question_ids": [
+          "SEC-004",
+          "SEC-006",
+          "SEC-007",
+          "SEC-012",
+          "SEC-014",
+          "SEC-015",
+          "SEC-020",
+          "SEC-021",
+          "SEC-023",
+          "SEC-026",
+          "SEC-027",
+          "SEC-043",
+          "SEC-044",
+          "SEC-047",
+          "SEC-055",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-063",
+          "SEC-067",
+          "SEC-075",
+          "SEC-076",
+          "SEC-079",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-100"
+        ]
+      },
+      "bm25_solved": {
+        "count": 55,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-004",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-008",
+          "SEC-009",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-014",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-021",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-026",
+          "SEC-027",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-043",
+          "SEC-044",
+          "SEC-047",
+          "SEC-050",
+          "SEC-055",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-063",
+          "SEC-065",
+          "SEC-067",
+          "SEC-071",
+          "SEC-073",
+          "SEC-075",
+          "SEC-076",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-097",
+          "SEC-100"
+        ]
+      },
+      "both_standalone_solved": {
+        "count": 28,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-008",
+          "SEC-009",
+          "SEC-011",
+          "SEC-013",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-024",
+          "SEC-025",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-050",
+          "SEC-065",
+          "SEC-071",
+          "SEC-073",
+          "SEC-078",
+          "SEC-080",
+          "SEC-097"
+        ]
+      },
+      "dense_not_bm25": {
+        "count": 6,
+        "question_ids": [
+          "SEC-034",
+          "SEC-039",
+          "SEC-054",
+          "SEC-062",
+          "SEC-077",
+          "SEC-093"
+        ]
+      },
+      "dense_solved": {
+        "count": 34,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-008",
+          "SEC-009",
+          "SEC-011",
+          "SEC-013",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-024",
+          "SEC-025",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-034",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-039",
+          "SEC-040",
+          "SEC-050",
+          "SEC-054",
+          "SEC-062",
+          "SEC-065",
+          "SEC-071",
+          "SEC-073",
+          "SEC-077",
+          "SEC-078",
+          "SEC-080",
+          "SEC-093",
+          "SEC-097"
+        ]
+      },
+      "hybrid_only": {
+        "count": 3,
+        "question_ids": [
+          "SEC-030",
+          "SEC-033",
+          "SEC-072"
+        ]
+      },
+      "hybrid_solved": {
+        "count": 54,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-008",
+          "SEC-009",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-014",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-026",
+          "SEC-027",
+          "SEC-028",
+          "SEC-030",
+          "SEC-031",
+          "SEC-032",
+          "SEC-033",
+          "SEC-034",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-047",
+          "SEC-050",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-062",
+          "SEC-063",
+          "SEC-065",
+          "SEC-067",
+          "SEC-071",
+          "SEC-072",
+          "SEC-073",
+          "SEC-075",
+          "SEC-076",
+          "SEC-077",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-093",
+          "SEC-095",
+          "SEC-096",
+          "SEC-097"
+        ]
+      },
+      "missed_by_all": {
+        "count": 26,
+        "question_ids": [
+          "SEC-010",
+          "SEC-016",
+          "SEC-018",
+          "SEC-029",
+          "SEC-041",
+          "SEC-042",
+          "SEC-045",
+          "SEC-046",
+          "SEC-048",
+          "SEC-049",
+          "SEC-051",
+          "SEC-052",
+          "SEC-053",
+          "SEC-056",
+          "SEC-057",
+          "SEC-058",
+          "SEC-064",
+          "SEC-066",
+          "SEC-068",
+          "SEC-069",
+          "SEC-070",
+          "SEC-074",
+          "SEC-091",
+          "SEC-092",
+          "SEC-098",
+          "SEC-099"
+        ]
+      },
+      "standalone_solved_hybrid_missed": {
+        "count": 10,
+        "question_ids": [
+          "SEC-004",
+          "SEC-020",
+          "SEC-021",
+          "SEC-039",
+          "SEC-043",
+          "SEC-044",
+          "SEC-054",
+          "SEC-055",
+          "SEC-094",
+          "SEC-100"
+        ]
+      },
+      "zero_evidence_all": {
+        "count": 14,
+        "question_ids": [
+          "SEC-010",
+          "SEC-016",
+          "SEC-018",
+          "SEC-029",
+          "SEC-041",
+          "SEC-042",
+          "SEC-052",
+          "SEC-056",
+          "SEC-069",
+          "SEC-070",
+          "SEC-074",
+          "SEC-091",
+          "SEC-092",
+          "SEC-098"
+        ]
+      }
+    },
+    "per_question_evidence": [
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-001",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-002",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-003",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-004",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-005",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-006",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-007",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-008",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-009",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-010",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-011",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-012",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-013",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-014",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-015",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-016",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-017",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-018",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-019",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-020",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-021",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-022",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-023",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-024",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-025",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-026",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-027",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-028",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-029",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-030",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-031",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-032",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-033",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-034",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-035",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-036",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-037",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-038",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-039",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-040",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-041",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-042",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-043",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-044",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-045",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-046",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-047",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-048",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-049",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-050",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-051",
+        "recall@10": {
+          "bm25": 0.3333333333333333,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-052",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-053",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1",
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-054",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-055",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-056",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-057",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [
+          "E2"
+        ],
+        "question_id": "SEC-058",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-059",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-060",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-061",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1",
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-062",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-063",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-064",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-065",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-066",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-067",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [
+          "E2",
+          "E3"
+        ],
+        "question_id": "SEC-068",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.3333333333333333,
+          "hybrid": 0.6666666666666666
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-069",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-070",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-071",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-072",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-073",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-074",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-075",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-076",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-077",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-078",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-079",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-080",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-091",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-092",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-093",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-094",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-095",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-096",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-097",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-098",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-099",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-100",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      }
+    ],
+    "solved_definition": "All frozen evidence entries recovered at 10 (recall@10 == 1)"
+  },
+  "sec_section": {
+    "groups": {
+      "bm25_not_dense": {
+        "count": 29,
+        "question_ids": [
+          "SEC-004",
+          "SEC-006",
+          "SEC-007",
+          "SEC-009",
+          "SEC-014",
+          "SEC-015",
+          "SEC-021",
+          "SEC-023",
+          "SEC-024",
+          "SEC-026",
+          "SEC-027",
+          "SEC-036",
+          "SEC-043",
+          "SEC-044",
+          "SEC-050",
+          "SEC-055",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-063",
+          "SEC-064",
+          "SEC-067",
+          "SEC-075",
+          "SEC-076",
+          "SEC-079",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-100"
+        ]
+      },
+      "bm25_solved": {
+        "count": 57,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-004",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-008",
+          "SEC-009",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-014",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-021",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-026",
+          "SEC-027",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-043",
+          "SEC-044",
+          "SEC-047",
+          "SEC-050",
+          "SEC-055",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-063",
+          "SEC-064",
+          "SEC-065",
+          "SEC-067",
+          "SEC-071",
+          "SEC-072",
+          "SEC-073",
+          "SEC-075",
+          "SEC-076",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-097",
+          "SEC-100"
+        ]
+      },
+      "both_standalone_solved": {
+        "count": 28,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-008",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-022",
+          "SEC-025",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-037",
+          "SEC-038",
+          "SEC-040",
+          "SEC-047",
+          "SEC-065",
+          "SEC-071",
+          "SEC-072",
+          "SEC-073",
+          "SEC-078",
+          "SEC-080",
+          "SEC-097"
+        ]
+      },
+      "dense_not_bm25": {
+        "count": 4,
+        "question_ids": [
+          "SEC-039",
+          "SEC-062",
+          "SEC-077",
+          "SEC-093"
+        ]
+      },
+      "dense_solved": {
+        "count": 32,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-008",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-022",
+          "SEC-025",
+          "SEC-028",
+          "SEC-031",
+          "SEC-032",
+          "SEC-035",
+          "SEC-037",
+          "SEC-038",
+          "SEC-039",
+          "SEC-040",
+          "SEC-047",
+          "SEC-062",
+          "SEC-065",
+          "SEC-071",
+          "SEC-072",
+          "SEC-073",
+          "SEC-077",
+          "SEC-078",
+          "SEC-080",
+          "SEC-093",
+          "SEC-097"
+        ]
+      },
+      "hybrid_only": {
+        "count": 4,
+        "question_ids": [
+          "SEC-010",
+          "SEC-030",
+          "SEC-033",
+          "SEC-045"
+        ]
+      },
+      "hybrid_solved": {
+        "count": 57,
+        "question_ids": [
+          "SEC-001",
+          "SEC-002",
+          "SEC-003",
+          "SEC-005",
+          "SEC-006",
+          "SEC-007",
+          "SEC-008",
+          "SEC-009",
+          "SEC-010",
+          "SEC-011",
+          "SEC-012",
+          "SEC-013",
+          "SEC-014",
+          "SEC-015",
+          "SEC-017",
+          "SEC-019",
+          "SEC-020",
+          "SEC-022",
+          "SEC-023",
+          "SEC-024",
+          "SEC-025",
+          "SEC-027",
+          "SEC-028",
+          "SEC-030",
+          "SEC-031",
+          "SEC-032",
+          "SEC-033",
+          "SEC-035",
+          "SEC-036",
+          "SEC-037",
+          "SEC-038",
+          "SEC-039",
+          "SEC-040",
+          "SEC-045",
+          "SEC-047",
+          "SEC-050",
+          "SEC-059",
+          "SEC-060",
+          "SEC-061",
+          "SEC-062",
+          "SEC-063",
+          "SEC-065",
+          "SEC-067",
+          "SEC-071",
+          "SEC-072",
+          "SEC-073",
+          "SEC-075",
+          "SEC-076",
+          "SEC-077",
+          "SEC-078",
+          "SEC-079",
+          "SEC-080",
+          "SEC-093",
+          "SEC-094",
+          "SEC-095",
+          "SEC-096",
+          "SEC-097"
+        ]
+      },
+      "missed_by_all": {
+        "count": 25,
+        "question_ids": [
+          "SEC-016",
+          "SEC-018",
+          "SEC-029",
+          "SEC-034",
+          "SEC-041",
+          "SEC-042",
+          "SEC-046",
+          "SEC-048",
+          "SEC-049",
+          "SEC-051",
+          "SEC-052",
+          "SEC-053",
+          "SEC-054",
+          "SEC-056",
+          "SEC-057",
+          "SEC-058",
+          "SEC-066",
+          "SEC-068",
+          "SEC-069",
+          "SEC-070",
+          "SEC-074",
+          "SEC-091",
+          "SEC-092",
+          "SEC-098",
+          "SEC-099"
+        ]
+      },
+      "standalone_solved_hybrid_missed": {
+        "count": 8,
+        "question_ids": [
+          "SEC-004",
+          "SEC-021",
+          "SEC-026",
+          "SEC-043",
+          "SEC-044",
+          "SEC-055",
+          "SEC-064",
+          "SEC-100"
+        ]
+      },
+      "zero_evidence_all": {
+        "count": 13,
+        "question_ids": [
+          "SEC-016",
+          "SEC-018",
+          "SEC-029",
+          "SEC-034",
+          "SEC-041",
+          "SEC-042",
+          "SEC-052",
+          "SEC-054",
+          "SEC-056",
+          "SEC-069",
+          "SEC-074",
+          "SEC-091",
+          "SEC-092"
+        ]
+      }
+    },
+    "per_question_evidence": [
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-001",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-002",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-003",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-004",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-005",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-006",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-007",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-008",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-009",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-010",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-011",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-012",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-013",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-014",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-015",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-016",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-017",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-018",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-019",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-020",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-021",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-022",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-023",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-024",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-025",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-026",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-027",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-028",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-029",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-030",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-031",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-032",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-033",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-034",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-035",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-036",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-037",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-038",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-039",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-040",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-041",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-042",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-043",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-044",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E2"
+        ],
+        "question_id": "SEC-045",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-046",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-047",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-048",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-049",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-050",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-051",
+        "recall@10": {
+          "bm25": 0.3333333333333333,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-052",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [
+          "E1"
+        ],
+        "question_id": "SEC-053",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-054",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1",
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-055",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-056",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-057",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.0,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [
+          "E2"
+        ],
+        "question_id": "SEC-058",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-059",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-060",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-061",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1",
+          "E2"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-062",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-063",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E2"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-064",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-065",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-066",
+        "recall@10": {
+          "bm25": 0.5,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-067",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-068",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.3333333333333333,
+          "hybrid": 0.3333333333333333
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-069",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-070",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-071",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-072",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-073",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-074",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-075",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-076",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-077",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-078",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-079",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-080",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-091",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-092",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-093",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-094",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-095",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-096",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-097",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 1.0,
+          "hybrid": 1.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-098",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.5
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [],
+        "dense_evidence_not_bm25": [
+          "E1"
+        ],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-099",
+        "recall@10": {
+          "bm25": 0.0,
+          "dense": 0.5,
+          "hybrid": 0.0
+        }
+      },
+      {
+        "bm25_evidence_not_dense": [
+          "E1"
+        ],
+        "dense_evidence_not_bm25": [],
+        "hybrid_evidence_not_standalone": [],
+        "question_id": "SEC-100",
+        "recall@10": {
+          "bm25": 1.0,
+          "dense": 0.0,
+          "hybrid": 0.0
+        }
+      }
+    ],
+    "solved_definition": "All frozen evidence entries recovered at 10 (recall@10 == 1)"
+  }
+}

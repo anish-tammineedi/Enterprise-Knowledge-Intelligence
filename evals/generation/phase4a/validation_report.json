@@ -1,0 +1,18 @@
+{
+  "configured_model": "gpt-4.1-mini-2025-04-14",
+  "configured_provider": "openai",
+  "full_benchmark_generation_run": false,
+  "live_api_requests": 0,
+  "live_demonstration": "deferred_by_user",
+  "new_tests": 13,
+  "offline_prepared_question_ids": [
+    "SEC-001",
+    "SEC-021",
+    "SEC-061",
+    "SEC-081"
+  ],
+  "phase": "4A",
+  "protected_files_verified": 125,
+  "source_comments_or_docstrings": false,
+  "tests_passed": 64
+}

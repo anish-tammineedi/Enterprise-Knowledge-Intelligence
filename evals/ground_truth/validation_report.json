@@ -1,0 +1,50 @@
+{
+  "valid": true,
+  "errors": [],
+  "benchmark_id": "sec_retrieval_v1",
+  "question_count": 100,
+  "category_counts": {
+    "ambiguous_adversarial": 10,
+    "comparative": 10,
+    "cross_document": 10,
+    "direct_factual": 10,
+    "multi_hop": 10,
+    "numerical": 10,
+    "section_specific": 10,
+    "table_oriented": 10,
+    "temporal": 10,
+    "unanswerable": 10
+  },
+  "difficulty_counts": {
+    "easy": 20,
+    "hard": 40,
+    "medium": 40
+  },
+  "answerable_count": 90,
+  "unanswerable_count": 10,
+  "single_document_count": 69,
+  "multi_document_count": 21,
+  "no_supporting_document_count": 10,
+  "questions_per_document": {
+    "AAPL_000032019323000106": 10,
+    "AAPL_000032019324000123": 10,
+    "AAPL_000032019325000079": 25,
+    "MSFT_000095017024087843": 12,
+    "MSFT_000095017025100235": 13,
+    "MSFT_000119312526323660": 6,
+    "NVDA_000104581024000029": 7,
+    "NVDA_000104581025000023": 12,
+    "NVDA_000104581026000021": 17
+  },
+  "questions_with_table_evidence": 30,
+  "evidence_span_count": 124,
+  "manual_review_recommended": [
+    "SEC-055",
+    "SEC-056",
+    "SEC-082",
+    "SEC-083",
+    "SEC-088",
+    "SEC-089"
+  ],
+  "validation_scope": "Checks structure and exact corpus evidence, not semantic correctness, exhaustive relevance, or proof of absence."
+}

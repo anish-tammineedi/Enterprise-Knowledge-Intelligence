@@ -1,0 +1,1002 @@
+[
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 115,
+      "token_count": 32,
+      "truncated": false
+    },
+    "embedding_row": 0,
+    "id": "SEC-001",
+    "text": "According to Apple’s fiscal 2025 business description, what does its cloud service do for customers across devices?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 102,
+      "token_count": 30,
+      "truncated": false
+    },
+    "embedding_row": 1,
+    "id": "SEC-002",
+    "text": "Which co-branded credit card does Apple identify among its payment services in its fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 91,
+      "token_count": 25,
+      "truncated": false
+    },
+    "embedding_row": 2,
+    "id": "SEC-003",
+    "text": "Where does Microsoft’s fiscal 2024 Properties disclosure locate its corporate headquarters?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 98,
+      "token_count": 29,
+      "truncated": false
+    },
+    "embedding_row": 3,
+    "id": "SEC-004",
+    "text": "Which semiconductor wafer foundries does NVIDIA name in its fiscal 2026 manufacturing description?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 100,
+      "token_count": 31,
+      "truncated": false
+    },
+    "embedding_row": 4,
+    "id": "SEC-005",
+    "text": "In NVIDIA’s fiscal 2024 business description, which segment includes its automated-driving platform?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 97,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 5,
+    "id": "SEC-006",
+    "text": "According to Apple’s fiscal 2025 geographic definitions, which reportable segment includes India?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 110,
+      "token_count": 31,
+      "truncated": false
+    },
+    "embedding_row": 6,
+    "id": "SEC-007",
+    "text": "Which game developer and publisher did Microsoft acquire in October 2023, according to its fiscal 2024 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 93,
+      "token_count": 32,
+      "truncated": false
+    },
+    "embedding_row": 7,
+    "id": "SEC-008",
+    "text": "What game-streaming service is listed in NVIDIA’s Graphics segment in its fiscal 2024 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 91,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 8,
+    "id": "SEC-009",
+    "text": "Which operating system powers Apple’s spatial computer described in its fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 87,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 9,
+    "id": "SEC-010",
+    "text": "What are Microsoft’s three reportable segments in its fiscal 2025 business description?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 121,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 10,
+    "id": "SEC-011",
+    "text": "In Item 1A of Apple’s fiscal 2024 filing, what tradeoff does Apple describe from outsourcing production and distribution?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 127,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 11,
+    "id": "SEC-012",
+    "text": "In Item 1C of Apple’s fiscal 2025 filing, which board committee oversees cybersecurity and how does it keep the board informed?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 115,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 12,
+    "id": "SEC-013",
+    "text": "What three security principles are listed for Microsoft’s security initiative in Item 1C of its fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 123,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 13,
+    "id": "SEC-014",
+    "text": "What export-policy development and inventory consequence does NVIDIA disclose for H20 in Item 1A of its fiscal 2026 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 112,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 14,
+    "id": "SEC-015",
+    "text": "What explanation does Apple give in Item 7 of its fiscal 2025 filing for the decline in Greater China net sales?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 114,
+      "token_count": 34,
+      "truncated": false
+    },
+    "embedding_row": 15,
+    "id": "SEC-016",
+    "text": "Does Item 8 of NVIDIA’s fiscal 2025 filing provide the financial information inline or refer the reader elsewhere?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 158,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 16,
+    "id": "SEC-017",
+    "text": "According to Item 8 of Microsoft’s fiscal 2024 filing, from when were Activision Blizzard’s financial results included in Microsoft’s consolidated statements?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 92,
+      "token_count": 30,
+      "truncated": false
+    },
+    "embedding_row": 17,
+    "id": "SEC-018",
+    "text": "Who is Apple’s chief operating decision maker according to Item 8 of its fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 130,
+      "token_count": 37,
+      "truncated": false
+    },
+    "embedding_row": 18,
+    "id": "SEC-019",
+    "text": "Which performance measures does NVIDIA’s chief operating decision maker use for its segments in Item 15 of the fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 62,
+      "token_count": 25,
+      "truncated": false
+    },
+    "embedding_row": 19,
+    "id": "SEC-020",
+    "text": "What does Apple state under Item 1C in its fiscal 2023 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 93,
+      "token_count": 29,
+      "truncated": false
+    },
+    "embedding_row": 20,
+    "id": "SEC-021",
+    "text": "Approximately how many full-time-equivalent employees did Apple report at September 30, 2023?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 87,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 21,
+    "id": "SEC-022",
+    "text": "How many Microsoft employees were in product research and development at June 30, 2024?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 86,
+      "token_count": 30,
+      "truncated": false
+    },
+    "embedding_row": 22,
+    "id": "SEC-023",
+    "text": "How many employees and how many countries did NVIDIA report at the end of fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 68,
+      "token_count": 24,
+      "truncated": false
+    },
+    "embedding_row": 23,
+    "id": "SEC-024",
+    "text": "How much did Apple spend on research and development in fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 48,
+      "token_count": 20,
+      "truncated": false
+    },
+    "embedding_row": 24,
+    "id": "SEC-025",
+    "text": "What was Microsoft Cloud revenue in fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 116,
+      "token_count": 34,
+      "truncated": false
+    },
+    "embedding_row": 25,
+    "id": "SEC-026",
+    "text": "What charge did NVIDIA record in the first quarter of fiscal 2026 for H20 excess inventory and purchase obligations?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 107,
+      "token_count": 31,
+      "truncated": false
+    },
+    "embedding_row": 26,
+    "id": "SEC-027",
+    "text": "At June 30, 2024, what were Microsoft’s total remaining performance obligations and the commercial portion?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 73,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 27,
+    "id": "SEC-028",
+    "text": "What was Apple’s cash and cash equivalents balance at September 28, 2024?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 119,
+      "token_count": 34,
+      "truncated": false
+    },
+    "embedding_row": 28,
+    "id": "SEC-029",
+    "text": "What exact revenue amount does NVIDIA report for fiscal 2026 in its financial highlights table, in millions of dollars?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 81,
+      "token_count": 29,
+      "truncated": false
+    },
+    "embedding_row": 29,
+    "id": "SEC-030",
+    "text": "By what percentage did NVIDIA’s fiscal 2024 revenue increase from the prior year?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 123,
+      "token_count": 39,
+      "truncated": false
+    },
+    "embedding_row": 30,
+    "id": "SEC-031",
+    "text": "In Apple’s fiscal 2025 filing, how many weeks were in fiscal 2025 and which of the three years discussed had an extra week?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 103,
+      "token_count": 35,
+      "truncated": false
+    },
+    "embedding_row": 31,
+    "id": "SEC-032",
+    "text": "Use Microsoft’s fiscal 2026 filing: how many full-time employees were in the United States at year-end?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 107,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 32,
+    "id": "SEC-033",
+    "text": "How many countries did NVIDIA’s workforce span in its fiscal 2024 filing, rather than in the later filings?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 127,
+      "token_count": 37,
+      "truncated": false
+    },
+    "embedding_row": 33,
+    "id": "SEC-034",
+    "text": "In Apple’s fiscal 2024 income statement, what net income belongs to fiscal 2024 rather than the comparative fiscal 2023 column?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 154,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 34,
+    "id": "SEC-035",
+    "text": "According to Microsoft’s fiscal 2025 filing, what proportion of total remaining performance obligation revenue was expected within the next twelve months?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 119,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 35,
+    "id": "SEC-036",
+    "text": "What was the size of Apple’s new repurchase authorization announced in May 2023, as reported in its fiscal 2023 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 96,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 36,
+    "id": "SEC-037",
+    "text": "At the end of NVIDIA’s fiscal 2025, how many employees were engaged in research and development?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 92,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 37,
+    "id": "SEC-038",
+    "text": "What Microsoft Cloud revenue and growth rate are reported in Microsoft’s fiscal 2026 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 104,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 38,
+    "id": "SEC-039",
+    "text": "How much common stock did Apple actually repurchase during fiscal 2025, according to that year’s filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 140,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 39,
+    "id": "SEC-040",
+    "text": "According to NVIDIA’s fiscal 2026 filing, when were certain H20 China export licenses granted and how much revenue was generated under them?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 121,
+      "token_count": 39,
+      "truncated": false
+    },
+    "embedding_row": 40,
+    "id": "SEC-041",
+    "text": "Using Apple’s fiscal 2023 and fiscal 2025 filings separately, report the year-end full-time-equivalent workforce in each."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 117,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 41,
+    "id": "SEC-042",
+    "text": "Using Microsoft’s fiscal 2024 and fiscal 2026 filings, give the U.S. and international employee counts for each year."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 122,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 42,
+    "id": "SEC-043",
+    "text": "From NVIDIA’s fiscal 2024 and fiscal 2026 filings, give the workforce size and country coverage reported at each year-end."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 130,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 43,
+    "id": "SEC-044",
+    "text": "Use Apple’s fiscal 2023 and Microsoft’s fiscal 2024 Properties disclosures to identify each company’s headquarters city and state."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 153,
+      "token_count": 42,
+      "truncated": false
+    },
+    "embedding_row": 44,
+    "id": "SEC-045",
+    "text": "What payment services does Apple name in its fiscal 2025 filing, and what game-streaming service does NVIDIA name in its fiscal 2024 Graphics disclosure?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 148,
+      "token_count": 44,
+      "truncated": false
+    },
+    "embedding_row": 45,
+    "id": "SEC-046",
+    "text": "Which game publisher acquisition is described in Microsoft’s fiscal 2024 filing, and which wafer foundries are named in NVIDIA’s fiscal 2026 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 168,
+      "token_count": 46,
+      "truncated": false
+    },
+    "embedding_row": 46,
+    "id": "SEC-047",
+    "text": "Which committee oversees cybersecurity at Apple in its fiscal 2024 filing, and which committee assists with human-capital oversight at NVIDIA in its fiscal 2025 filing?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 137,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 47,
+    "id": "SEC-048",
+    "text": "Who serves as the chief operating decision maker at Apple and NVIDIA according to their respective fiscal 2025 financial-statement notes?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 189,
+      "token_count": 50,
+      "truncated": false
+    },
+    "embedding_row": 48,
+    "id": "SEC-049",
+    "text": "What total remaining performance obligations does Microsoft report at June 30, 2025, and what cash, cash equivalents, and marketable securities total does NVIDIA report at January 25, 2026?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 130,
+      "token_count": 39,
+      "truncated": false
+    },
+    "embedding_row": 49,
+    "id": "SEC-050",
+    "text": "Using Apple’s fiscal 2023 and fiscal 2024 filings separately, what quarterly dividend per share was announced in May of each year?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 136,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 50,
+    "id": "SEC-051",
+    "text": "Using each company’s fiscal 2025 filing, rank Apple, Microsoft, and NVIDIA by reported annual net sales or revenue and give the amounts."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 116,
+      "token_count": 32,
+      "truncated": false
+    },
+    "embedding_row": 51,
+    "id": "SEC-052",
+    "text": "How does Apple’s segment organization differ from Microsoft’s, according to their fiscal 2025 business descriptions?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 109,
+      "token_count": 35,
+      "truncated": false
+    },
+    "embedding_row": 52,
+    "id": "SEC-053",
+    "text": "Which spent more on research and development in its fiscal 2025 filing, Microsoft or NVIDIA, and by how much?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 122,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 53,
+    "id": "SEC-054",
+    "text": "Using Apple’s fiscal 2023 and fiscal 2024 original income statements, did annual net income rise or fall, and by how much?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 129,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 54,
+    "id": "SEC-055",
+    "text": "Using NVIDIA’s fiscal 2024 and fiscal 2026 workforce disclosures, compare the approximate share of employees in R&D in each year."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 114,
+      "token_count": 34,
+      "truncated": false
+    },
+    "embedding_row": 55,
+    "id": "SEC-056",
+    "text": "Compare the manufacturing arrangements described by Apple in fiscal 2024 Item 1A and NVIDIA in fiscal 2026 Item 1."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 82,
+      "token_count": 32,
+      "truncated": false
+    },
+    "embedding_row": 56,
+    "id": "SEC-057",
+    "text": "Compare the content of Apple’s Item 1C in its fiscal 2023 and fiscal 2024 filings."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 154,
+      "token_count": 44,
+      "truncated": false
+    },
+    "embedding_row": 57,
+    "id": "SEC-058",
+    "text": "Using Microsoft’s fiscal 2024 and fiscal 2025 workforce disclosures, what changed in the U.S./international mix while the total workforce stayed the same?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 120,
+      "token_count": 39,
+      "truncated": false
+    },
+    "embedding_row": 58,
+    "id": "SEC-059",
+    "text": "Compare NVIDIA’s reported Compute & Networking year-over-year revenue growth in its fiscal 2025 and fiscal 2026 filings."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 131,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 59,
+    "id": "SEC-060",
+    "text": "Using Apple’s fiscal 2024 and fiscal 2025 geographic sales tables, compare the reported year-over-year Greater China sales changes."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 165,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 60,
+    "id": "SEC-061",
+    "text": "In Apple’s fiscal 2025 filing, which geographic segment had the highest reported percentage sales growth and what products or services drove that segment’s increase?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 144,
+      "token_count": 37,
+      "truncated": false
+    },
+    "embedding_row": 61,
+    "id": "SEC-062",
+    "text": "Using Apple’s fiscal 2025 sales table and discussion, approximately what share of total sales came from Services and what drove Services growth?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 146,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 62,
+    "id": "SEC-063",
+    "text": "Connect NVIDIA’s H20 export licensing disclosure to its fiscal 2026 margin discussion: what charge resulted and how did total gross margin change?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 150,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 63,
+    "id": "SEC-064",
+    "text": "In Microsoft’s fiscal 2024 filing, identify the segment containing Activision Blizzard and the reported year-over-year revenue growth of that segment."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 146,
+      "token_count": 39,
+      "truncated": false
+    },
+    "embedding_row": 64,
+    "id": "SEC-065",
+    "text": "Using Apple’s fiscal 2025 operating-expense table and accompanying explanation, give R&D spending and the main expense types driving its increase."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 163,
+      "token_count": 42,
+      "truncated": false
+    },
+    "embedding_row": 65,
+    "id": "SEC-066",
+    "text": "According to Microsoft’s fiscal 2025 filing, which segment received the commercial Microsoft 365 components, and was it the largest segment by that year’s revenue?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 117,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 66,
+    "id": "SEC-067",
+    "text": "Explain NVIDIA’s fiscal 2026 manufacturing model and distinguish its named wafer suppliers from its memory suppliers."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 147,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 67,
+    "id": "SEC-068",
+    "text": "Which Apple product category declined in fiscal 2025, what types of products does it include, and what does management identify as the main causes?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 169,
+      "token_count": 47,
+      "truncated": false
+    },
+    "embedding_row": 68,
+    "id": "SEC-069",
+    "text": "Follow NVIDIA’s fiscal 2025 Item 8 reference to the financial statements: in which SEC Item is the income statement located and what fiscal 2025 net income does it show?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 127,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 69,
+    "id": "SEC-070",
+    "text": "In Microsoft’s fiscal 2026 filing, which segment’s revenue declined, what was its revenue, and what business drove the decline?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 110,
+      "token_count": 35,
+      "truncated": false
+    },
+    "embedding_row": 70,
+    "id": "SEC-071",
+    "text": "From Apple’s fiscal 2025 product-category sales table, give the iPhone and Services net sales for fiscal 2025."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 162,
+      "token_count": 45,
+      "truncated": false
+    },
+    "embedding_row": 71,
+    "id": "SEC-072",
+    "text": "From Apple’s fiscal 2023 income statement, give diluted earnings per share and the diluted share count used in the calculation, retaining the table’s share units."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 93,
+      "token_count": 29,
+      "truncated": false
+    },
+    "embedding_row": 72,
+    "id": "SEC-073",
+    "text": "From Microsoft’s fiscal 2024 financial summary table, give GAAP revenue and operating income."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 97,
+      "token_count": 30,
+      "truncated": false
+    },
+    "embedding_row": 73,
+    "id": "SEC-074",
+    "text": "From Microsoft’s fiscal 2025 segment table, list operating income for each of its three segments."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 96,
+      "token_count": 31,
+      "truncated": false
+    },
+    "embedding_row": 74,
+    "id": "SEC-075",
+    "text": "From NVIDIA’s fiscal 2025 segment revenue table, give Compute & Networking and Graphics revenue."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 132,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 75,
+    "id": "SEC-076",
+    "text": "From NVIDIA’s fiscal 2026 liquidity table, give cash and cash equivalents separately from marketable securities at January 25, 2026."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 120,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 76,
+    "id": "SEC-077",
+    "text": "In Apple’s fiscal 2025 gross-margin tables, what are the Products and Services gross-margin percentages for fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 110,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 77,
+    "id": "SEC-078",
+    "text": "What total current assets and total current liabilities are shown in Apple’s September 28, 2024 balance sheet?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 102,
+      "token_count": 33,
+      "truncated": false
+    },
+    "embedding_row": 78,
+    "id": "SEC-079",
+    "text": "From NVIDIA’s fiscal 2026 consolidated income statement, give fiscal 2026 gross profit and net income."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 106,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 79,
+    "id": "SEC-080",
+    "text": "In Microsoft’s fiscal 2026 R&D expense table, what are R&D expense and its reported percentage of revenue?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 59,
+      "token_count": 23,
+      "truncated": false
+    },
+    "embedding_row": 80,
+    "id": "SEC-081",
+    "text": "How many iPhone 17 units did Apple sell during fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 74,
+      "token_count": 29,
+      "truncated": false
+    },
+    "embedding_row": 81,
+    "id": "SEC-082",
+    "text": "What is the legal name of NVIDIA’s largest direct customer in fiscal 2026?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 71,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 82,
+    "id": "SEC-083",
+    "text": "What was Azure’s standalone GAAP net income in Microsoft’s fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 71,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 83,
+    "id": "SEC-084",
+    "text": "What were Apple’s actual total net sales for the full fiscal year 2026?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 82,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 84,
+    "id": "SEC-085",
+    "text": "What was Microsoft’s actual Microsoft Cloud revenue for the full fiscal year 2027?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 66,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 85,
+    "id": "SEC-086",
+    "text": "What was NVIDIA’s actual net income for the full fiscal year 2027?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 67,
+      "token_count": 22,
+      "truncated": false
+    },
+    "embedding_row": 86,
+    "id": "SEC-087",
+    "text": "What was Samsung Electronics’ consolidated revenue for fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 75,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 87,
+    "id": "SEC-088",
+    "text": "What was the median annual base salary of Apple’s employees in fiscal 2025?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 109,
+      "token_count": 31,
+      "truncated": false
+    },
+    "embedding_row": 88,
+    "id": "SEC-089",
+    "text": "What exact total compensation was awarded to Microsoft’s CEO for fiscal 2025 in the proxy compensation table?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 69,
+      "token_count": 27,
+      "truncated": false
+    },
+    "embedding_row": 89,
+    "id": "SEC-090",
+    "text": "What exact closing share price will NVIDIA have on December 31, 2026?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 118,
+      "token_count": 35,
+      "truncated": false
+    },
+    "embedding_row": 90,
+    "id": "SEC-091",
+    "text": "Does Apple’s fiscal 2025 filing use Intelligent Cloud as one of its reportable segments? Give the actual segment list."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 166,
+      "token_count": 44,
+      "truncated": false
+    },
+    "embedding_row": 91,
+    "id": "SEC-092",
+    "text": "Should a reader assume NVIDIA’s fiscal 2025 income-statement table is physically in Item 8 because that Item is titled Financial Statements? Identify the actual Item."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 156,
+      "token_count": 44,
+      "truncated": false
+    },
+    "embedding_row": 92,
+    "id": "SEC-093",
+    "text": "In Apple’s fiscal 2025 capital-return disclosure, are the newly announced repurchase authorization and actual annual repurchases the same amount? Give both."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 138,
+      "token_count": 40,
+      "truncated": false
+    },
+    "embedding_row": 93,
+    "id": "SEC-094",
+    "text": "Microsoft’s fiscal 2026 summary includes adjusted and unadjusted income figures. What is GAAP net income, rather than adjusted net income?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 89,
+      "token_count": 28,
+      "truncated": false
+    },
+    "embedding_row": 94,
+    "id": "SEC-095",
+    "text": "In Apple’s fiscal 2025 segment definitions, does Greater China mean mainland China alone?"
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 121,
+      "token_count": 38,
+      "truncated": false
+    },
+    "embedding_row": 95,
+    "id": "SEC-096",
+    "text": "Does NVIDIA put Data Center and GeForce gaming in the same reportable segment in fiscal 2026? Assign each to its segment."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 151,
+      "token_count": 36,
+      "truncated": false
+    },
+    "embedding_row": 96,
+    "id": "SEC-097",
+    "text": "Should Microsoft’s fiscal 2025 remaining performance obligations be read as revenue already recognized in that year? Explain what the balance includes."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 135,
+      "token_count": 41,
+      "truncated": false
+    },
+    "embedding_row": 97,
+    "id": "SEC-098",
+    "text": "Does Apple’s fiscal 2023 Item 1C statement establish that the company faced no cybersecurity risks? Check the risk disclosures as well."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 167,
+      "token_count": 42,
+      "truncated": false
+    },
+    "embedding_row": 98,
+    "id": "SEC-099",
+    "text": "If Microsoft’s total workforce was unchanged between fiscal 2024 and fiscal 2025, does that mean its geographic workforce distribution was unchanged? Use both filings."
+  },
+  {
+    "diagnostics": {
+      "encoded_text_end_char": 144,
+      "token_count": 44,
+      "truncated": false
+    },
+    "embedding_row": 99,
+    "id": "SEC-100",
+    "text": "Does NVIDIA’s fiscal 2026 revenue figure cover the calendar year ending December 31, 2026? Give the fiscal year-end date shown with that figure."
+  }
+]

@@ -1,0 +1,844 @@
+{
+  "model": "qwen3:4b-instruct-2507-q4_K_M",
+  "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+  "ollama_version": "0.34.1",
+  "generation_config": {
+    "llm": {
+      "api_key_env": "OLLAMA_UNUSED_API_KEY",
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "provider": "ollama",
+      "provider_options": {
+        "base_url": "http://127.0.0.1:11434",
+        "keep_alive": "5m",
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "retry_delay_seconds": 1,
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "output_dir": "evals/generation/phase4a_ollama",
+    "prompt": {
+      "max_context_characters": 60000,
+      "version": "sec_grounded_v1"
+    },
+    "protected_manifest": "configs/generation_protected.json",
+    "retrieval": {
+      "dense_run": "evals/results/dense/3deb29d60b899b2a",
+      "lexical_config": "configs/lexical_hybrid.json",
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "version": "4A.1"
+  },
+  "tests": {
+    "passed": 69,
+    "suite_runtime_seconds": 8.302,
+    "suite_runs_this_resume": 1
+  },
+  "audit": {
+    "additional_generation_calls": 0,
+    "original_artifacts_preserved": true,
+    "protected_files_verified": 125,
+    "trace_prompt_config_hashes_verified": true,
+    "retrieval_and_prompt_replay_verified": true,
+    "installed_binary_and_model_manifest_verified": true
+  },
+  "phase4a_status": "Complete as infrastructure and bounded demonstration; no generation quality improvement established.",
+  "results": [
+    {
+      "question_id": "SEC-001",
+      "question": "According to Apple’s fiscal 2025 business description, what does its cloud service do for customers across devices?",
+      "retrieval_mode": "bm25",
+      "top_k": 5,
+      "status": "success",
+      "parsed_answer": {
+        "abstained": true,
+        "answer": "Insufficient evidence in the supplied SEC context.",
+        "citations": []
+      },
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "abstained": true,
+      "error": null,
+      "latency_seconds": 14.960462290997384,
+      "generation_latency_seconds": 14.959581125003751,
+      "token_usage": {
+        "input_tokens": 4138,
+        "output_tokens": 23,
+        "total_tokens": 4161
+      },
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ],
+      "contexts": [
+        {
+          "accession_number": "0001193125-26-323660",
+          "chunk_id": "99e61f0fde0104af67a3787c892d95a2ddbf88034ba3374495ef66bb8513d2f6",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C001",
+          "document_id": "MSFT_000119312526323660",
+          "end_char": 146992,
+          "filing_date": "2026-07-29",
+          "filing_year": 2026,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2026-06-30",
+          "report_year": 2026,
+          "retrieval_rank": 1,
+          "section_id": "MSFT_000119312526323660:item_7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "sections": [
+            {
+              "end_char": 146992,
+              "item": "7",
+              "section_id": "MSFT_000119312526323660:item_7",
+              "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+              "start_char": 145067
+            }
+          ],
+          "source_document_id": "MSFT_000119312526323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "start_char": 145067,
+          "text": "tacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes.\n\nHighlights from fiscal year 2026 compared with fiscal year 2025 included:\n\n•\n\nMicrosoft Cloud revenue increased 27% to $214.4 billion.\n\n•\n\nCommercial remaining performance obligation increased 84% to $678 billion.\n\n•\n\nMicrosoft 365 Commercial cloud revenue increased 17%.\n\n•\n\nMicrosoft 365 Consumer cloud revenue increased 28%.\n\n•\n\nLinkedIn revenue increased 11%.\n\n•\n\nDynamics 365 revenue increased 18%.\n\n•\n\nAzure and other cloud services revenue increased 41%.\n\n•\n\nWindows OEM and Devices revenue decreased slightly.\n\n•\n\nXBOX content and services revenue decreased 5%.\n\n•\n\nSearch advertising (formerly Search and news advertising) revenue excluding traffic acquisition costs increased 12%.\n\nIndustry Trends and Opportunities\n\nOur industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces.\n\nWe have a long-term strategic partnership with OpenAI which was originally established in 2019. In October 2025 and April 2026, we extended this partnership and continue to build on our shared vision to advance artificial intelligence responsibly and make its benefits broadly accessible. Microsoft is a major investor in OpenAI and will continue to receive revenue-sharing payments. We hold rights to OpenAI’s intellectual property, including models and infrastructure, for integration into our products.\n\n34\n\nPART II\n\nItem 7\n\nEconomic Conditions, Challenges, and Risks\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0000950170-25-100235",
+          "chunk_id": "7b65f5a81e76aefd39ebae2d6f742de26d9ebe1e5cd0a317cc6eb829f9700aba",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C002",
+          "document_id": "MSFT_000095017025100235",
+          "end_char": 143718,
+          "filing_date": "2025-07-30",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-06-30",
+          "report_year": 2025,
+          "retrieval_rank": 2,
+          "section_id": "MSFT_000095017025100235:item_7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "sections": [
+            {
+              "end_char": 143718,
+              "item": "7",
+              "section_id": "MSFT_000095017025100235:item_7",
+              "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+              "start_char": 142176
+            }
+          ],
+          "source_document_id": "MSFT_000095017025100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "start_char": 142176,
+          "text": "tacenter operations; designing, manufacturing, marketing, and selling our other products and services; and income taxes.\n\nHighlights from fiscal year 2025 compared with fiscal year 2024 included:\n\n•\n\nMicrosoft Cloud revenue increased 23% to $168.9 billion.\n\n•\n\nMicrosoft 365 Commercial products and cloud services revenue increased 14% driven by Microsoft 365 Commercial cloud revenue growth of 15%.\n\n•\n\nMicrosoft 365 Consumer products and cloud services revenue increased 11% driven by Microsoft 365 Consumer cloud revenue growth of 11%.\n\n•\n\nLinkedIn revenue increased 9%.\n\n•\n\nDynamics products and cloud services revenue increased 15% driven by Dynamics 365 revenue growth of 19%.\n\n•\n\nServer products and cloud services revenue increased 23% driven by Azure and other cloud services revenue growth of 34%.\n\n•\n\nWindows OEM and Devices revenue increased 3%.\n\n•\n\nXbox content and services revenue increased 16%.\n\n•\n\nSearch and news advertising revenue excluding traffic acquisition costs increased 20%.\n\nIndustry Trends and Opportunities\n\nOur industry is dynamic and highly competitive, with frequent changes in both technologies and business models. Each industry shift is an opportunity to conceive new products, new technologies, or new ideas that can further transform the industry and our business. At Microsoft, we push the boundaries of what is possible through a broad range of research and development activities that seek to identify and address the changing demands of customers and users, industry trends, and competitive forces.\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0001045810-24-000029",
+          "chunk_id": "2cb2c0bb530ba956a0371f277d5c7358976105ea76cfc617a1514590fc4129cf",
+          "cik": "0001045810",
+          "company": "NVIDIA Corporation",
+          "context_id": "C003",
+          "document_id": "NVDA_000104581024000029",
+          "end_char": 22602,
+          "filing_date": "2024-02-21",
+          "filing_year": 2024,
+          "form": "10-K",
+          "item": "1",
+          "report_date": "2024-01-28",
+          "report_year": 2024,
+          "retrieval_rank": 3,
+          "section_id": "NVDA_000104581024000029:item_1",
+          "section_name": "Business",
+          "sections": [
+            {
+              "end_char": 22602,
+              "item": "1",
+              "section_id": "NVDA_000104581024000029:item_1",
+              "section_name": "Business",
+              "start_char": 20957
+            }
+          ],
+          "source_document_id": "NVDA_000104581024000029",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+          "start_char": 20957,
+          "text": "bring our products to market. We also have partnerships in automotive, healthcare, financial services, manufacturing, and retail among others, to accelerate the adoption of AI.\n\n5\n\nTable of Contents\n\nAt the foundation of the NVIDIA accelerated computing platform are our GPUs, which excel at parallel workloads such as the training and inferencing of neural networks. They are available in the NVIDIA accelerated computing platform and in industry standard servers from every major cloud provider and server maker. Beyond GPUs, our data center platform expanded to include DPUs in fiscal year 2022 and CPUs in fiscal year 2024. We can optimize across the entire computing, networking and storage stack to deliver data center-scale computing solutions.\n\nWhile our approach starts with powerful chips, what makes it a full-stack computing platform is our large body of software, including the CUDA parallel programming model, the CUDA-X collection of acceleration libraries, APIs, SDKs, and domain-specific application frameworks.\n\nIn addition to software delivered to customers as an integral part of our data center computing platform, we offer paid licenses to NVIDIA AI Enterprise, a comprehensive suite of enterprise-grade AI software and NVIDIA vGPU software for graphics-rich virtual desktops and workstations.\n\nIn fiscal year 2024, we launched the NVIDIA DGX Cloud, an AI-training-as-a-service platform which includes cloud-based infrastructure and software for AI, customizable pretrained AI models, and access to NVIDIA experts. We have partnered with leading cloud service providers to host this service in their data centers.\n\nGaming\n\n",
+          "ticker": "NVDA"
+        },
+        {
+          "accession_number": "0001193125-26-323660",
+          "chunk_id": "394f1d9f1201242f36f785db0581e71af437fcbb22f7977cf8aa17f56a50a77c",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C004",
+          "document_id": "MSFT_000119312526323660",
+          "end_char": 9993,
+          "filing_date": "2026-07-29",
+          "filing_year": 2026,
+          "form": "10-K",
+          "item": "1",
+          "report_date": "2026-06-30",
+          "report_year": 2026,
+          "retrieval_rank": 4,
+          "section_id": "MSFT_000119312526323660:item_1",
+          "section_name": "BUSINESS",
+          "sections": [
+            {
+              "end_char": 9993,
+              "item": "1",
+              "section_id": "MSFT_000119312526323660:item_1",
+              "section_name": "BUSINESS",
+              "start_char": 8120
+            }
+          ],
+          "source_document_id": "MSFT_000119312526323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "start_char": 8120,
+          "text": "ITEM 1. BUSINESS\n\nGENERAL\n\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so responsibly. Our mission is to empower every person and every organization on the planet to achieve more.\n\nWe develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative platforms and applications that meet evolving customer needs across AI, cloud computing, productivity and collaboration, and personal computing. We strive to create opportunity, growth, and impact in every country around the world.\n\nAI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the technology stack, enabling transformative outcomes across sectors and unlocking opportunity for every country, community, and individual.\n\nWe believe AI should be as empowering as it is powerful, and we’re committed to designing and deploying AI responsibly with safety and security from the outset.\n\nWhat We Offer\n\nFounded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people and businesses realize their full potential.\n\nWe offer an array of services, including cloud-based solutions that provide customers with AI, software, services, platforms, and content, and we provide solution support and consulting services. We also deliver relevant online advertising to a global audience.\n\nOur products include operating systems, server applications, business solution applications, software development tools, desktop and server management tools, and video games. We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0000950170-25-100235",
+          "chunk_id": "18259ba68876b0658877673ace909cfc4b7e639ab5d434a286547ce2cc1df63d",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C005",
+          "document_id": "MSFT_000095017025100235",
+          "end_char": 10027,
+          "filing_date": "2025-07-30",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "1",
+          "report_date": "2025-06-30",
+          "report_year": 2025,
+          "retrieval_rank": 5,
+          "section_id": "MSFT_000095017025100235:item_1",
+          "section_name": "BUSINESS",
+          "sections": [
+            {
+              "end_char": 10027,
+              "item": "1",
+              "section_id": "MSFT_000095017025100235:item_1",
+              "section_name": "BUSINESS",
+              "start_char": 8111
+            }
+          ],
+          "source_document_id": "MSFT_000095017025100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "start_char": 8111,
+          "text": "ITEM 1. BUSINESS\n\nGENERAL\n\nMicrosoft is a technology company committed to making digital technology and artificial intelligence (“AI”) available broadly and doing so responsibly. Our mission is to empower every person and every organization on the planet to achieve more.\n\nWe develop and support a broad portfolio of technology solutions for individuals and businesses, focusing on secure, trusted, and innovative platforms and tools that meet evolving customer needs across cloud computing, productivity and collaboration, and personal computing. We strive to create opportunity, growth, and impact in every country around the world.\n\nAI is fundamentally transforming productivity for every individual, organization, and industry. Microsoft's AI offerings span every layer of the technology stack, enabling transformative outcomes across sectors and unlocking opportunity for every country, community, and individual.\n\nWe believe AI should be as empowering as it is powerful, and we’re committed to designing and deploying AI responsibly with safety and security from the outset.\n\nWhat We Offer\n\nFounded in 1975, we develop and support software, services, devices, and solutions that deliver new value for customers and help people and businesses realize their full potential.\n\nWe offer an array of services, including cloud-based solutions that provide customers with software, services, platforms, and content, and we provide solution support and consulting services. We also deliver relevant online advertising to a global audience.\n\nOur products include operating systems, cross-device productivity and collaboration applications, server applications, business solution applications, desktop and server management tools, software development tools, and video games. We also design and sell devices, including PCs, tablets, gaming and entertainment consoles, other intelligent devices, and related accessories.\n\n",
+          "ticker": "MSFT"
+        }
+      ],
+      "prompt_sha256": "769ac66b0edf5cb2fc8683c9a4af9b33f5f0a4731ddc88e92058d4d815c84a26",
+      "config_sha256": "4c90e557fb836e16dd578c89aa70acdf5d7f88b8e8df16575b9c21de589740e5",
+      "category": "direct_factual",
+      "finding": "Retrieval insufficiency: no Apple passage in the top five. The model appropriately abstained on an answerable corpus question.",
+      "trace": "evals/generation/phase4a_ollama/traces/45f194ee5d535e31ca93a32b8d699eaed538d3069347bfaba85608b19abd7166.json",
+      "trace_file_sha256": "4343c123159be4755f476d7e7ac83688d7108485f3108aac243929e2232d8d66"
+    },
+    {
+      "question_id": "SEC-021",
+      "question": "Approximately how many full-time-equivalent employees did Apple report at September 30, 2023?",
+      "retrieval_mode": "bm25",
+      "top_k": 5,
+      "status": "success",
+      "parsed_answer": {
+        "abstained": true,
+        "answer": "Insufficient evidence in the supplied SEC context.",
+        "citations": []
+      },
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "abstained": true,
+      "error": null,
+      "latency_seconds": 18.035831749992212,
+      "generation_latency_seconds": 18.034260666987393,
+      "token_usage": {
+        "input_tokens": 5733,
+        "output_tokens": 23,
+        "total_tokens": 5756
+      },
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ],
+      "contexts": [
+        {
+          "accession_number": "0000320193-23-000106",
+          "chunk_id": "b6d0783f320e70b69a6113a3a7a0205ffdec828a4f091095f4a4ee1e079e31be",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C001",
+          "document_id": "AAPL_000032019323000106",
+          "end_char": 180560,
+          "filing_date": "2023-11-03",
+          "filing_year": 2023,
+          "form": "10-K",
+          "item": "8",
+          "report_date": "2023-09-30",
+          "report_year": 2023,
+          "retrieval_rank": 1,
+          "section_id": "AAPL_000032019323000106:item_8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "sections": [
+            {
+              "end_char": 180560,
+              "item": "8",
+              "section_id": "AAPL_000032019323000106:item_8",
+              "section_name": "Financial Statements and Supplementary Data",
+              "start_char": 178610
+            }
+          ],
+          "source_document_id": "AAPL_000032019323000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "start_char": 178610,
+          "text": "orporate marketing expenses, certain share-based compensation expenses, various nonrecurring charges, and other separately managed general and administrative costs.\n\nApple Inc. | 2023 Form 10-K | 47\n\nThe U.S. and China were the only countries that accounted for more than 10% of the Company’s net sales in 2023, 2022 and 2021. Net sales for 2023, 2022 and 2021 and long-lived assets as of September 30, 2023 and September 24, 2022 were as follows (in millions):\n\n| 2023 |  | 2022 |  | 2021\nNet sales: |  |  |  |  | \nU.S. | $ | 138,573 |  |  | $ | 147,859 |  |  | $ | 133,803 | \nChina (1) | 72,559 |  |  | 74,200 |  |  | 68,366 | \nOther countries | 172,153 |  |  | 172,269 |  |  | 163,648 | \nTotal net sales | $ | 383,285 |  |  | $ | 394,328 |  |  | $ | 365,817 |\n\n| 2023 |  | 2022\nLong-lived assets: |  |  | \nU.S. | $ | 33,276 |  |  | $ | 31,119 | \nChina (1) | 5,778 |  |  | 7,260 | \nOther countries | 4,661 |  |  | 3,738 | \nTotal long-lived assets | $ | 43,715 |  |  | $ | 42,117 |\n\n(1)China includes Hong Kong and Taiwan.\n\nApple Inc. | 2023 Form 10-K | 48\n\nReport of Independent Registered Public Accounting Firm\n\nTo the Shareholders and the Board of Directors of Apple Inc.\n\nOpinion on the Financial Statements\n\nWe have audited the accompanying consolidated balance sheets of Apple Inc. as of September 30, 2023 and September 24, 2022, the related consolidated statements of operations, comprehensive income, shareholders’ equity and cash flows for each of the three years in the period ended September 30, 2023, and the related notes (collectively referred to as the “financial statements”). In our opinion, the financial statements present fairly, in all material respects, the financial position of Apple Inc. at September 30, 2023 and September 24, 2022, and the results of its operations and its cash flows for each of the three years in the period ended September 30, 2023, in conformity with U.S. generally accepted accounting principles.\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-24-000123",
+          "chunk_id": "413dc784af72d752629216b3cfdd29911d444ade4a64a9d411e17852b2f3138a",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C002",
+          "document_id": "AAPL_000032019324000123",
+          "end_char": 174472,
+          "filing_date": "2024-11-01",
+          "filing_year": 2024,
+          "form": "10-K",
+          "item": "8",
+          "report_date": "2024-09-28",
+          "report_year": 2024,
+          "retrieval_rank": 2,
+          "section_id": "AAPL_000032019324000123:item_8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "sections": [
+            {
+              "end_char": 174472,
+              "item": "8",
+              "section_id": "AAPL_000032019324000123:item_8",
+              "section_name": "Financial Statements and Supplementary Data",
+              "start_char": 172555
+            }
+          ],
+          "source_document_id": "AAPL_000032019324000123",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "start_char": 172555,
+          "text": "ant new awards under the 2014 Plan.\n\nApple Inc. | 2024 Form 10-K | 44\n\nRestricted Stock Units\n\nA summary of the Company’s RSU activity and related information for 2024, 2023 and 2022, is as follows:\n\n| Number of RSUs (in thousands) |  | Weighted-Average Grant-Date Fair Value Per RSU |  | Aggregate Fair Value (in millions)\nBalance as of September 25, 2021 | 240,427 |  |  | $ | 75.16 |  |  | \nRSUs granted | 91,674 |  |  | $ | 150.70 |  |  | \nRSUs vested | (115,861) |  |  | $ | 72.12 |  |  | \nRSUs canceled | (14,739) |  |  | $ | 99.77 |  |  | \nBalance as of September 24, 2022 | 201,501 |  |  | $ | 109.48 |  |  | \nRSUs granted | 88,768 |  |  | $ | 150.87 |  |  | \nRSUs vested | (101,878) |  |  | $ | 97.31 |  |  | \nRSUs canceled | (8,144) |  |  | $ | 127.98 |  |  | \nBalance as of September 30, 2023 | 180,247 |  |  | $ | 135.91 |  |  | \nRSUs granted | 80,456 |  |  | $ | 173.78 |  |  | \nRSUs vested | (87,633) |  |  | $ | 127.59 |  |  | \nRSUs canceled | (9,744) |  |  | $ | 140.80 |  |  | \nBalance as of September 28, 2024 | 163,326 |  |  | $ | 158.73 |  |  | $ | 37,204 |\n\nThe fair value as of the respective vesting dates of RSUs was $15.8 billion, $15.9 billion and $18.2 billion for 2024, 2023 and 2022, respectively. The majority of RSUs that vested in 2024, 2023 and 2022 were net share settled such that the Company withheld shares with a value equivalent to the employees’ obligation for the applicable income and other employment taxes, and remitted cash to the appropriate taxing authorities. The total shares withheld were approximately 31 million, 37 million and 41 million for 2024, 2023 and 2022, respectively, and were based on the value of the RSUs on their respective vesting dates as determined by the Company’s closing stock price. Total payments to taxing authorities for employees’ tax obligations were $5.6 billion in both 2024 and 2023 and $6.4 billion in 2022.\n\nShare-Based Compensation\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-23-000106",
+          "chunk_id": "5716c020f4d636c4bead9ebf930ea24256730365ca0dfc616c22cd71c6bd8933",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C003",
+          "document_id": "AAPL_000032019323000106",
+          "end_char": 172459,
+          "filing_date": "2023-11-03",
+          "filing_year": 2023,
+          "form": "10-K",
+          "item": "8",
+          "report_date": "2023-09-30",
+          "report_year": 2023,
+          "retrieval_rank": 3,
+          "section_id": "AAPL_000032019323000106:item_8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "sections": [
+            {
+              "end_char": 172459,
+              "item": "8",
+              "section_id": "AAPL_000032019323000106:item_8",
+              "section_name": "Financial Statements and Supplementary Data",
+              "start_char": 170484
+            }
+          ],
+          "source_document_id": "AAPL_000032019323000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "start_char": 170484,
+          "text": "any terminated the authority to grant new awards under the 2014 Plan.\n\nRestricted Stock Units\n\nA summary of the Company’s RSU activity and related information for 2023, 2022 and 2021, is as follows:\n\n| Number of RSUs (in thousands) |  | Weighted-Average Grant Date Fair Value Per RSU |  | Aggregate Fair Value (in millions)\nBalance as of September 26, 2020 | 310,778 |  |  | $ | 51.58 |  |  | \nRSUs granted | 89,363 |  |  | $ | 116.33 |  |  | \nRSUs vested | (145,766) |  |  | $ | 50.71 |  |  | \nRSUs canceled | (13,948) |  |  | $ | 68.95 |  |  | \nBalance as of September 25, 2021 | 240,427 |  |  | $ | 75.16 |  |  | \nRSUs granted | 91,674 |  |  | $ | 150.70 |  |  | \nRSUs vested | (115,861) |  |  | $ | 72.12 |  |  | \nRSUs canceled | (14,739) |  |  | $ | 99.77 |  |  | \nBalance as of September 24, 2022 | 201,501 |  |  | $ | 109.48 |  |  | \nRSUs granted | 88,768 |  |  | $ | 150.87 |  |  | \nRSUs vested | (101,878) |  |  | $ | 97.31 |  |  | \nRSUs canceled | (8,144) |  |  | $ | 127.98 |  |  | \nBalance as of September 30, 2023 | 180,247 |  |  | $ | 135.91 |  |  | $ | 30,860 |\n\nThe fair value as of the respective vesting dates of RSUs was $15.9 billion, $18.2 billion and $19.0 billion for 2023, 2022 and 2021, respectively. The majority of RSUs that vested in 2023, 2022 and 2021 were net share settled such that the Company withheld shares with a value equivalent to the employees’ obligation for the applicable income and other employment taxes, and remitted the cash to the appropriate taxing authorities. The total shares withheld were approximately 37 million, 41 million and 53 million for 2023, 2022 and 2021, respectively, and were based on the value of the RSUs on their respective vesting dates as determined by the Company’s closing stock price. Total payments to taxing authorities for employees’ tax obligations were $5.6 billion, $6.4 billion and $6.8 billion in 2023, 2022 and 2021, respectively.\n\nApple Inc. | 2023 Form 10-K | 45\n\nShare-Based Compensation\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-24-000123",
+          "chunk_id": "c3a99074e8920308f286d8385c1266423bfd21b0f69964f7c4a5f35080162c41",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C004",
+          "document_id": "AAPL_000032019324000123",
+          "end_char": 182555,
+          "filing_date": "2024-11-01",
+          "filing_year": 2024,
+          "form": "10-K",
+          "item": "8",
+          "report_date": "2024-09-28",
+          "report_year": 2024,
+          "retrieval_rank": 4,
+          "section_id": "AAPL_000032019324000123:item_8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "sections": [
+            {
+              "end_char": 182555,
+              "item": "8",
+              "section_id": "AAPL_000032019324000123:item_8",
+              "section_name": "Financial Statements and Supplementary Data",
+              "start_char": 180842
+            }
+          ],
+          "source_document_id": "AAPL_000032019324000123",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "start_char": 180842,
+          "text": " September 28, 2024 and September 30, 2023 for countries that individually accounted for 10% or more of the respective totals, as well as aggregate amounts for the remaining countries (in millions):\n\n| 2024 |  | 2023 |  | 2022\nNet sales: |  |  |  |  | \nU.S. | $ | 142,196 |  |  | $ | 138,573 |  |  | $ | 147,859 | \nChina (1) | 66,952 |  |  | 72,559 |  |  | 74,200 | \nOther countries | 181,887 |  |  | 172,153 |  |  | 172,269 | \nTotal net sales | $ | 391,035 |  |  | $ | 383,285 |  |  | $ | 394,328 |\n\n| 2024 |  | 2023\nLong-lived assets: |  |  | \nU.S. | $ | 35,664 |  |  | $ | 33,276 | \nChina (1) | 4,797 |  |  | 5,778 | \nOther countries | 5,219 |  |  | 4,661 | \nTotal long-lived assets | $ | 45,680 |  |  | $ | 43,715 |\n\n(1)China includes Hong Kong and Taiwan.\n\nApple Inc. | 2024 Form 10-K | 47\n\nReport of Independent Registered Public Accounting Firm\n\nTo the Shareholders and the Board of Directors of Apple Inc.\n\nOpinion on the Financial Statements\n\nWe have audited the accompanying consolidated balance sheets of Apple Inc. (the “Company”) as of September 28, 2024 and September 30, 2023, the related consolidated statements of operations, comprehensive income, shareholders’ equity and cash flows for each of the three years in the period ended September 28, 2024, and the related notes (collectively referred to as the “financial statements”). In our opinion, the financial statements present fairly, in all material respects, the financial position of the Company at September 28, 2024 and September 30, 2023, and the results of its operations and its cash flows for each of the three years in the period ended September 28, 2024, in conformity with U.S. generally accepted accounting principles (“GAAP”).\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-23-000106",
+          "chunk_id": "016321cfca6dfe515088a25ef74b8a8ecdafeb61ab1de1dce7a634c64aa56849",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C005",
+          "document_id": "AAPL_000032019323000106",
+          "end_char": 187206,
+          "filing_date": "2023-11-03",
+          "filing_year": 2023,
+          "form": "10-K",
+          "item": "8",
+          "report_date": "2023-09-30",
+          "report_year": 2023,
+          "retrieval_rank": 5,
+          "section_id": "AAPL_000032019323000106:item_8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "sections": [
+            {
+              "end_char": 187206,
+              "item": "8",
+              "section_id": "AAPL_000032019323000106:item_8",
+              "section_name": "Financial Statements and Supplementary Data",
+              "start_char": 185319
+            }
+          ],
+          "source_document_id": "AAPL_000032019323000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "start_char": 185319,
+          "text": "nc. | 2023 Form 10-K | 50\n\nReport of Independent Registered Public Accounting Firm\n\nTo the Shareholders and the Board of Directors of Apple Inc.\n\nOpinion on Internal Control Over Financial Reporting\n\nWe have audited Apple Inc.’s internal control over financial reporting as of September 30, 2023, based on criteria established in Internal Control – Integrated Framework issued by the Committee of Sponsoring Organizations of the Treadway Commission (2013 framework) (the “COSO criteria”). In our opinion, Apple Inc. maintained, in all material respects, effective internal control over financial reporting as of September 30, 2023, based on the COSO criteria.\n\nWe also have audited, in accordance with the standards of the Public Company Accounting Oversight Board (United States) (the “PCAOB”), the consolidated balance sheets of Apple Inc. as of September 30, 2023 and September 24, 2022, the related consolidated statements of operations, comprehensive income, shareholders’ equity and cash flows for each of the three years in the period ended September 30, 2023, and the related notes and our report dated November 2, 2023 expressed an unqualified opinion thereon.\n\nBasis for Opinion\n\nApple Inc.’s management is responsible for maintaining effective internal control over financial reporting, and for its assessment of the effectiveness of internal control over financial reporting included in the accompanying Management’s Annual Report on Internal Control over Financial Reporting. Our responsibility is to express an opinion on Apple Inc.’s internal control over financial reporting based on our audit. We are a public accounting firm registered with the PCAOB and are required to be independent with respect to Apple Inc. in accordance with the U.S. federal securities laws and the applicable rules and regulations of the U.S. Securities and Exchange Commission and the PCAOB.\n\n",
+          "ticker": "AAPL"
+        }
+      ],
+      "prompt_sha256": "d16772a446c6011e33d1f408bcde8bcaffedc1481c061214d860732e2ce7b98c",
+      "config_sha256": "4c90e557fb836e16dd578c89aa70acdf5d7f88b8e8df16575b9c21de589740e5",
+      "category": "numerical",
+      "finding": "Retrieval insufficiency: the retrieved Apple passages do not supply the requested employee count. The model appropriately abstained.",
+      "trace": "evals/generation/phase4a_ollama/traces/3f271b986dac9a4bcb2738d471ae3e653ca6e8446f8cdd2d6c5e96f310cb9485.json",
+      "trace_file_sha256": "dd95af28bee06854fa57df9f01ba7ded50b5e2a1a1a0be504aa0f55f9f4eb1c3"
+    },
+    {
+      "question_id": "SEC-061",
+      "question": "In Apple’s fiscal 2025 filing, which geographic segment had the highest reported percentage sales growth and what products or services drove that segment’s increase?",
+      "retrieval_mode": "bm25",
+      "top_k": 5,
+      "status": "invalid_output",
+      "parsed_answer": null,
+      "raw_model_output": "{\"abstained\":false,\"answer\":\"In Apple’s fiscal 2025 filing, the Americas segment had the highest reported percentage sales growth at 7%. This growth was primarily driven by higher net sales of iPhone and Services.\",\"citations\":[\"C002\"]}",
+      "citations": [],
+      "abstained": null,
+      "error": {
+        "code": "invalid_output",
+        "detail": "Inline citations and citation list differ"
+      },
+      "latency_seconds": 17.775353750010254,
+      "generation_latency_seconds": 17.77414520800812,
+      "token_usage": {
+        "input_tokens": 5071,
+        "output_tokens": 58,
+        "total_tokens": 5129
+      },
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ],
+      "contexts": [
+        {
+          "accession_number": "0001193125-26-323660",
+          "chunk_id": "514ca316c696abc24371983ddf41e2ec477c62939af0bd419b6c8616f95d5876",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C001",
+          "document_id": "MSFT_000119312526323660",
+          "end_char": 156288,
+          "filing_date": "2026-07-29",
+          "filing_year": 2026,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2026-06-30",
+          "report_year": 2026,
+          "retrieval_rank": 1,
+          "section_id": "MSFT_000119312526323660:item_7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "sections": [
+            {
+              "end_char": 156288,
+              "item": "7",
+              "section_id": "MSFT_000119312526323660:item_7",
+              "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+              "start_char": 154378
+            }
+          ],
+          "source_document_id": "MSFT_000119312526323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "start_char": 154378,
+          "text": "sktop offerings, and other cloud services\n\n36\n\nPART II\n\nItem 7\n\nMore Personal Computing\n\nMetrics related to our More Personal Computing segment assess the performance of our key consumer businesses.\n\nWindows OEM and Devices revenue growth |  | Revenue from sales of Windows Pro and non-Pro licenses sold through the OEM channel and sales of first-party Devices, including Surface and PC accessories\nXBOX content and services revenue growth |  | Revenue from XBOX content and services, comprising first- and third-party content (including games and in-game content), XBOX Game Pass and other subscriptions, XBOX Cloud Gaming, advertising, and other cloud services\nSearch advertising revenue (ex TAC) growth |  | Revenue from search advertising excluding traffic acquisition costs (“TAC”) paid to Bing Ads network publishers and content partners\n\nSUMMARY RESULTS OF OPERATIONS\n\n(In millions, except percentages and per share amounts) |  | 2026 |  |  | 2025 |  |  | Percentage Change | \nRevenue |  | $ | 331,839 |  |  | $ | 281,724 |  |  |  | 18% | \nGross margin |  |  | 225,465 |  |  |  | 193,893 |  |  |  | 16% | \nOperating income |  |  | 155,237 |  |  |  | 128,528 |  |  |  | 21% | \nNet income |  |  | 133,749 |  |  |  | 101,832 |  |  |  | 31% | \nDiluted earnings per share |  |  | 17.95 |  |  |  | 13.64 |  |  |  | 32% | \nAdjusted net income (non-GAAP) |  |  | 128,786 |  |  |  | 105,452 |  |  |  | 22% | \nAdjusted diluted earnings per share (non-GAAP) |  |  | 17.28 |  |  |  | 14.13 |  |  |  | 22% |\n\nAdjusted net income and adjusted diluted earnings per share (“EPS”) are non-GAAP financial measures. These non-GAAP financial measures exclude net gains and losses from investments in OpenAI. Refer to the Non-GAAP Financial Measures section below for a reconciliation of our financial results reported in accordance with GAAP to non-GAAP financial results.\n\nFiscal Year 2026 Compared with Fiscal Year 2025\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0000320193-25-000079",
+          "chunk_id": "6e4e3341d16d7e0f013c1b5138f18d82bdec507d555198d672cc64710662c082",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C002",
+          "document_id": "AAPL_000032019325000079",
+          "end_char": 110170,
+          "filing_date": "2025-10-31",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-09-27",
+          "report_year": 2025,
+          "retrieval_rank": 2,
+          "section_id": "AAPL_000032019325000079:item_7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "sections": [
+            {
+              "end_char": 110170,
+              "item": "7",
+              "section_id": "AAPL_000032019325000079:item_7",
+              "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+              "start_char": 108245
+            }
+          ],
+          "source_document_id": "AAPL_000032019325000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "start_char": 108245,
+          "text": "riffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company’s products and services, all of which can further adversely affect the Company’s business and results of operations.\n\nSegment Operating Performance\n\nThe following table shows net sales by reportable segment for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\nAmericas | $ | 178,353 |  |  | 7 | % |  | $ | 167,045 |  |  | 3 | % |  | $ | 162,560 | \nEurope | 111,032 |  |  | 10 | % |  | 101,328 |  |  | 7 | % |  | 94,294 | \nGreater China | 64,377 |  |  | (4) | % |  | 66,952 |  |  | (8) | % |  | 72,559 | \nJapan | 28,703 |  |  | 15 | % |  | 25,052 |  |  | 3 | % |  | 24,257 | \nRest of Asia Pacific | 33,696 |  |  | 10 | % |  | 30,658 |  |  | 4 | % |  | 29,615 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |\n\nAmericas\n\nAmericas net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone and Services. The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during 2025.\n\nEurope\n\nEurope net sales increased during 2025 compared to 2024 primarily due to higher net sales of Services, iPhone and Mac.\n\nGreater China\n\nGreater China net sales decreased during 2025 compared to 2024 primarily due to lower net sales of iPhone, partially offset by higher net sales of Mac.\n\nJapan\n\nJapan net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and iPad.\n\nRest of Asia Pacific\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000950170-25-100235",
+          "chunk_id": "5e385f91da53a75808836a03512167030a8cde5fd7ffac386e7d343a6e988a4d",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C003",
+          "document_id": "MSFT_000095017025100235",
+          "end_char": 154659,
+          "filing_date": "2025-07-30",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-06-30",
+          "report_year": 2025,
+          "retrieval_rank": 3,
+          "section_id": "MSFT_000095017025100235:item_7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "sections": [
+            {
+              "end_char": 154659,
+              "item": "7",
+              "section_id": "MSFT_000095017025100235:item_7",
+              "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+              "start_char": 152661
+            }
+          ],
+          "source_document_id": "MSFT_000095017025100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "start_char": 152661,
+          "text": "sktop offerings, and other cloud services\n\n37\n\nPART II\n\nItem 7\n\nMore Personal Computing\n\nMetrics related to our More Personal Computing segment assess the performance of our key consumer businesses.\n\nWindows OEM and Devices revenue growth |  | Revenue from sales of Windows Pro and non-Pro licenses sold through the OEM channel and sales of first-party Devices, including Surface and PC accessories\nXbox content and services revenue growth |  | Revenue from Xbox content and services, comprising first- and third-party content (including games and in-game content), Xbox Game Pass and other subscriptions, Xbox Cloud Gaming, advertising, and other cloud services\nSearch and news advertising revenue (ex TAC) growth |  | Revenue from search and news advertising excluding traffic acquisition costs (“TAC”) paid to Bing Ads network publishers and news partners\n\nSUMMARY RESULTS OF OPERATIONS\n\n(In millions, except percentages and per share amounts) |  | 2025 |  |  | 2024 |  |  | Percentage Change | \nRevenue |  | $ | 281,724 |  |  | $ | 245,122 |  |  |  | 15% | \nGross margin |  |  | 193,893 |  |  |  | 171,008 |  |  |  | 13% | \nOperating income |  |  | 128,528 |  |  |  | 109,433 |  |  |  | 17% | \nNet income |  |  | 101,832 |  |  |  | 88,136 |  |  |  | 16% | \nDiluted earnings per share |  |  | 13.64 |  |  |  | 11.80 |  |  |  | 16% |\n\nFiscal Year 2025 Compared with Fiscal Year 2024\n\nRevenue increased $36.6 billion or 15% with growth across each of our segments. Intelligent Cloud revenue increased driven by Azure. Productivity and Business Processes revenue increased driven by Microsoft 365 Commercial cloud. More Personal Computing revenue increased driven by Gaming and Search and news advertising.\n\nCost of revenue increased $13.7 billion or 19% driven by growth in Microsoft Cloud.\n\nGross margin increased $22.9 billion or 13% with growth across each of our segments.\n\n•\n\nGross margin percentage decreased slightly driven by Intelligent Cloud, offset in part by More Personal Computing.\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0000950170-25-100235",
+          "chunk_id": "a6a2caf325e604512ca88042162b6631acecf8789abf02dae7db8e9fa016e453",
+          "cik": "0000789019",
+          "company": "Microsoft Corporation",
+          "context_id": "C004",
+          "document_id": "MSFT_000095017025100235",
+          "end_char": 151152,
+          "filing_date": "2025-07-30",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-06-30",
+          "report_year": 2025,
+          "retrieval_rank": 4,
+          "section_id": "MSFT_000095017025100235:item_7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "sections": [
+            {
+              "end_char": 151152,
+              "item": "7",
+              "section_id": "MSFT_000095017025100235:item_7",
+              "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+              "start_char": 149327
+            }
+          ],
+          "source_document_id": "MSFT_000095017025100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "start_char": 149327,
+          "text": " results prepared in accordance with accounting principles generally accepted in the United States of America (“GAAP”), and growth comparisons relate to the corresponding period of last fiscal year.\n\nIn the first quarter of fiscal year 2025, we made updates to our metrics in connection with the segment changes described above. These changes align our metrics with how we manage and monitor certain businesses. The key change was bringing the commercial components of Microsoft 365 together and creating a new Microsoft 365 Commercial cloud revenue growth metric. Other changes include combining Windows OEM and Devices into a single revenue growth metric that brings revenue from PC market-driven businesses together, as well as elevating our cloud revenue growth metrics to align to our strategic focus on cloud growth.\n\nCommercial\n\nOur commercial business primarily consists of Server products and cloud services, Microsoft 365 Commercial products and cloud services, the commercial portion of LinkedIn, Dynamics products and cloud services, and Enterprise and partner services. Our commercial metrics allow management and investors to assess the overall health of our commercial business and include leading indicators of future performance.\n\nCommercial remaining performance obligation |  | Commercial portion of revenue allocated to remaining performance obligations, which includes unearned revenue and amounts that will be invoiced and recognized as revenue in future periods\nMicrosoft Cloud revenue and revenue growth |  | Revenue from Microsoft 365 Commercial cloud, Azure and other cloud services, the commercial portion of LinkedIn, and Dynamics 365\nMicrosoft Cloud gross margin percentage |  | Gross margin percentage for our Microsoft Cloud business\n\nProductivity and Business Processes and Intelligent Cloud\n\n",
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0001045810-26-000021",
+          "chunk_id": "b3aa261465e4b3fbb42f2e077a58e81249280d8ee16537ef83749631ed00ab47",
+          "cik": "0001045810",
+          "company": "NVIDIA Corporation",
+          "context_id": "C005",
+          "document_id": "NVDA_000104581026000021",
+          "end_char": 337495,
+          "filing_date": "2026-02-25",
+          "filing_year": 2026,
+          "form": "10-K",
+          "item": "15",
+          "report_date": "2026-01-25",
+          "report_year": 2026,
+          "retrieval_rank": 5,
+          "section_id": "NVDA_000104581026000021:item_15",
+          "section_name": "Exhibits and Financial Statement Schedules",
+          "sections": [
+            {
+              "end_char": 337495,
+              "item": "15",
+              "section_id": "NVDA_000104581026000021:item_15",
+              "section_name": "Exhibits and Financial Statement Schedules",
+              "start_char": 335520
+            }
+          ],
+          "source_document_id": "NVDA_000104581026000021",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "start_char": 335520,
+          "text": "e location of our customers’ headquarters as we believe it provides a better representation of the geographic profile of our revenue. Prior period information has been recast to reflect this change.\n\n(2)In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe.\n\nRevenue from sales to customers headquartered outside of the United States accounted for 31%, 41%, and 48% of total revenue for fiscal years 2026, 2025, and 2024, respectively. The increase in revenue to the United States for fiscal years 2026 and 2025 was primarily due to higher U.S.-based Compute & Networking segment demand.\n\nWe refer to customers who purchase products directly from NVIDIA as direct customers, such as AIBs, distributors, ODMs, OEMs, CSPs, AI model makers, and system integrators. Certain direct customers may use either internal resources or third-party system integrators to complete their build. We refer to indirect customers as those who purchase products through our direct customers; indirect customers include CSPs, Neocloud builders, AI model makers, enterprises, and public sector entities. Our revenue is concentrated among a limited number of direct and indirect customers and this trend may continue.\n\nDirect Customers – For fiscal year 2026, sales to one direct customer represented 22% of total revenue and sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment.\n\nFor fiscal year 2025, sales to one direct customer represented 12% of total revenue and sales to two direct customers each represented 11% of total revenue, all of which were primarily attributable to the Compute & Networking segment.\n\nFor fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.\n\n78\n\nTable of Contents\n\n",
+          "ticker": "NVDA"
+        }
+      ],
+      "prompt_sha256": "90a63fdb79ea2435da3797dcb4139362834eff8b20d992347dbd9b9e7bab1e56",
+      "config_sha256": "4c90e557fb836e16dd578c89aa70acdf5d7f88b8e8df16575b9c21de589740e5",
+      "category": "multi_hop",
+      "finding": "Generation and citation-format failure. The answer omits inline [C002] despite listing C002. Additionally, C002 explicitly shows Japan at 15%, driven by iPhone, Services and iPad; the raw answer incorrectly selects Americas at 7%. Evidence was available in context. The validator correctly rejected the response; it does not establish semantic correctness.",
+      "trace": "evals/generation/phase4a_ollama/traces/9353289930f4d82f4bc3b8cb79df961a851a13c0efd7e06aeee20f981c474379.json",
+      "trace_file_sha256": "3ff19860c425affbb061629faa5babeeba7d34a149250efa77c02e611b93a220"
+    },
+    {
+      "question_id": "SEC-081",
+      "question": "How many iPhone 17 units did Apple sell during fiscal 2025?",
+      "retrieval_mode": "bm25",
+      "top_k": 5,
+      "status": "success",
+      "parsed_answer": {
+        "abstained": true,
+        "answer": "Insufficient evidence in the supplied SEC context.",
+        "citations": []
+      },
+      "raw_model_output": "{\"abstained\":true,\"answer\":\"Insufficient evidence in the supplied SEC context.\",\"citations\":[]}",
+      "citations": [],
+      "abstained": true,
+      "error": null,
+      "latency_seconds": 16.537278917006915,
+      "generation_latency_seconds": 16.535332125000423,
+      "token_usage": {
+        "input_tokens": 5017,
+        "output_tokens": 23,
+        "total_tokens": 5040
+      },
+      "retrieved_context_ids": [
+        "C001",
+        "C002",
+        "C003",
+        "C004",
+        "C005"
+      ],
+      "contexts": [
+        {
+          "accession_number": "0000320193-25-000079",
+          "chunk_id": "0e31917db89e724628f263ea86c6228ddfaae2ebbd49936e1e656942e7350c8c",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C001",
+          "document_id": "AAPL_000032019325000079",
+          "end_char": 106868,
+          "filing_date": "2025-10-31",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-09-27",
+          "report_year": 2025,
+          "retrieval_rank": 1,
+          "section_id": "AAPL_000032019325000079:item_7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "sections": [
+            {
+              "end_char": 106868,
+              "item": "7",
+              "section_id": "AAPL_000032019325000079:item_7",
+              "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+              "start_char": 104891
+            }
+          ],
+          "source_document_id": "AAPL_000032019325000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "start_char": 104891,
+          "text": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This Item generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended September 28, 2024.\n\nProduct, Service and Software Announcements\n\nThe Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2025 included the following:\n\nFirst Quarter 2025:\n\n•MacBook Pro\n\n•Mac mini\n\n•iMac\n\n•iPad mini\n\nSecond Quarter 2025:\n\n•iPhone 16e\n\n•iPad Air\n\n•iPad\n\n•MacBook Air\n\n•Mac Studio\n\nThird Quarter 2025:\n\n•iOS 26, macOS Tahoe 26, iPadOS 26, watchOS 26, visionOS 26 and tvOS 26\n\nFourth Quarter 2025:\n\n•iPhone 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max\n\n•Apple Watch Series 11, Apple Watch SE 3 and Apple Watch Ultra 3\n\n•AirPods Pro 3\n\nFiscal Period\n\nThe Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks.\n\nMacroeconomic Conditions\n\nMacroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s results of operations and financial condition.\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-25-000079",
+          "chunk_id": "081160cad238881bbe523b035e2380643be177886cf58f140e67d188db407aa2",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C002",
+          "document_id": "AAPL_000032019325000079",
+          "end_char": 10531,
+          "filing_date": "2025-10-31",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "1",
+          "report_date": "2025-09-27",
+          "report_year": 2025,
+          "retrieval_rank": 2,
+          "section_id": "AAPL_000032019325000079:item_1",
+          "section_name": "Business",
+          "sections": [
+            {
+              "end_char": 10531,
+              "item": "1",
+              "section_id": "AAPL_000032019325000079:item_1",
+              "section_name": "Business",
+              "start_char": 8759
+            }
+          ],
+          "source_document_id": "AAPL_000032019325000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "start_char": 8759,
+          "text": "Item 1. Business\n\nCompany Background\n\nThe Company designs, manufactures and markets smartphones, personal computers, tablets, wearables and accessories, and sells a variety of related services. The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September.\n\nProducts\n\niPhone\n\niPhone® is the Company’s line of smartphones based on its iOS operating system. The iPhone line includes iPhone 17 Pro, iPhone Air™, iPhone 17, iPhone 16 and iPhone 16e.\n\nMac\n\nMac® is the Company’s line of personal computers based on its macOS® operating system. The Mac line includes laptops MacBook Air® and MacBook Pro®, as well as desktops iMac®, Mac mini®, Mac Studio® and Mac Pro®.\n\niPad\n\niPad® is the Company’s line of multipurpose tablets based on its iPadOS® operating system. The iPad line includes iPad Pro®, iPad Air®, iPad and iPad mini®.\n\nWearables, Home and Accessories\n\nWearables includes smartwatches, wireless headphones and spatial computers. The Company’s line of smartwatches, based on its watchOS® operating system, includes Apple Watch® Series 11, Apple Watch SE® 3 and Apple Watch Ultra® 3. The Company’s line of wireless headphones includes AirPods®, AirPods Pro®, AirPods Max® and Beats® products. Apple Vision Pro™ is the Company’s spatial computer based on its visionOS® operating system.\n\nHome includes Apple TV 4K®, the Company’s media streaming and gaming device based on its tvOS® operating system, and HomePod® and HomePod mini®, high-fidelity wireless smart speakers.\n\nAccessories includes Apple-branded and third-party accessories.\n\nApple Inc. | 2025 Form 10-K | 1\n\nServices\n\nAdvertising\n\nThe Company’s advertising services include third-party licensing arrangements and the Company’s own advertising platforms.\n\nAppleCare\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-23-000106",
+          "chunk_id": "1885fd97fed9a3bbd8ede51f1fb9befac05ce8f2d829945b3ef7e5496b8519a0",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C003",
+          "document_id": "AAPL_000032019323000106",
+          "end_char": 102726,
+          "filing_date": "2023-11-03",
+          "filing_year": 2023,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2023-09-30",
+          "report_year": 2023,
+          "retrieval_rank": 3,
+          "section_id": "AAPL_000032019323000106:item_7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "sections": [
+            {
+              "end_char": 102726,
+              "item": "7",
+              "section_id": "AAPL_000032019323000106:item_7",
+              "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+              "start_char": 101324
+            }
+          ],
+          "source_document_id": "AAPL_000032019323000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "start_char": 101324,
+          "text": "tion Apple TV 4K; and\n\n•MLS Season Pass, a Major League Soccer subscription streaming service.\n\nSecond Quarter 2023:\n\n•MacBook Pro 14”, MacBook Pro 16” and Mac mini; and\n\n•Second-generation HomePod.\n\nThird Quarter 2023:\n\n•MacBook Air 15”, Mac Studio and Mac Pro;\n\n•Apple Vision Pro™, the Company’s first spatial computer featuring its new visionOS™, expected to be available in early calendar year 2024; and\n\n•iOS 17, macOS Sonoma, iPadOS 17, tvOS 17 and watchOS 10, updates to the Company’s operating systems.\n\nFourth Quarter 2023:\n\n•iPhone 15, iPhone 15 Plus, iPhone 15 Pro and iPhone 15 Pro Max; and\n\n•Apple Watch Series 9 and Apple Watch Ultra 2.\n\nIn May 2023, the Company announced a new share repurchase program of up to $90 billion and raised its quarterly dividend from $0.23 to $0.24 per share beginning in May 2023. During 2023, the Company repurchased $76.6 billion of its common stock and paid dividends and dividend equivalents of $15.0 billion.\n\nMacroeconomic Conditions\n\nMacroeconomic conditions, including inflation, changes in interest rates, and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s results of operations and financial condition.\n\nApple Inc. | 2023 Form 10-K | 20\n\nSegment Operating Performance\n\nThe following table shows net sales by reportable segment for 2023, 2022 and 2021 (dollars in millions):\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-25-000079",
+          "chunk_id": "7cbdfc7c2f9a7b971038f9bb4ed57ad897a1b2c1e27e9eeacb4d13d283524671",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C004",
+          "document_id": "AAPL_000032019325000079",
+          "end_char": 111927,
+          "filing_date": "2025-10-31",
+          "filing_year": 2025,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2025-09-27",
+          "report_year": 2025,
+          "retrieval_rank": 4,
+          "section_id": "AAPL_000032019325000079:item_7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "sections": [
+            {
+              "end_char": 111927,
+              "item": "7",
+              "section_id": "AAPL_000032019325000079:item_7",
+              "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+              "start_char": 109970
+            }
+          ],
+          "source_document_id": "AAPL_000032019325000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "start_char": 109970,
+          "text": "one, partially offset by higher net sales of Mac.\n\nJapan\n\nJapan net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and iPad.\n\nRest of Asia Pacific\n\nRest of Asia Pacific net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and Mac.\n\nApple Inc. | 2025 Form 10-K | 22\n\nProducts and Services Performance\n\nThe following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\niPhone | $ | 209,586 |  |  | 4 | % |  | $ | 201,183 |  |  | — | % |  | $ | 200,583 | \nMac | 33,708 |  |  | 12 | % |  | 29,984 |  |  | 2 | % |  | 29,357 | \niPad | 28,023 |  |  | 5 | % |  | 26,694 |  |  | (6) | % |  | 28,300 | \nWearables, Home and Accessories | 35,686 |  |  | (4) | % |  | 37,005 |  |  | (7) | % |  | 39,845 | \nServices (1) | 109,158 |  |  | 14 | % |  | 96,169 |  |  | 13 | % |  | 85,200 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |\n\n(1)Services net sales include amortization of the deferred value of services bundled in the sales price of certain products.\n\niPhone\n\niPhone net sales increased during 2025 compared to 2024 due to higher net sales of Pro models.\n\nMac\n\nMac net sales increased during 2025 compared to 2024 primarily due to higher net sales of laptops and desktops.\n\niPad\n\niPad net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPad Air, iPad mini and iPad, partially offset by lower net sales of iPad Pro.\n\nWearables, Home and Accessories\n\nWearables, Home and Accessories net sales decreased during 2025 compared to 2024 primarily due to lower net sales of Accessories and Wearables.\n\nServices\n\nServices net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services.\n\nApple Inc. | 2025 Form 10-K | 23\n\nGross Margin\n\n",
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0000320193-24-000123",
+          "chunk_id": "7a5281a0a3bf50ae4b61723230eec66ecbd40cd076cb35290ee0393684ca0d87",
+          "cik": "0000320193",
+          "company": "Apple Inc.",
+          "context_id": "C005",
+          "document_id": "AAPL_000032019324000123",
+          "end_char": 106101,
+          "filing_date": "2024-11-01",
+          "filing_year": 2024,
+          "form": "10-K",
+          "item": "7",
+          "report_date": "2024-09-28",
+          "report_year": 2024,
+          "retrieval_rank": 5,
+          "section_id": "AAPL_000032019324000123:item_7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "sections": [
+            {
+              "end_char": 106101,
+              "item": "7",
+              "section_id": "AAPL_000032019324000123:item_7",
+              "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+              "start_char": 104237
+            }
+          ],
+          "source_document_id": "AAPL_000032019324000123",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "start_char": 104237,
+          "text": "Item 7. Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This Item generally discusses 2024 and 2023 items and year-to-year comparisons between 2024 and 2023. Discussions of 2022 items and year-to-year comparisons between 2023 and 2022 are not included, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended September 30, 2023.\n\nProduct, Service and Software Announcements\n\nThe Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2024 included the following:\n\nFirst Quarter 2024:\n\n•MacBook Pro 14-in.;\n\n•MacBook Pro 16-in.; and\n\n•iMac.\n\nSecond Quarter 2024:\n\n•MacBook Air 13-in.; and\n\n•MacBook Air 15-in.\n\nThird Quarter 2024:\n\n•iPad Air;\n\n•iPad Pro;\n\n•iOS 18, macOS Sequoia, iPadOS 18, watchOS 11, visionOS 2 and tvOS 18, updates to the Company’s operating systems; and\n\n•Apple Intelligence™, a personal intelligence system that uses generative models.\n\nFourth Quarter 2024:\n\n•iPhone 16, iPhone 16 Plus, iPhone 16 Pro and iPhone 16 Pro Max;\n\n•Apple Watch Series 10; and\n\n•AirPods 4.\n\nFiscal Period\n\nThe Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal years 2024 and 2022 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks.\n\nMacroeconomic Conditions\n\n",
+          "ticker": "AAPL"
+        }
+      ],
+      "prompt_sha256": "1d44789d8eff236b008ca1586d779c0f3e1881fdf6bcbf185222bec57a4cd4c0",
+      "config_sha256": "4c90e557fb836e16dd578c89aa70acdf5d7f88b8e8df16575b9c21de589740e5",
+      "category": "unanswerable",
+      "finding": "Expected abstention for a corpus-unsupported iPhone unit-sales question.",
+      "trace": "evals/generation/phase4a_ollama/traces/86ebd851c5b9be3db7c39973151a11b76b47f56dcf5635b7a65eb3ccd038f070.json",
+      "trace_file_sha256": "3058d945e9cd6af191e294a49ff2f59736471993991204b7d66db88a45460204"
+    }
+  ]
+}

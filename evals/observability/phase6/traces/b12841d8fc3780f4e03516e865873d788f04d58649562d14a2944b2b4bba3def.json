@@ -1,0 +1,215 @@
+{
+  "abstention": {
+    "correct": true,
+    "expected": false,
+    "observed": false
+  },
+  "failure_attribution": {
+    "categories": [
+      "success"
+    ],
+    "primary": "success"
+  },
+  "generation": {
+    "configuration": {
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "prompt": {
+        "max_context_characters": 60000,
+        "version": "sec_grounded_v1"
+      },
+      "provider": "ollama",
+      "provider_options": {
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "latency_seconds": 22.33585229201708,
+    "status": "success",
+    "token_usage": {
+      "input_tokens": 6008,
+      "output_tokens": 74,
+      "total_tokens": 6082
+    }
+  },
+  "latency": {
+    "end_to_end_seconds": null,
+    "orchestration_seconds": null,
+    "recorded_scope": "historical_generation_pipeline",
+    "recorded_seconds": 22.339529999997467,
+    "tool_seconds": null
+  },
+  "lower_level": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": null,
+        "latency_seconds": 22.33585229201708,
+        "token_usage": {
+          "input_tokens": 6008,
+          "output_tokens": 74,
+          "total_tokens": 6082
+        }
+      }
+    ],
+    "error": null,
+    "generation_status": "success",
+    "legacy_attribution": "generation_failure",
+    "legacy_evaluation": {
+      "attribution": "generation_failure",
+      "citation_precision": 1.0,
+      "citation_recall": 1.0,
+      "citation_validity": true,
+      "correctness": "heuristic_fail_requires_review",
+      "groundedness_heuristic": false,
+      "retrieval_evidence_present": true
+    },
+    "orchestration_status": null
+  },
+  "query": {
+    "id": "SEC-071",
+    "policy": "unreviewed_text_withheld",
+    "text": "[REDACTED]"
+  },
+  "result": {
+    "answer": "[REDACTED]",
+    "citations": [
+      "C001"
+    ],
+    "claims_supported": null,
+    "evidence_sufficient": true,
+    "orchestration_status": "success",
+    "validation_status": "passed"
+  },
+  "retrieval": {
+    "configuration": {
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "evidence": [
+      {
+        "accession_number": "0000320193-25-000079",
+        "chunk_id": "7cbdfc7c2f9a7b971038f9bb4ed57ad897a1b2c1e27e9eeacb4d13d283524671",
+        "cik": "0000320193",
+        "context_id": "C001",
+        "document_id": "AAPL_000032019325000079",
+        "end_char": 111927,
+        "filing_date": "2025-10-31",
+        "form": "10-K",
+        "item": "7",
+        "report_date": "2025-09-27",
+        "section_id": "AAPL_000032019325000079:item_7",
+        "source_document_id": "AAPL_000032019325000079",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "start_char": 109970,
+        "ticker": "AAPL"
+      },
+      {
+        "accession_number": "0000320193-25-000079",
+        "chunk_id": "6e4e3341d16d7e0f013c1b5138f18d82bdec507d555198d672cc64710662c082",
+        "cik": "0000320193",
+        "context_id": "C002",
+        "document_id": "AAPL_000032019325000079",
+        "end_char": 110170,
+        "filing_date": "2025-10-31",
+        "form": "10-K",
+        "item": "7",
+        "report_date": "2025-09-27",
+        "section_id": "AAPL_000032019325000079:item_7",
+        "source_document_id": "AAPL_000032019325000079",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+        "start_char": 108245,
+        "ticker": "AAPL"
+      },
+      {
+        "accession_number": "0000320193-24-000123",
+        "chunk_id": "e701063e9ed92a1ccddee8ddd3d2ce9e58502996c506e414e8479959118af8ba",
+        "cik": "0000320193",
+        "context_id": "C003",
+        "document_id": "AAPL_000032019324000123",
+        "end_char": 107820,
+        "filing_date": "2024-11-01",
+        "form": "10-K",
+        "item": "7",
+        "report_date": "2024-09-28",
+        "section_id": "AAPL_000032019324000123:item_7",
+        "source_document_id": "AAPL_000032019324000123",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "start_char": 105901,
+        "ticker": "AAPL"
+      },
+      {
+        "accession_number": "0000320193-23-000106",
+        "chunk_id": "5ea9ff46c98f57504ebc574e0c30e0fc11c6ab670792a38aaec3d7463f6e5dae",
+        "cik": "0000320193",
+        "context_id": "C004",
+        "document_id": "AAPL_000032019323000106",
+        "end_char": 106310,
+        "filing_date": "2023-11-03",
+        "form": "10-K",
+        "item": "7",
+        "report_date": "2023-09-30",
+        "section_id": "AAPL_000032019323000106:item_7",
+        "source_document_id": "AAPL_000032019323000106",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+        "start_char": 104314,
+        "ticker": "AAPL"
+      },
+      {
+        "accession_number": "0000320193-24-000123",
+        "chunk_id": "8588c9dc0f140e8b65e692cd16a3f0c4a29be3cd6fa51ee759d66ab65600e7ce",
+        "cik": "0000320193",
+        "context_id": "C005",
+        "document_id": "AAPL_000032019324000123",
+        "end_char": 109500,
+        "filing_date": "2024-11-01",
+        "form": "10-K",
+        "item": "7",
+        "report_date": "2024-09-28",
+        "section_id": "AAPL_000032019324000123:item_7",
+        "source_document_id": "AAPL_000032019324000123",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+        "start_char": 107620,
+        "ticker": "AAPL"
+      }
+    ],
+    "evidence_sufficient": true,
+    "latency_seconds": 0.003203583008144051,
+    "latency_source": "recorded_retrieval_stage",
+    "matched_evidence_ids": [
+      "E1"
+    ],
+    "required_evidence_ids": [
+      "E1"
+    ],
+    "sufficiency_basis": "benchmark_required_evidence_coverage"
+  },
+  "routing": {
+    "correct": null,
+    "decision": null,
+    "latency_seconds": null,
+    "reason": null,
+    "tools_selected": null
+  },
+  "schema_version": "6.1",
+  "source": {
+    "id": "evals/generation/phase4a_ollama/traces/d4367724c0aad4d8b38848c0ce9caeedcd3085d226d9f9bc999e2a42159a447c.json",
+    "kind": "phase4b",
+    "sha256": "af1f939122ff83b8a0b835ff75cc205c76ff9eb3da9c80ce2cde1aaabd79d90d"
+  },
+  "timestamp": null,
+  "tools": [],
+  "trace_id": "b12841d8fc3780f4e03516e865873d788f04d58649562d14a2944b2b4bba3def",
+  "validation": {
+    "citation_valid": true,
+    "details": [],
+    "errors": [],
+    "json_schema_valid": true,
+    "latency_seconds": null,
+    "output_contract_valid": true
+  }
+}

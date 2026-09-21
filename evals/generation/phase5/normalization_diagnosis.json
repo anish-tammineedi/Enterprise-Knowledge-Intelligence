@@ -1,0 +1,356 @@
+{
+  "status": "blocked_missing_original_raw_responses",
+  "companies": {
+    "AAPL": {
+      "file": "data/processed/sec_company_facts/AAPL.json",
+      "bytes": 357,
+      "sha256": "2dce4467f93740cf767c589383d634824a34a0081f497c9511c355b52d73a61e",
+      "top_level_keys": [
+        "company",
+        "metrics",
+        "source_url"
+      ],
+      "has_raw_facts": false,
+      "metrics": {
+        "revenue": {
+          "configured_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "net_income": {
+          "configured_concepts": [
+            "ProfitLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "operating_income": {
+          "configured_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_assets": {
+          "configured_concepts": [
+            "Assets"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_liabilities": {
+          "configured_concepts": [
+            "Liabilities"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "cash_and_cash_equivalents": {
+          "configured_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        }
+      }
+    },
+    "MSFT": {
+      "file": "data/processed/sec_company_facts/MSFT.json",
+      "bytes": 368,
+      "sha256": "17f82586c2bf6564231e2168ade3ad0ebcb55c2c4b6ebab2c3d329326764798e",
+      "top_level_keys": [
+        "company",
+        "metrics",
+        "source_url"
+      ],
+      "has_raw_facts": false,
+      "metrics": {
+        "revenue": {
+          "configured_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "net_income": {
+          "configured_concepts": [
+            "ProfitLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "operating_income": {
+          "configured_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_assets": {
+          "configured_concepts": [
+            "Assets"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_liabilities": {
+          "configured_concepts": [
+            "Liabilities"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "cash_and_cash_equivalents": {
+          "configured_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        }
+      }
+    },
+    "NVDA": {
+      "file": "data/processed/sec_company_facts/NVDA.json",
+      "bytes": 365,
+      "sha256": "e374fbf411ee24ff93ee909ed0aa170ba77ce2cfc39d49d563290c5b24ef5a4a",
+      "top_level_keys": [
+        "company",
+        "metrics",
+        "source_url"
+      ],
+      "has_raw_facts": false,
+      "metrics": {
+        "revenue": {
+          "configured_concepts": [
+            "RevenueFromContractWithCustomerExcludingAssessedTax",
+            "SalesRevenueNet"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "net_income": {
+          "configured_concepts": [
+            "ProfitLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "operating_income": {
+          "configured_concepts": [
+            "OperatingIncomeLoss"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_assets": {
+          "configured_concepts": [
+            "Assets"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "total_liabilities": {
+          "configured_concepts": [
+            "Liabilities"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        },
+        "cash_and_cash_equivalents": {
+          "configured_concepts": [
+            "CashAndCashEquivalentsAtCarryingValue"
+          ],
+          "concepts_present": null,
+          "raw_fact_counts": null,
+          "units": null,
+          "forms": null,
+          "fy": null,
+          "fp": null,
+          "filing_dates": null,
+          "period_end_dates": null,
+          "accessions_present": null,
+          "rejection_stage": null,
+          "accepted_count": 0
+        }
+      }
+    }
+  },
+  "raw_fields_status": "Unknown: original raw response was not retained. Null does not mean zero facts or absent concepts.",
+  "apple_fy2025_tool_result": {
+    "tool_name": "financial_data",
+    "status": "unavailable",
+    "output": {
+      "available": false,
+      "reason": "No unambiguous local SEC fact"
+    },
+    "evidence": [],
+    "error": null,
+    "latency_seconds": 4.665984306484461e-06
+  },
+  "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
+  "prior_protected_audit": {
+    "files": 154,
+    "unchanged": true
+  },
+  "session_existing_artifacts": {
+    "files": 186,
+    "unchanged": true
+  }
+}

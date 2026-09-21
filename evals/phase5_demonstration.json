@@ -1,0 +1,10 @@
+{
+  "phase": "5",
+  "status": "prepared_no_live_generation",
+  "questions": [
+    {"question_id": "P5-DOC-001", "question": "What cybersecurity oversight and incident-escalation processes does Apple describe in Item 1C?", "expected_routing": ["document_retrieval"], "routing_reason": "SEC cybersecurity narrative"},
+    {"question_id": "P5-FIN-001", "question": "What was Apple’s revenue in fiscal 2025?", "expected_routing": ["financial_data"], "routing_reason": "standardized financial metric and fiscal year"},
+    {"question_id": "P5-BOTH-001", "question": "What was Apple’s revenue in fiscal 2025, and what products or services drove the change?", "expected_routing": ["document_retrieval", "financial_data"], "routing_reason": "financial fact plus narrative explanation"},
+    {"question_id": "P5-ABSTAIN-001", "question": "What was Apple’s stock price at the end of fiscal 2025?", "expected_routing": [], "routing_reason": "unsupported source pattern; abstain"}
+  ]
+}

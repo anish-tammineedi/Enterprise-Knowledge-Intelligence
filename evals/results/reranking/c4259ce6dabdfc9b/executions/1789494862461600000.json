@@ -1,0 +1,811 @@
+{
+  "average_inference_seconds_per_query": 0.0,
+  "average_query_wall_seconds": 0.014431728781783022,
+  "cache_hits": 6917,
+  "inference_seconds": 0,
+  "model_load_seconds": 0,
+  "pairs_scored": 0,
+  "queries": [
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-001",
+      "unique_pairs": 70,
+      "wall_seconds": 0.013194416998885572
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-002",
+      "unique_pairs": 71,
+      "wall_seconds": 0.013369749998673797
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-003",
+      "unique_pairs": 73,
+      "wall_seconds": 0.013365124992560595
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-004",
+      "unique_pairs": 73,
+      "wall_seconds": 0.01551120899966918
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-005",
+      "unique_pairs": 70,
+      "wall_seconds": 0.012883375020464882
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-006",
+      "unique_pairs": 69,
+      "wall_seconds": 0.015744582982733846
+    },
+    {
+      "hits": 75,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-007",
+      "unique_pairs": 75,
+      "wall_seconds": 0.01429599997936748
+    },
+    {
+      "hits": 66,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-008",
+      "unique_pairs": 66,
+      "wall_seconds": 0.010380332998465747
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-009",
+      "unique_pairs": 70,
+      "wall_seconds": 0.012860166985774413
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-010",
+      "unique_pairs": 65,
+      "wall_seconds": 0.011847459012642503
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-011",
+      "unique_pairs": 69,
+      "wall_seconds": 0.021539167006267235
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-012",
+      "unique_pairs": 65,
+      "wall_seconds": 0.014227583014871925
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-013",
+      "unique_pairs": 69,
+      "wall_seconds": 0.01848679198883474
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-014",
+      "unique_pairs": 71,
+      "wall_seconds": 0.013807124982122332
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-015",
+      "unique_pairs": 68,
+      "wall_seconds": 0.009514666016912088
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-016",
+      "unique_pairs": 72,
+      "wall_seconds": 0.011702791991410777
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-017",
+      "unique_pairs": 72,
+      "wall_seconds": 0.014850375009700656
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-018",
+      "unique_pairs": 72,
+      "wall_seconds": 0.00942841701908037
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-019",
+      "unique_pairs": 67,
+      "wall_seconds": 0.015169582999078557
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-020",
+      "unique_pairs": 65,
+      "wall_seconds": 0.007958000001963228
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-021",
+      "unique_pairs": 67,
+      "wall_seconds": 0.010347792005632073
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-022",
+      "unique_pairs": 73,
+      "wall_seconds": 0.013921333011239767
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-023",
+      "unique_pairs": 68,
+      "wall_seconds": 0.01265991700347513
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-024",
+      "unique_pairs": 70,
+      "wall_seconds": 0.015841250016819686
+    },
+    {
+      "hits": 61,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-025",
+      "unique_pairs": 61,
+      "wall_seconds": 0.009068832994671538
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-026",
+      "unique_pairs": 70,
+      "wall_seconds": 0.013213665981311351
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-027",
+      "unique_pairs": 74,
+      "wall_seconds": 0.013379042007727548
+    },
+    {
+      "hits": 66,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-028",
+      "unique_pairs": 66,
+      "wall_seconds": 0.025819333997787908
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-029",
+      "unique_pairs": 68,
+      "wall_seconds": 0.011863166990224272
+    },
+    {
+      "hits": 66,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-030",
+      "unique_pairs": 66,
+      "wall_seconds": 0.008565541997086257
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-031",
+      "unique_pairs": 70,
+      "wall_seconds": 0.01213087499490939
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-032",
+      "unique_pairs": 70,
+      "wall_seconds": 0.012187749991426244
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-033",
+      "unique_pairs": 69,
+      "wall_seconds": 0.012422208994394168
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-034",
+      "unique_pairs": 74,
+      "wall_seconds": 0.020408624986885116
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-035",
+      "unique_pairs": 71,
+      "wall_seconds": 0.011928459018236026
+    },
+    {
+      "hits": 64,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-036",
+      "unique_pairs": 64,
+      "wall_seconds": 0.010248375008814037
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-037",
+      "unique_pairs": 70,
+      "wall_seconds": 0.012351084005786106
+    },
+    {
+      "hits": 62,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-038",
+      "unique_pairs": 62,
+      "wall_seconds": 0.008176874980563298
+    },
+    {
+      "hits": 62,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-039",
+      "unique_pairs": 62,
+      "wall_seconds": 0.0092091660189908
+    },
+    {
+      "hits": 66,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-040",
+      "unique_pairs": 66,
+      "wall_seconds": 0.013007084024138749
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-041",
+      "unique_pairs": 73,
+      "wall_seconds": 0.014467083005001768
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-042",
+      "unique_pairs": 74,
+      "wall_seconds": 0.016104167007142678
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-043",
+      "unique_pairs": 68,
+      "wall_seconds": 0.015575166005874053
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-044",
+      "unique_pairs": 65,
+      "wall_seconds": 0.015553125005681068
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-045",
+      "unique_pairs": 71,
+      "wall_seconds": 0.023080459010088816
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-046",
+      "unique_pairs": 73,
+      "wall_seconds": 0.025626165996072814
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-047",
+      "unique_pairs": 69,
+      "wall_seconds": 0.02283899998292327
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-048",
+      "unique_pairs": 74,
+      "wall_seconds": 0.021310083015123382
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-049",
+      "unique_pairs": 70,
+      "wall_seconds": 0.016097667015856132
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-050",
+      "unique_pairs": 71,
+      "wall_seconds": 0.018388374999631196
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-051",
+      "unique_pairs": 69,
+      "wall_seconds": 0.02756874999613501
+    },
+    {
+      "hits": 75,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-052",
+      "unique_pairs": 75,
+      "wall_seconds": 0.021763541997643188
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-053",
+      "unique_pairs": 71,
+      "wall_seconds": 0.01781904199742712
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-054",
+      "unique_pairs": 73,
+      "wall_seconds": 0.03299849998438731
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-055",
+      "unique_pairs": 73,
+      "wall_seconds": 0.01387545801117085
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-056",
+      "unique_pairs": 70,
+      "wall_seconds": 0.029023082985077053
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-057",
+      "unique_pairs": 74,
+      "wall_seconds": 0.013118375005433336
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-058",
+      "unique_pairs": 74,
+      "wall_seconds": 0.015361208992544562
+    },
+    {
+      "hits": 64,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-059",
+      "unique_pairs": 64,
+      "wall_seconds": 0.011867833993164822
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-060",
+      "unique_pairs": 65,
+      "wall_seconds": 0.019417500006966293
+    },
+    {
+      "hits": 66,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-061",
+      "unique_pairs": 66,
+      "wall_seconds": 0.014252332999603823
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-062",
+      "unique_pairs": 71,
+      "wall_seconds": 0.014005000004544854
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-063",
+      "unique_pairs": 71,
+      "wall_seconds": 0.015326500026276335
+    },
+    {
+      "hits": 61,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-064",
+      "unique_pairs": 61,
+      "wall_seconds": 0.012064792012097314
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-065",
+      "unique_pairs": 72,
+      "wall_seconds": 0.01429824999650009
+    },
+    {
+      "hits": 60,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-066",
+      "unique_pairs": 60,
+      "wall_seconds": 0.022661708993837237
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-067",
+      "unique_pairs": 73,
+      "wall_seconds": 0.024661916977493092
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-068",
+      "unique_pairs": 73,
+      "wall_seconds": 0.02063616699888371
+    },
+    {
+      "hits": 75,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-069",
+      "unique_pairs": 75,
+      "wall_seconds": 0.020769208000274375
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-070",
+      "unique_pairs": 69,
+      "wall_seconds": 0.021554417005972937
+    },
+    {
+      "hits": 63,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-071",
+      "unique_pairs": 63,
+      "wall_seconds": 0.012998250022064894
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-072",
+      "unique_pairs": 70,
+      "wall_seconds": 0.021148792002350092
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-073",
+      "unique_pairs": 67,
+      "wall_seconds": 0.014305542019428685
+    },
+    {
+      "hits": 59,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-074",
+      "unique_pairs": 59,
+      "wall_seconds": 0.017571124975802377
+    },
+    {
+      "hits": 60,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-075",
+      "unique_pairs": 60,
+      "wall_seconds": 0.008125124993966892
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-076",
+      "unique_pairs": 68,
+      "wall_seconds": 0.008379666018299758
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-077",
+      "unique_pairs": 71,
+      "wall_seconds": 0.011506832990562543
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-078",
+      "unique_pairs": 67,
+      "wall_seconds": 0.02532070901361294
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-079",
+      "unique_pairs": 73,
+      "wall_seconds": 0.01851258400711231
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-080",
+      "unique_pairs": 70,
+      "wall_seconds": 0.016397458995925263
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-081",
+      "unique_pairs": 72,
+      "wall_seconds": 0.010214915993856266
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-082",
+      "unique_pairs": 70,
+      "wall_seconds": 0.006021499983035028
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-083",
+      "unique_pairs": 67,
+      "wall_seconds": 0.005754541023634374
+    },
+    {
+      "hits": 75,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-084",
+      "unique_pairs": 75,
+      "wall_seconds": 0.0063295419968198985
+    },
+    {
+      "hits": 61,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-085",
+      "unique_pairs": 61,
+      "wall_seconds": 0.0053099160140845925
+    },
+    {
+      "hits": 70,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-086",
+      "unique_pairs": 70,
+      "wall_seconds": 0.0057747079990804195
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-087",
+      "unique_pairs": 67,
+      "wall_seconds": 0.005552165996050462
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-088",
+      "unique_pairs": 71,
+      "wall_seconds": 0.005689250014256686
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-089",
+      "unique_pairs": 69,
+      "wall_seconds": 0.005829042027471587
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-090",
+      "unique_pairs": 73,
+      "wall_seconds": 0.005931083025643602
+    },
+    {
+      "hits": 67,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-091",
+      "unique_pairs": 67,
+      "wall_seconds": 0.012789208005415276
+    },
+    {
+      "hits": 74,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-092",
+      "unique_pairs": 74,
+      "wall_seconds": 0.01992041600169614
+    },
+    {
+      "hits": 63,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-093",
+      "unique_pairs": 63,
+      "wall_seconds": 0.008887250005500391
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-094",
+      "unique_pairs": 72,
+      "wall_seconds": 0.012460457975976169
+    },
+    {
+      "hits": 68,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-095",
+      "unique_pairs": 68,
+      "wall_seconds": 0.01356162500451319
+    },
+    {
+      "hits": 65,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-096",
+      "unique_pairs": 65,
+      "wall_seconds": 0.009394291992066428
+    },
+    {
+      "hits": 71,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-097",
+      "unique_pairs": 71,
+      "wall_seconds": 0.010067958006402478
+    },
+    {
+      "hits": 72,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-098",
+      "unique_pairs": 72,
+      "wall_seconds": 0.0155548749899026
+    },
+    {
+      "hits": 73,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-099",
+      "unique_pairs": 73,
+      "wall_seconds": 0.014758916018763557
+    },
+    {
+      "hits": 69,
+      "inference_seconds": 0,
+      "misses": 0,
+      "question_id": "SEC-100",
+      "unique_pairs": 69,
+      "wall_seconds": 0.010132958006579429
+    }
+  ],
+  "total_wall_seconds": 2.3912114999839105
+}

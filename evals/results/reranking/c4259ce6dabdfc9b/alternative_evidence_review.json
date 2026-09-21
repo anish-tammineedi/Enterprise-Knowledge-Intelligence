@@ -1,0 +1,160 @@
+[
+  {
+    "configuration": "bm25_20",
+    "question_id": "SEC-029",
+    "result": {
+      "accession_number": "0001045810-26-000021",
+      "bm25_rank": 7,
+      "bm25_score": 15.809610176398202,
+      "character_count": 1697,
+      "chunk_id": "edaeca203beea6240d82eacf4a2763e4b8b48fef1c51c18d765acf27b451314c",
+      "chunk_index": 239,
+      "cik": "0001045810",
+      "company": "NVIDIA Corporation",
+      "dense_rank": 12,
+      "dense_score": 0.7371155023574829,
+      "document_id": "NVDA_000104581026000021",
+      "end_char": 338992,
+      "experiment_id": "e5f06301c28d0e32fe72f27e8ec7da4c528258dbe76e6076a13c33f5dac716f2",
+      "filing_date": "2026-02-25",
+      "filing_year": 2026,
+      "form": "10-K",
+      "item": "15",
+      "local_path": "data/raw/sec_filings/NVDA_000104581026000021.html",
+      "matched_evidence_ids": [],
+      "original_retrieval_rank": 7,
+      "original_retrieval_system": "bm25",
+      "overlap_with_previous": 200,
+      "parsed_document_sha256": "aecacbc4639b576f2d1ca9a63bb1aa46b8e7dc22db8598e313646a5cf34bdbd7",
+      "rank": 2,
+      "report_date": "2026-01-25",
+      "report_year": 2026,
+      "reranker_diagnostics": {
+        "encoded_chunk_end_char": 1695,
+        "input_tokens": 490,
+        "truncated": false
+      },
+      "reranker_score": 4.680924415588379,
+      "rrf_score": 0.028814262023217248,
+      "score": 15.809610176398202,
+      "score_type": "bm25",
+      "section_id": "NVDA_000104581026000021:item_15",
+      "section_name": "Exhibits and Financial Statement Schedules",
+      "section_scope": "single",
+      "sections": [
+        {
+          "end_char": 338992,
+          "item": "15",
+          "section_id": "NVDA_000104581026000021:item_15",
+          "section_name": "Exhibits and Financial Statement Schedules",
+          "start_char": 337295
+        }
+      ],
+      "source_document_id": "NVDA_000104581026000021",
+      "source_sha256": "73d81f5a111abcf72426c840871e76f5f5edc9631f436d495a86b6f87306d58b",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+      "start_char": 337295,
+      "strategy": "sec_section",
+      "table_fragments": [
+        {
+          "block_end_char": 338213,
+          "block_index": 1152,
+          "block_start_char": 337657,
+          "end_char": 338213,
+          "is_partial": false,
+          "start_char": 337657
+        },
+        {
+          "block_end_char": 338697,
+          "block_index": 1154,
+          "block_start_char": 338437,
+          "end_char": 338697,
+          "is_partial": false,
+          "start_char": 338437
+        }
+      ],
+      "text": " Networking segment.\n\nFor fiscal year 2024, sales to one direct customer represented 13% of total revenue, and were primarily attributable to the Compute & Networking segment.\n\n78\n\nTable of Contents\n\nNVIDIA Corporation and Subsidiaries\n\nNotes to the Consolidated Financial Statements\n\n(Continued)\n\nThe following table summarizes revenue by specialized markets:\n\n| Year Ended\n | Jan 25, 2026 |  | Jan 26, 2025 |  | Jan 28, 2024\nRevenue by End Market: | (In millions)\nData Center | $ | 193,737 |  |  | $ | 115,186 |  |  | $ | 47,525 | \nCompute | 162,361 |  |  | 102,196 |  |  | 38,950 | \nNetworking | 31,376 |  |  | 12,990 |  |  | 8,575 | \nGaming | 16,042 |  |  | 11,350 |  |  | 10,447 | \nProfessional Visualization | 3,191 |  |  | 1,878 |  |  | 1,553 | \nAutomotive | 2,349 |  |  | 1,694 |  |  | 1,091 | \nOEM and Other | 619 |  |  | 389 |  |  | 306 | \nTotal revenue | $ | 215,938 |  |  | $ | 130,497 |  |  | $ | 60,922 |\n\nThe following table presents summarized information for long-lived assets by country. Long-lived assets consist of property and equipment and exclude other assets, operating lease assets, goodwill, and intangible assets.\n\n| Jan 25, 2026 |  | Jan 26, 2025\nLong-lived assets: | (In millions)\nUnited States | $ | 5,125 |  |  | $ | 3,626 | \nTaiwan | 3,219 |  |  | 1,481 | \nIsrael | 1,471 |  |  | 840 | \nOther | 568 |  |  | 336 | \nTotal long-lived assets | $ | 10,383 |  |  | $ | 6,283 |\n\nNote 17 - Leases\n\nOur lease obligations primarily consist of operating leases for our offices and data centers, with lease periods expiring between fiscal years 2027 and 2041.\n\nFuture minimum lease obligations under our non-cancelable lease agreements as of January 25, 2026 were as follows:\n\n",
+      "ticker": "NVDA",
+      "unit_chunk_index": 69,
+      "unit_index": 22,
+      "unsectioned_characters": 0,
+      "version": "2B.1"
+    },
+    "review_note": "Exact revenue amount appears in an end-market table, outside the requested frozen highlights anchor. No credit or labels changed."
+  },
+  {
+    "configuration": "bm25_20",
+    "question_id": "SEC-094",
+    "result": {
+      "accession_number": "0001193125-26-323660",
+      "bm25_rank": 2,
+      "bm25_score": 21.924632875608072,
+      "character_count": 1915,
+      "chunk_id": "281676281278539de2fe56541a5ad2df59e891541209adb19e0119e907d20a8c",
+      "chunk_index": 121,
+      "cik": "0000789019",
+      "company": "Microsoft Corporation",
+      "dense_rank": 2,
+      "dense_score": 0.7257026433944702,
+      "document_id": "MSFT_000119312526323660",
+      "end_char": 173138,
+      "experiment_id": "e5f06301c28d0e32fe72f27e8ec7da4c528258dbe76e6076a13c33f5dac716f2",
+      "filing_date": "2026-07-29",
+      "filing_year": 2026,
+      "form": "10-K",
+      "item": "7",
+      "local_path": "data/raw/sec_filings/MSFT_000119312526323660.html",
+      "matched_evidence_ids": [],
+      "original_retrieval_rank": 2,
+      "original_retrieval_system": "bm25",
+      "overlap_with_previous": 200,
+      "parsed_document_sha256": "270b2e8bae497494b576cad7aab693f3d33710e4beb0f3ab51f135529b27d717",
+      "rank": 2,
+      "report_date": "2026-06-30",
+      "report_year": 2026,
+      "reranker_diagnostics": {
+        "encoded_chunk_end_char": 1796,
+        "input_tokens": 559,
+        "truncated": true
+      },
+      "reranker_score": -1.31253981590271,
+      "rrf_score": 0.03225806451612903,
+      "score": 21.924632875608072,
+      "score_type": "bm25",
+      "section_id": "MSFT_000119312526323660:item_7",
+      "section_name": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+      "section_scope": "single",
+      "sections": [
+        {
+          "end_char": 173138,
+          "item": "7",
+          "section_id": "MSFT_000119312526323660:item_7",
+          "section_name": "MANAGEMENT\u2019S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "start_char": 171223
+        }
+      ],
+      "source_document_id": "MSFT_000119312526323660",
+      "source_sha256": "4bcf2da2871acc19e32c5a62f36f6d83d6aae03cdc4aaa9a86a9a21ee8223f02",
+      "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+      "start_char": 171223,
+      "strategy": "sec_section",
+      "table_fragments": [
+        {
+          "block_end_char": 173490,
+          "block_index": 669,
+          "block_start_char": 172204,
+          "end_char": 173138,
+          "is_partial": true,
+          "start_char": 172204
+        }
+      ],
+      "text": "udits is not expected to be material to our consolidated financial statements. Our operations in Ireland remain subject to examination for tax years 2021 and thereafter.\n\nNON-GAAP FINANCIAL MEASURES\n\nAdjusted other income (expense), net, adjusted net income, and adjusted diluted EPS are non-GAAP financial measures which exclude net (gains) losses from investments in OpenAI. We believe these non-GAAP measures aid investors by providing additional insight into our financial performance and help clarify trends affecting our business. For comparability of reporting, management considers non-GAAP measures in conjunction with GAAP financial results in evaluating business performance. These non-GAAP financial measures presented should not be considered a substitute for, or superior to, the measures of financial performance prepared in accordance with GAAP.\n\nThe following table reconciles our financial results reported in accordance with GAAP to non-GAAP financial results:\n\n(In millions, except percentages and per share amounts) |  | 2026 |  |  | 2025 |  |  |  | 2024 |  |  | Percentage Change 2026 Versus 2025 |  |  | Percentage Change 2025 Versus 2024 | \nOther income (expense), net |  | $ | 10,697 |  |  | $ | (4,901 | ) |  | $ | (1,646 | ) |  | 318% |  |  | (198)% | \nNet (gains) losses from investments in OpenAI |  |  | (6,530 | ) |  |  | 4,763 |  |  |  | 1,482 |  |  | (237)% |  |  | 221% | \nAdjusted other income (expense), net (non-GAAP) |  | $ | 4,167 |  |  | $ | (138 | ) |  | $ | (164 | ) |  | 3,120% |  |  | 16% | \nNet income |  | $ | 133,749 |  |  | $ | 101,832 |  |  | $ | 88,136 |  |  | 31% |  |  | 16% | \nNet (gains) losses from investments in OpenAI, net of tax of $1,567, $(1,143), and $(356) |  |  | (4,963 | ) |  |  | 3,620 |  |  |  | 1,126 |  |  | (237)% |  |  | 221% | \nAdjusted net income (non-GAAP) |  | $ | 128,786 |  |  | $ | 105,452 |  |  | $ | 89,262 |  |  | 22% |  |  | 18% | \n",
+      "ticker": "MSFT",
+      "unit_chunk_index": 17,
+      "unit_index": 10,
+      "unsectioned_characters": 0,
+      "version": "2B.1"
+    },
+    "review_note": "Alternative reconciliation table includes the correct GAAP income; frozen summary table is already recovered at rank 1. No gold changes."
+  }
+]

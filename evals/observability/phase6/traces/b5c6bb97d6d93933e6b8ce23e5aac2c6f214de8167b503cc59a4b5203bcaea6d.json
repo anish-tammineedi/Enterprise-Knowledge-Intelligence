@@ -1,0 +1,120 @@
+{
+  "abstention": {
+    "correct": true,
+    "expected": true,
+    "observed": true
+  },
+  "failure_attribution": {
+    "categories": [
+      "expected_abstention",
+      "unsupported_query"
+    ],
+    "primary": "unsupported_query"
+  },
+  "generation": {
+    "configuration": {
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "prompt": {
+        "max_context_characters": 60000,
+        "version": "sec_grounded_v1"
+      },
+      "provider": "ollama",
+      "provider_options": {
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "latency_seconds": 0.9099720000231173,
+    "status": "success",
+    "token_usage": {
+      "input_tokens": 233,
+      "output_tokens": 23,
+      "total_tokens": 256
+    }
+  },
+  "latency": {
+    "end_to_end_seconds": null,
+    "orchestration_seconds": 2.5625020498409867e-05,
+    "recorded_scope": "generation_pipeline_excluding_orchestration",
+    "recorded_seconds": 0.9100628329906613,
+    "tool_seconds": null
+  },
+  "lower_level": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": null,
+        "latency_seconds": 0.9099720000231173,
+        "token_usage": {
+          "input_tokens": 233,
+          "output_tokens": 23,
+          "total_tokens": 256
+        }
+      }
+    ],
+    "error": null,
+    "evidence_adapter_latency_seconds": 4.5797787606716156e-07,
+    "generation_status": "success",
+    "legacy_attribution": "correct_unsupported_abstention",
+    "legacy_evaluation": {
+      "citation_correct": true,
+      "final_status": "correct_unsupported_abstention",
+      "generation_correct": true
+    },
+    "orchestration_status": "unsupported"
+  },
+  "query": {
+    "id": "P5-ABSTAIN-001",
+    "policy": "unreviewed_text_withheld",
+    "text": "[REDACTED]"
+  },
+  "result": {
+    "answer": "[REDACTED]",
+    "citations": [],
+    "claims_supported": null,
+    "evidence_sufficient": false,
+    "orchestration_status": "unsupported_query",
+    "validation_status": "passed"
+  },
+  "retrieval": {
+    "configuration": {
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "evidence": [],
+    "evidence_sufficient": null,
+    "latency_seconds": null,
+    "latency_source": null,
+    "sufficiency_basis": null
+  },
+  "routing": {
+    "correct": true,
+    "decision": "abstain",
+    "latency_seconds": null,
+    "reason": "no supported source pattern detected",
+    "tools_selected": []
+  },
+  "schema_version": "6.1",
+  "source": {
+    "id": "evals/generation/phase5/traces/635c0ceefe9461ad4277d1d669ff09fb3b3f5f18fb52cf19beaacedb324cea9b.json",
+    "kind": "phase5",
+    "selection": "preserved_original",
+    "sha256": "710fcc3a6b2b0ca60075adcee2b0de539ee8586cf737cd01dce69ddc438bbcb6"
+  },
+  "timestamp": null,
+  "tools": [],
+  "trace_id": "b5c6bb97d6d93933e6b8ce23e5aac2c6f214de8167b503cc59a4b5203bcaea6d",
+  "validation": {
+    "citation_valid": true,
+    "details": [],
+    "errors": [],
+    "json_schema_valid": true,
+    "latency_seconds": null,
+    "output_contract_valid": true
+  }
+}

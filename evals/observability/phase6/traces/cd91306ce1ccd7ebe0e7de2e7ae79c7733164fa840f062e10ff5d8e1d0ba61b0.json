@@ -1,0 +1,225 @@
+{
+  "abstention": {
+    "correct": true,
+    "expected": false,
+    "observed": false
+  },
+  "failure_attribution": {
+    "categories": [
+      "citation_failure",
+      "invalid_output"
+    ],
+    "primary": "citation_failure"
+  },
+  "generation": {
+    "configuration": {
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "prompt": {
+        "max_context_characters": 60000,
+        "version": "sec_grounded_v1"
+      },
+      "provider": "ollama",
+      "provider_options": {
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "latency_seconds": 15.0171519999858,
+    "status": "invalid_output",
+    "token_usage": {
+      "input_tokens": 4287,
+      "output_tokens": 53,
+      "total_tokens": 4340
+    }
+  },
+  "latency": {
+    "end_to_end_seconds": null,
+    "orchestration_seconds": null,
+    "recorded_scope": "historical_generation_pipeline",
+    "recorded_seconds": 15.0186879170069,
+    "tool_seconds": null
+  },
+  "lower_level": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": {
+          "code": "invalid_output",
+          "detail": "Inline citations and citation list differ"
+        },
+        "latency_seconds": 15.0171519999858,
+        "token_usage": {
+          "input_tokens": 4287,
+          "output_tokens": 53,
+          "total_tokens": 4340
+        }
+      }
+    ],
+    "error": {
+      "code": "invalid_output",
+      "detail": "Inline citations and citation list differ"
+    },
+    "generation_status": "invalid_output",
+    "legacy_attribution": "invalid_structured_output",
+    "legacy_evaluation": {
+      "attribution": "invalid_structured_output",
+      "citation_precision": null,
+      "citation_recall": null,
+      "citation_validity": false,
+      "correctness": null,
+      "groundedness_heuristic": null,
+      "retrieval_evidence_present": true
+    },
+    "orchestration_status": null
+  },
+  "query": {
+    "id": "SEC-032",
+    "policy": "unreviewed_text_withheld",
+    "text": "[REDACTED]"
+  },
+  "result": {
+    "answer": "[REDACTED]",
+    "citations": [],
+    "claims_supported": null,
+    "evidence_sufficient": true,
+    "orchestration_status": "citation_failure",
+    "validation_status": "failed"
+  },
+  "retrieval": {
+    "configuration": {
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "evidence": [
+      {
+        "accession_number": "0000950170-24-087843",
+        "chunk_id": "eecea6bc4bb553e3c33fa7f0e1c017d883ebdbe68e119dad95db90e92d56ca94",
+        "cik": "0000789019",
+        "context_id": "C001",
+        "document_id": "MSFT_000095017024087843",
+        "end_char": 28003,
+        "filing_date": "2024-07-30",
+        "form": "10-K",
+        "item": "1",
+        "report_date": "2024-06-30",
+        "section_id": "MSFT_000095017024087843:item_1",
+        "source_document_id": "MSFT_000095017024087843",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "start_char": 26242,
+        "ticker": "MSFT"
+      },
+      {
+        "accession_number": "0001045810-26-000021",
+        "chunk_id": "b3aa261465e4b3fbb42f2e077a58e81249280d8ee16537ef83749631ed00ab47",
+        "cik": "0001045810",
+        "context_id": "C002",
+        "document_id": "NVDA_000104581026000021",
+        "end_char": 337495,
+        "filing_date": "2026-02-25",
+        "form": "10-K",
+        "item": "15",
+        "report_date": "2026-01-25",
+        "section_id": "NVDA_000104581026000021:item_15",
+        "source_document_id": "NVDA_000104581026000021",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "start_char": 335520,
+        "ticker": "NVDA"
+      },
+      {
+        "accession_number": "0001193125-26-323660",
+        "chunk_id": "05b8b47f355d78e4b6cfe30f8c739c26aa25cac90e42054d854eac9e62083049",
+        "cik": "0000789019",
+        "context_id": "C003",
+        "document_id": "MSFT_000119312526323660",
+        "end_char": 35725,
+        "filing_date": "2026-07-29",
+        "form": "10-K",
+        "item": "1",
+        "report_date": "2026-06-30",
+        "section_id": "MSFT_000119312526323660:item_1",
+        "source_document_id": "MSFT_000119312526323660",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "start_char": 34011,
+        "ticker": "MSFT"
+      },
+      {
+        "accession_number": "0000950170-24-087843",
+        "chunk_id": "5c750bfff2b4c577ae404eae4427863ef12488fe72b1fb151b40b4278551d56d",
+        "cik": "0000789019",
+        "context_id": "C004",
+        "document_id": "MSFT_000095017024087843",
+        "end_char": 29650,
+        "filing_date": "2024-07-30",
+        "form": "10-K",
+        "item": "1",
+        "report_date": "2024-06-30",
+        "section_id": "MSFT_000095017024087843:item_1",
+        "source_document_id": "MSFT_000095017024087843",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+        "start_char": 27803,
+        "ticker": "MSFT"
+      },
+      {
+        "accession_number": "0001045810-26-000021",
+        "chunk_id": "e194a16b19c13cb3bebf77a86a1588facd3987e1a15249f241aa9ac62345f5a9",
+        "cik": "0001045810",
+        "context_id": "C005",
+        "document_id": "NVDA_000104581026000021",
+        "end_char": 329684,
+        "filing_date": "2026-02-25",
+        "form": "10-K",
+        "item": "15",
+        "report_date": "2026-01-25",
+        "section_id": "NVDA_000104581026000021:item_15",
+        "source_document_id": "NVDA_000104581026000021",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "start_char": 327806,
+        "ticker": "NVDA"
+      }
+    ],
+    "evidence_sufficient": true,
+    "latency_seconds": 0.0011245829809922725,
+    "latency_source": "recorded_retrieval_stage",
+    "matched_evidence_ids": [
+      "E1"
+    ],
+    "required_evidence_ids": [
+      "E1"
+    ],
+    "sufficiency_basis": "benchmark_required_evidence_coverage"
+  },
+  "routing": {
+    "correct": null,
+    "decision": null,
+    "latency_seconds": null,
+    "reason": null,
+    "tools_selected": null
+  },
+  "schema_version": "6.1",
+  "source": {
+    "id": "evals/generation/phase4a_ollama/traces/ce0514b98a460ee24cc1588f99f2aba1141206e56d4b3391fcc1cf876ec8d651.json",
+    "kind": "phase4b",
+    "sha256": "492edb44b3ae0da4ec1157e100e6da0fbae8b07e8b99604a700cef803af51427"
+  },
+  "timestamp": null,
+  "tools": [],
+  "trace_id": "cd91306ce1ccd7ebe0e7de2e7ae79c7733164fa840f062e10ff5d8e1d0ba61b0",
+  "validation": {
+    "citation_valid": false,
+    "details": [
+      "Inline citations and citation list differ"
+    ],
+    "errors": [
+      "invalid_output",
+      "citation_failure"
+    ],
+    "json_schema_valid": true,
+    "latency_seconds": null,
+    "output_contract_valid": false
+  }
+}

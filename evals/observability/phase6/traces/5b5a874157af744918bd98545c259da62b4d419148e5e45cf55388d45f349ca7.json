@@ -1,0 +1,138 @@
+{
+  "abstention": {
+    "correct": true,
+    "expected": false,
+    "observed": false
+  },
+  "failure_attribution": {
+    "categories": [
+      "success"
+    ],
+    "primary": "success"
+  },
+  "generation": {
+    "configuration": {
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "prompt": {
+        "max_context_characters": 60000,
+        "version": "sec_grounded_v1"
+      },
+      "provider": "ollama",
+      "provider_options": {
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "latency_seconds": 3.4288108329928946,
+    "status": "success",
+    "token_usage": {
+      "input_tokens": 468,
+      "output_tokens": 53,
+      "total_tokens": 521
+    }
+  },
+  "latency": {
+    "end_to_end_seconds": 3.4291769999836106,
+    "orchestration_seconds": 0.000283417000900954,
+    "recorded_scope": "preparation_and_generation_including_orchestration",
+    "recorded_seconds": 3.4291769999836106,
+    "tool_seconds": 7.499998901039362e-06
+  },
+  "lower_level": {
+    "attempts": [],
+    "error": null,
+    "evidence_adapter_latency_seconds": null,
+    "generation_status": "success",
+    "legacy_attribution": "success",
+    "legacy_evaluation": {
+      "citation_correct": true,
+      "final_status": "success",
+      "generation_correct": true
+    },
+    "orchestration_status": "success"
+  },
+  "query": {
+    "id": "P5-FIN-001",
+    "policy": "unreviewed_text_withheld",
+    "text": "[REDACTED]"
+  },
+  "result": {
+    "answer": "[REDACTED]",
+    "citations": [
+      "C001"
+    ],
+    "claims_supported": true,
+    "evidence_sufficient": true,
+    "orchestration_status": "success",
+    "validation_status": "passed"
+  },
+  "retrieval": {
+    "configuration": {
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "evidence": [],
+    "evidence_sufficient": null,
+    "latency_seconds": null,
+    "latency_source": null,
+    "sufficiency_basis": null
+  },
+  "routing": {
+    "correct": true,
+    "decision": "financial_data",
+    "latency_seconds": null,
+    "reason": "standardized financial metric and fiscal year detected",
+    "tools_selected": [
+      "financial_data"
+    ]
+  },
+  "schema_version": "6.1",
+  "source": {
+    "id": "evals/generation/phase5/financial_revalidation/P5-FIN-001.json",
+    "kind": "phase5",
+    "selection": "new_once",
+    "sha256": "4c989c3d86a8a8d153773b38d9463d529c6bf86815b0712b06245108001d06be"
+  },
+  "timestamp": null,
+  "tools": [
+    {
+      "error": null,
+      "evidence": [
+        {
+          "accession_number": "0000320193-25-000079",
+          "cik": "0000320193",
+          "concept": "RevenueFromContractWithCustomerExcludingAssessedTax",
+          "end": "2025-09-27",
+          "filing_date": "2025-10-31",
+          "fiscal_year": 2025,
+          "form": "10-K",
+          "metric": "revenue",
+          "raw_fact_pointer": "/facts/us-gaap/RevenueFromContractWithCustomerExcludingAssessedTax/units/USD/111",
+          "raw_sha256": "855f2ebb1772459bd63857601193fa380b5eef53341d5cafe59216fe350bd9d5",
+          "source_url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+          "start": "2024-09-29",
+          "ticker": "AAPL",
+          "unit": "USD",
+          "value": 416161000000
+        }
+      ],
+      "latency_seconds": 7.499998901039362e-06,
+      "name": "financial_data",
+      "status": "success"
+    }
+  ],
+  "trace_id": "5b5a874157af744918bd98545c259da62b4d419148e5e45cf55388d45f349ca7",
+  "validation": {
+    "citation_valid": true,
+    "details": [],
+    "errors": [],
+    "json_schema_valid": true,
+    "latency_seconds": null,
+    "output_contract_valid": true
+  }
+}

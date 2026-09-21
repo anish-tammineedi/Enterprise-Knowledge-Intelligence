@@ -1,0 +1,297 @@
+{
+  "abstention": {
+    "correct": true,
+    "expected": true,
+    "observed": true
+  },
+  "failure_attribution": {
+    "categories": [
+      "expected_abstention",
+      "retrieval_failure"
+    ],
+    "primary": "retrieval_failure"
+  },
+  "generation": {
+    "configuration": {
+      "max_output_tokens": 1000,
+      "max_retries": 0,
+      "model": "qwen3:4b-instruct-2507-q4_K_M",
+      "prompt": {
+        "max_context_characters": 60000,
+        "version": "sec_grounded_v1"
+      },
+      "provider": "ollama",
+      "provider_options": {
+        "model_digest": "0edcdef34593eac1aa2be9c7d06c432dcf81945adca5eca2f27662c18f168ba0",
+        "num_ctx": 16384,
+        "seed": 0
+      },
+      "temperature": 0,
+      "timeout_seconds": 600
+    },
+    "latency_seconds": 11.20040945900837,
+    "status": "success",
+    "token_usage": {
+      "input_tokens": 3309,
+      "output_tokens": 23,
+      "total_tokens": 3332
+    }
+  },
+  "latency": {
+    "end_to_end_seconds": null,
+    "orchestration_seconds": 0.0008113329822663218,
+    "recorded_scope": "generation_pipeline_excluding_orchestration",
+    "recorded_seconds": 11.200584416015772,
+    "tool_seconds": 0.0005730420234613121
+  },
+  "lower_level": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "error": null,
+        "latency_seconds": 11.20040945900837,
+        "token_usage": {
+          "input_tokens": 3309,
+          "output_tokens": 23,
+          "total_tokens": 3332
+        }
+      }
+    ],
+    "error": null,
+    "evidence_adapter_latency_seconds": 3.7500285543501377e-07,
+    "generation_status": "success",
+    "legacy_attribution": "insufficient_evidence_correct_abstention",
+    "legacy_evaluation": {
+      "citation_correct": true,
+      "final_status": "insufficient_evidence_correct_abstention",
+      "generation_correct": true
+    },
+    "orchestration_status": "success"
+  },
+  "query": {
+    "id": "P5-DOC-001",
+    "policy": "unreviewed_text_withheld",
+    "text": "[REDACTED]"
+  },
+  "result": {
+    "answer": "[REDACTED]",
+    "citations": [],
+    "claims_supported": null,
+    "evidence_sufficient": false,
+    "orchestration_status": "retrieval_failure",
+    "validation_status": "passed"
+  },
+  "retrieval": {
+    "configuration": {
+      "mode": "bm25",
+      "top_k": 5
+    },
+    "evidence": [
+      {
+        "accession_number": "0000320193-23-000106",
+        "chunk_id": "7a5e1d5ca26c2549ee5894768a055b89b871ceda935a8ca3c78b5ecadae2f695",
+        "cik": "0000320193",
+        "context_id": "C001",
+        "document_id": "AAPL_000032019323000106",
+        "end_char": 92114,
+        "filing_date": "2023-11-03",
+        "form": "10-K",
+        "item": "1C",
+        "report_date": "2023-09-30",
+        "section_id": "AAPL_000032019323000106:item_1C",
+        "source_document_id": "AAPL_000032019323000106",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+        "start_char": 92041,
+        "ticker": "AAPL"
+      },
+      {
+        "accession_number": "0001045810-25-000023",
+        "chunk_id": "68a01818ba9747f275da50d083e31263ba204159e2fe2254758093d8630c8612",
+        "cik": "0001045810",
+        "context_id": "C002",
+        "document_id": "NVDA_000104581025000023",
+        "end_char": 177753,
+        "filing_date": "2025-02-26",
+        "form": "10-K",
+        "item": "1C",
+        "report_date": "2025-01-26",
+        "section_id": "NVDA_000104581025000023:item_1C",
+        "source_document_id": "NVDA_000104581025000023",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+        "start_char": 176603,
+        "ticker": "NVDA"
+      },
+      {
+        "accession_number": "0001045810-26-000021",
+        "chunk_id": "8fb62e1f20ce6df34ffba19d4e9eceb4f8a9f62a34029b077b801e7be6ef4844",
+        "cik": "0001045810",
+        "context_id": "C003",
+        "document_id": "NVDA_000104581026000021",
+        "end_char": 175310,
+        "filing_date": "2026-02-25",
+        "form": "10-K",
+        "item": "1C",
+        "report_date": "2026-01-25",
+        "section_id": "NVDA_000104581026000021:item_1C",
+        "source_document_id": "NVDA_000104581026000021",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+        "start_char": 174118,
+        "ticker": "NVDA"
+      },
+      {
+        "accession_number": "0001193125-26-323660",
+        "chunk_id": "6be9766f98e37d24b117f6ec9895a122a3be31e1a83dae3941f31f2013f311b4",
+        "cik": "0000789019",
+        "context_id": "C004",
+        "document_id": "MSFT_000119312526323660",
+        "end_char": 137046,
+        "filing_date": "2026-07-29",
+        "form": "10-K",
+        "item": "1C",
+        "report_date": "2026-06-30",
+        "section_id": "MSFT_000119312526323660:item_1C",
+        "source_document_id": "MSFT_000119312526323660",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+        "start_char": 135890,
+        "ticker": "MSFT"
+      },
+      {
+        "accession_number": "0001045810-24-000029",
+        "chunk_id": "fb7c02606a8f92013a3ce77702a803697f0945d2688238ee82173d5922b1b4f4",
+        "cik": "0001045810",
+        "context_id": "C005",
+        "document_id": "NVDA_000104581024000029",
+        "end_char": 171355,
+        "filing_date": "2024-02-21",
+        "form": "10-K",
+        "item": "1C",
+        "report_date": "2024-01-28",
+        "section_id": "NVDA_000104581024000029:item_1C",
+        "source_document_id": "NVDA_000104581024000029",
+        "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+        "start_char": 169395,
+        "ticker": "NVDA"
+      }
+    ],
+    "evidence_sufficient": false,
+    "latency_seconds": null,
+    "latency_source": null,
+    "sufficiency_basis": "saved_phase5_review"
+  },
+  "routing": {
+    "correct": true,
+    "decision": "document_retrieval",
+    "latency_seconds": null,
+    "reason": "SEC narrative or section language detected",
+    "tools_selected": [
+      "document_retrieval"
+    ]
+  },
+  "schema_version": "6.1",
+  "source": {
+    "id": "evals/generation/phase5/traces/8ad25456fdb542e7be949971d5b50dbb41ac707b930b0a3c0373ee1625972e1e.json",
+    "kind": "phase5",
+    "selection": "preserved_original",
+    "sha256": "71ab0fd727276d1ee96f0376a40f4957b2bd3eb16fd491fd95ad0a819e1be056"
+  },
+  "timestamp": null,
+  "tools": [
+    {
+      "error": null,
+      "evidence": [
+        {
+          "accession_number": "0000320193-23-000106",
+          "chunk_id": "7a5e1d5ca26c2549ee5894768a055b89b871ceda935a8ca3c78b5ecadae2f695",
+          "cik": "0000320193",
+          "document_id": "AAPL_000032019323000106",
+          "end_char": 92114,
+          "filing_date": "2023-11-03",
+          "form": "10-K",
+          "item": "1C",
+          "report_date": "2023-09-30",
+          "section_id": "AAPL_000032019323000106:item_1C",
+          "source_document_id": "AAPL_000032019323000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "start_char": 92041,
+          "ticker": "AAPL"
+        },
+        {
+          "accession_number": "0001045810-25-000023",
+          "chunk_id": "68a01818ba9747f275da50d083e31263ba204159e2fe2254758093d8630c8612",
+          "cik": "0001045810",
+          "document_id": "NVDA_000104581025000023",
+          "end_char": 177753,
+          "filing_date": "2025-02-26",
+          "form": "10-K",
+          "item": "1C",
+          "report_date": "2025-01-26",
+          "section_id": "NVDA_000104581025000023:item_1C",
+          "source_document_id": "NVDA_000104581025000023",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "start_char": 176603,
+          "ticker": "NVDA"
+        },
+        {
+          "accession_number": "0001045810-26-000021",
+          "chunk_id": "8fb62e1f20ce6df34ffba19d4e9eceb4f8a9f62a34029b077b801e7be6ef4844",
+          "cik": "0001045810",
+          "document_id": "NVDA_000104581026000021",
+          "end_char": 175310,
+          "filing_date": "2026-02-25",
+          "form": "10-K",
+          "item": "1C",
+          "report_date": "2026-01-25",
+          "section_id": "NVDA_000104581026000021:item_1C",
+          "source_document_id": "NVDA_000104581026000021",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm",
+          "start_char": 174118,
+          "ticker": "NVDA"
+        },
+        {
+          "accession_number": "0001193125-26-323660",
+          "chunk_id": "6be9766f98e37d24b117f6ec9895a122a3be31e1a83dae3941f31f2013f311b4",
+          "cik": "0000789019",
+          "document_id": "MSFT_000119312526323660",
+          "end_char": 137046,
+          "filing_date": "2026-07-29",
+          "form": "10-K",
+          "item": "1C",
+          "report_date": "2026-06-30",
+          "section_id": "MSFT_000119312526323660:item_1C",
+          "source_document_id": "MSFT_000119312526323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "start_char": 135890,
+          "ticker": "MSFT"
+        },
+        {
+          "accession_number": "0001045810-24-000029",
+          "chunk_id": "fb7c02606a8f92013a3ce77702a803697f0945d2688238ee82173d5922b1b4f4",
+          "cik": "0001045810",
+          "document_id": "NVDA_000104581024000029",
+          "end_char": 171355,
+          "filing_date": "2024-02-21",
+          "form": "10-K",
+          "item": "1C",
+          "report_date": "2024-01-28",
+          "section_id": "NVDA_000104581024000029:item_1C",
+          "source_document_id": "NVDA_000104581024000029",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+          "start_char": 169395,
+          "ticker": "NVDA"
+        }
+      ],
+      "latency_seconds": 0.0005730420234613121,
+      "name": "document_retrieval",
+      "status": "success"
+    }
+  ],
+  "trace_id": "67023c676452b6e00bdbc9949853e18da4989c583af49534d0012ccb8bb6dc76",
+  "validation": {
+    "citation_valid": true,
+    "details": [],
+    "errors": [],
+    "json_schema_valid": true,
+    "latency_seconds": null,
+    "output_contract_valid": true
+  }
+}

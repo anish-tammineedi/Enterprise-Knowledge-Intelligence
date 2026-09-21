@@ -1,0 +1,1435 @@
+{
+  "phase": "4B",
+  "method": "For each category in lexicographic order, select the lowest question ID for each available difficulty in easy, medium, hard order, then the lowest remaining ID until two questions are selected.",
+  "generation_calls_required": 20,
+  "question_ids": [
+    "SEC-001",
+    "SEC-002",
+    "SEC-011",
+    "SEC-012",
+    "SEC-021",
+    "SEC-022",
+    "SEC-031",
+    "SEC-032",
+    "SEC-041",
+    "SEC-042",
+    "SEC-051",
+    "SEC-052",
+    "SEC-061",
+    "SEC-062",
+    "SEC-071",
+    "SEC-072",
+    "SEC-081",
+    "SEC-082",
+    "SEC-091",
+    "SEC-092"
+  ],
+  "questions": [
+    {
+      "question_id": "SEC-001",
+      "question": "According to Apple’s fiscal 2025 business description, what does its cloud service do for customers across devices?",
+      "category": "direct_factual",
+      "difficulty": "easy",
+      "answerable": true,
+      "expected_answer": "It stores customers’ content and keeps it up to date and available across Apple devices and Windows personal computers.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 10944,
+          "end_char": 11093,
+          "content_block_indices": [
+            68
+          ],
+          "contains_table": false,
+          "text": "The Company’s cloud services store and keep customers’ content up-to-date and available across multiple Apple devices and Windows personal computers."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-002",
+      "question": "Which co-branded credit card does Apple identify among its payment services in its fiscal 2025 filing?",
+      "category": "direct_factual",
+      "difficulty": "easy",
+      "answerable": true,
+      "expected_answer": "Apple Card.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 11704,
+          "end_char": 11833,
+          "content_block_indices": [
+            73
+          ],
+          "contains_table": false,
+          "text": "The Company offers payment services, including Apple Card®, a co-branded credit card, and Apple Pay®, a cashless payment service."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-011",
+      "question": "In Item 1A of Apple’s fiscal 2024 filing, what tradeoff does Apple describe from outsourcing production and distribution?",
+      "category": "section_specific",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "Outsourcing can lower operating costs but reduces direct control over production and distribution, potentially harming quality, quantity, or flexibility.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019324000123",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2024-11-01",
+          "report_date": "2024-09-28",
+          "accession_number": "0000320193-24-000123",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "filing_year": 2024,
+          "report_year": 2024,
+          "items": [
+            "1A"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019324000123",
+          "accession_number": "0000320193-24-000123",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019324000123/aapl-20240928.htm",
+          "section_id": "AAPL_000032019324000123:item_1A",
+          "item": "1A",
+          "section_name": "Risk Factors",
+          "start_char": 39368,
+          "end_char": 40751,
+          "content_block_indices": [
+            145
+          ],
+          "contains_table": false,
+          "text": "Substantially all of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, and a significant concentration of this manufacturing is currently performed by a small number of outsourcing partners, often in single locations. The Company has also outsourced much of its transportation and logistics management. While these arrangements can lower operating costs, they also reduce the Company’s direct control over production and distribution. Such diminished control has from time to time and may in the future have an adverse effect on the quality or quantity of products manufactured or services provided, or adversely affect the Company’s flexibility to respond to changing conditions. Although arrangements with these partners may contain provisions for product defect expense reimbursement, the Company generally remains responsible to the consumer for warranty and out-of-warranty service in the event of product defects and experiences unanticipated product defect liabilities from time to time. While the Company relies on its partners to adhere to its supplier code of conduct, violations of the supplier code of conduct occur from time to time and can materially adversely affect the Company’s business, reputation, results of operations and financial condition."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2024
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-012",
+      "question": "In Item 1C of Apple’s fiscal 2025 filing, which board committee oversees cybersecurity and how does it keep the board informed?",
+      "category": "section_specific",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "The Audit Committee oversees and monitors cybersecurity; its chair reports the substance of reviews and discussions to the board as necessary and recommends actions.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1C"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1C",
+          "item": "1C",
+          "section_name": "Cybersecurity",
+          "start_char": 94940,
+          "end_char": 95591,
+          "content_block_indices": [
+            228
+          ],
+          "contains_table": false,
+          "text": "The Audit Committee assists the Board in the oversight and monitoring of cybersecurity matters. The Audit Committee regularly reviews and discusses the Company’s cybersecurity risks with management, including the Company’s Head of Corporate Information Security, its General Counsel and the Heads of Compliance and Business Conduct, Business Assurance, and Internal Audit, and receives updates, as necessary, regarding cybersecurity incidents. The Chair of the Audit Committee regularly reports the substance of such reviews and discussions to the Board, as necessary, and recommends to the Board such actions as the Audit Committee deems appropriate."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-021",
+      "question": "Approximately how many full-time-equivalent employees did Apple report at September 30, 2023?",
+      "category": "numerical",
+      "difficulty": "easy",
+      "answerable": true,
+      "expected_answer": "Approximately 161,000.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019323000106",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2023-11-03",
+          "report_date": "2023-09-30",
+          "accession_number": "0000320193-23-000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "filing_year": 2023,
+          "report_year": 2023,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019323000106",
+          "accession_number": "0000320193-23-000106",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "section_id": "AAPL_000032019323000106:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 20469,
+          "end_char": 20729,
+          "content_block_indices": [
+            97
+          ],
+          "contains_table": false,
+          "text": "The Company believes it has a talented, motivated and dedicated team, and works to create an inclusive, safe and supportive environment for all of its team members. As of September 30, 2023, the Company had approximately 161,000 full-time equivalent employees."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2023
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-022",
+      "question": "How many Microsoft employees were in product research and development at June 30, 2024?",
+      "category": "numerical",
+      "difficulty": "easy",
+      "answerable": true,
+      "expected_answer": "Approximately 81,000.",
+      "required_documents": [
+        {
+          "document_id": "MSFT_000095017024087843",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2024-07-30",
+          "report_date": "2024-06-30",
+          "accession_number": "0000950170-24-087843",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+          "filing_year": 2024,
+          "report_year": 2024,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "MSFT_000095017024087843",
+          "accession_number": "0000950170-24-087843",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+          "section_id": "MSFT_000095017024087843:item_1",
+          "item": "1",
+          "section_name": "BUSINESS",
+          "start_char": 28003,
+          "end_char": 28501,
+          "content_block_indices": [
+            137
+          ],
+          "contains_table": false,
+          "text": "As of June 30, 2024, we employed approximately 228,000 people on a full-time basis, 126,000 in the U.S. and 102,000 internationally. Of the total employed people, 86,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 81,000 were in product research and development; 45,000 were in sales and marketing; and 16,000 were in general and administration. Certain employees are subject to collective bargaining agreements."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "MSFT"
+        ],
+        "report_years": [
+          2024
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-031",
+      "question": "In Apple’s fiscal 2025 filing, how many weeks were in fiscal 2025 and which of the three years discussed had an extra week?",
+      "category": "temporal",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "Fiscal 2025 had 52 weeks; fiscal 2023 had 53 weeks.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 106208,
+          "end_char": 106607,
+          "content_block_indices": [
+            282
+          ],
+          "contains_table": false,
+          "text": "The Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-032",
+      "question": "Use Microsoft’s fiscal 2026 filing: how many full-time employees were in the United States at year-end?",
+      "category": "temporal",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "Approximately 121,000 as of June 30, 2026.",
+      "required_documents": [
+        {
+          "document_id": "MSFT_000119312526323660",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2026-07-29",
+          "report_date": "2026-06-30",
+          "accession_number": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "filing_year": 2026,
+          "report_year": 2026,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "MSFT_000119312526323660",
+          "accession_number": "0001193125-26-323660",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "section_id": "MSFT_000119312526323660:item_1",
+          "item": "1",
+          "section_name": "BUSINESS",
+          "start_char": 34211,
+          "end_char": 34703,
+          "content_block_indices": [
+            189
+          ],
+          "contains_table": false,
+          "text": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally. Of the total employees, 89,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 77,000 were in product research and development; 43,000 were in sales and marketing; and 14,000 were in general and administration. Certain employees are subject to collective bargaining agreements."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "MSFT"
+        ],
+        "report_years": [
+          2026
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-041",
+      "question": "Using Apple’s fiscal 2023 and fiscal 2025 filings separately, report the year-end full-time-equivalent workforce in each.",
+      "category": "cross_document",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "Fiscal 2023: approximately 161,000; fiscal 2025: approximately 166,000.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019323000106",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2023-11-03",
+          "report_date": "2023-09-30",
+          "accession_number": "0000320193-23-000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "filing_year": 2023,
+          "report_year": 2023,
+          "items": [
+            "1"
+          ]
+        },
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": true,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019323000106",
+          "accession_number": "0000320193-23-000106",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "section_id": "AAPL_000032019323000106:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 20469,
+          "end_char": 20729,
+          "content_block_indices": [
+            97
+          ],
+          "contains_table": false,
+          "text": "The Company believes it has a talented, motivated and dedicated team, and works to create an inclusive, safe and supportive environment for all of its team members. As of September 30, 2023, the Company had approximately 161,000 full-time equivalent employees."
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 21541,
+          "end_char": 22098,
+          "content_block_indices": [
+            96
+          ],
+          "contains_table": false,
+          "text": "The Company believes that its people play an important role in its success, and strives to attract, develop and retain the best talent. The Company works to create a culture of collaboration, one where people with a broad range of backgrounds and perspectives can come together to innovate and do the best work of their lives. The Company is an equal opportunity employer committed to inclusion and to providing a workplace free of harassment or discrimination. As of September 27, 2025, the Company had approximately 166,000 full-time equivalent employees."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Cite both original annual filings; these are approximate FTE counts, not a count of new hires.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2023,
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-042",
+      "question": "Using Microsoft’s fiscal 2024 and fiscal 2026 filings, give the U.S. and international employee counts for each year.",
+      "category": "cross_document",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "2024: approximately 126,000 U.S. and 102,000 international; 2026: approximately 121,000 U.S. and 102,000 international.",
+      "required_documents": [
+        {
+          "document_id": "MSFT_000095017024087843",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2024-07-30",
+          "report_date": "2024-06-30",
+          "accession_number": "0000950170-24-087843",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+          "filing_year": 2024,
+          "report_year": 2024,
+          "items": [
+            "1"
+          ]
+        },
+        {
+          "document_id": "MSFT_000119312526323660",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2026-07-29",
+          "report_date": "2026-06-30",
+          "accession_number": "0001193125-26-323660",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "filing_year": 2026,
+          "report_year": 2026,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": true,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "MSFT_000095017024087843",
+          "accession_number": "0000950170-24-087843",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017024087843/msft-20240630.htm",
+          "section_id": "MSFT_000095017024087843:item_1",
+          "item": "1",
+          "section_name": "BUSINESS",
+          "start_char": 28003,
+          "end_char": 28501,
+          "content_block_indices": [
+            137
+          ],
+          "contains_table": false,
+          "text": "As of June 30, 2024, we employed approximately 228,000 people on a full-time basis, 126,000 in the U.S. and 102,000 internationally. Of the total employed people, 86,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 81,000 were in product research and development; 45,000 were in sales and marketing; and 16,000 were in general and administration. Certain employees are subject to collective bargaining agreements."
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "MSFT_000119312526323660",
+          "accession_number": "0001193125-26-323660",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
+          "section_id": "MSFT_000119312526323660:item_1",
+          "item": "1",
+          "section_name": "BUSINESS",
+          "start_char": 34211,
+          "end_char": 34703,
+          "content_block_indices": [
+            189
+          ],
+          "contains_table": false,
+          "text": "As of June 30, 2026, we employed approximately 223,000 people on a full-time basis, 121,000 in the U.S. and 102,000 internationally. Of the total employees, 89,000 were in operations, including product support and consulting services, datacenter operations, and manufacturing and distribution; 77,000 were in product research and development; 43,000 were in sales and marketing; and 14,000 were in general and administration. Certain employees are subject to collective bargaining agreements."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "MSFT"
+        ],
+        "report_years": [
+          2024,
+          2026
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-051",
+      "question": "Using each company’s fiscal 2025 filing, rank Apple, Microsoft, and NVIDIA by reported annual net sales or revenue and give the amounts.",
+      "category": "comparative",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "Apple: $416,161 million; Microsoft: $281,724 million; NVIDIA: $130,497 million, in descending order.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        },
+        {
+          "document_id": "MSFT_000095017025100235",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2025-07-30",
+          "report_date": "2025-06-30",
+          "accession_number": "0000950170-25-100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        },
+        {
+          "document_id": "NVDA_000104581025000023",
+          "company": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "cik": "0001045810",
+          "form": "10-K",
+          "filing_date": "2025-02-26",
+          "report_date": "2025-01-26",
+          "accession_number": "0001045810-25-000023",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        }
+      ],
+      "multiple_documents_required": true,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 110373,
+          "end_char": 111019,
+          "content_block_indices": [
+            303,
+            304
+          ],
+          "contains_table": true,
+          "text": "The following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\niPhone | $ | 209,586 |  |  | 4 | % |  | $ | 201,183 |  |  | — | % |  | $ | 200,583 | \nMac | 33,708 |  |  | 12 | % |  | 29,984 |  |  | 2 | % |  | 29,357 | \niPad | 28,023 |  |  | 5 | % |  | 26,694 |  |  | (6) | % |  | 28,300 | \nWearables, Home and Accessories | 35,686 |  |  | (4) | % |  | 37,005 |  |  | (7) | % |  | 39,845 | \nServices (1) | 109,158 |  |  | 14 | % |  | 96,169 |  |  | 13 | % |  | 85,200 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |"
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "MSFT_000095017025100235",
+          "accession_number": "0000950170-25-100235",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "section_id": "MSFT_000095017025100235:item_7",
+          "item": "7",
+          "section_name": "MANAGEMENT’S DISCUSSION AND ANALYSIS OF FINANCIAL CONDITION AND RESULTS OF OPERATIONS",
+          "start_char": 153552,
+          "end_char": 153996,
+          "content_block_indices": [
+            571
+          ],
+          "contains_table": true,
+          "text": "(In millions, except percentages and per share amounts) |  | 2025 |  |  | 2024 |  |  | Percentage Change | \nRevenue |  | $ | 281,724 |  |  | $ | 245,122 |  |  |  | 15% | \nGross margin |  |  | 193,893 |  |  |  | 171,008 |  |  |  | 13% | \nOperating income |  |  | 128,528 |  |  |  | 109,433 |  |  |  | 17% | \nNet income |  |  | 101,832 |  |  |  | 88,136 |  |  |  | 16% | \nDiluted earnings per share |  |  | 13.64 |  |  |  | 11.80 |  |  |  | 16% |"
+        },
+        {
+          "evidence_id": "E3",
+          "document_id": "NVDA_000104581025000023",
+          "accession_number": "0001045810-25-000023",
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "section_id": "NVDA_000104581025000023:item_7",
+          "item": "7",
+          "section_name": "Management's Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 199776,
+          "end_char": 200250,
+          "content_block_indices": [
+            555
+          ],
+          "contains_table": true,
+          "text": "| Year Ended\n | Jan 26, 2025 |  | Jan 28, 2024 |  | Change\n | ($ in millions, except per share data)\nRevenue | $ | 130,497 |  |  | $ | 60,922 |  |  | Up 114%\nGross margin | 75.0 | % |  | 72.7 | % |  | Up 2.3 pts\nOperating expenses | $ | 16,405 |  |  | $ | 11,329 |  |  | Up 45%\nOperating income | $ | 81,453 |  |  | $ | 32,972 |  |  | Up 147%\nNet income | $ | 72,880 |  |  | $ | 29,760 |  |  | Up 145%\nNet income per diluted share | $ | 2.94 |  |  | $ | 1.19 |  |  | Up 147%"
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Fiscal-year endpoints differ. Compare the fiscal years labeled 2025, not aligned calendar periods. Accept equivalent billions.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL",
+          "MSFT",
+          "NVDA"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-052",
+      "question": "How does Apple’s segment organization differ from Microsoft’s, according to their fiscal 2025 business descriptions?",
+      "category": "comparative",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "Apple uses five geographic segments; Microsoft uses three business segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        },
+        {
+          "document_id": "MSFT_000095017025100235",
+          "company": "Microsoft Corporation",
+          "ticker": "MSFT",
+          "cik": "0000789019",
+          "form": "10-K",
+          "filing_date": "2025-07-30",
+          "report_date": "2025-06-30",
+          "accession_number": "0000950170-25-100235",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": true,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 11845,
+          "end_char": 12629,
+          "content_block_indices": [
+            75
+          ],
+          "contains_table": false,
+          "text": "The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia, New Zealand and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region."
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "MSFT_000095017025100235",
+          "accession_number": "0000950170-25-100235",
+          "ticker": "MSFT",
+          "company": "Microsoft Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+          "section_id": "MSFT_000095017025100235:item_1",
+          "item": "1",
+          "section_name": "BUSINESS",
+          "start_char": 14449,
+          "end_char": 14936,
+          "content_block_indices": [
+            85
+          ],
+          "contains_table": false,
+          "text": "We operate our business and report our financial performance using three segments: Productivity and Business Processes, Intelligent Cloud, and More Personal Computing. Our segments provide management with a comprehensive financial view of our key businesses. The segments enable the alignment of strategies and objectives across the development, sales, marketing, and services organizations, and they provide a framework for timely and rational allocation of resources within businesses."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL",
+          "MSFT"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-061",
+      "question": "In Apple’s fiscal 2025 filing, which geographic segment had the highest reported percentage sales growth and what products or services drove that segment’s increase?",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "Japan, at 15%; higher iPhone, Services, and iPad net sales drove the increase.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 108806,
+          "end_char": 109457,
+          "content_block_indices": [
+            289,
+            290
+          ],
+          "contains_table": true,
+          "text": "The following table shows net sales by reportable segment for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\nAmericas | $ | 178,353 |  |  | 7 | % |  | $ | 167,045 |  |  | 3 | % |  | $ | 162,560 | \nEurope | 111,032 |  |  | 10 | % |  | 101,328 |  |  | 7 | % |  | 94,294 | \nGreater China | 64,377 |  |  | (4) | % |  | 66,952 |  |  | (8) | % |  | 72,559 | \nJapan | 28,703 |  |  | 15 | % |  | 25,052 |  |  | 3 | % |  | 24,257 | \nRest of Asia Pacific | 33,696 |  |  | 10 | % |  | 30,658 |  |  | 4 | % |  | 29,615 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |"
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 110028,
+          "end_char": 110146,
+          "content_block_indices": [
+            298
+          ],
+          "contains_table": false,
+          "text": "Japan net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and iPad."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-062",
+      "question": "Using Apple’s fiscal 2025 sales table and discussion, approximately what share of total sales came from Services and what drove Services growth?",
+      "category": "multi_hop",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "Services were about 26.23% of total sales (109,158/416,161); growth was primarily driven by advertising, the App Store, and cloud services.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 110373,
+          "end_char": 111019,
+          "content_block_indices": [
+            303,
+            304
+          ],
+          "contains_table": true,
+          "text": "The following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\niPhone | $ | 209,586 |  |  | 4 | % |  | $ | 201,183 |  |  | — | % |  | $ | 200,583 | \nMac | 33,708 |  |  | 12 | % |  | 29,984 |  |  | 2 | % |  | 29,357 | \niPad | 28,023 |  |  | 5 | % |  | 26,694 |  |  | (6) | % |  | 28,300 | \nWearables, Home and Accessories | 35,686 |  |  | (4) | % |  | 37,005 |  |  | (7) | % |  | 39,845 | \nServices (1) | 109,158 |  |  | 14 | % |  | 96,169 |  |  | 13 | % |  | 85,200 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |"
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 111734,
+          "end_char": 111877,
+          "content_block_indices": [
+            315
+          ],
+          "contains_table": false,
+          "text": "Services net sales increased during 2025 compared to 2024 primarily due to higher net sales from advertising, the App Store and cloud services."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Accept approximately 26.2%; retain the three named growth drivers.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-071",
+      "question": "From Apple’s fiscal 2025 product-category sales table, give the iPhone and Services net sales for fiscal 2025.",
+      "category": "table_oriented",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "iPhone: $209,586 million; Services: $109,158 million.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "7"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_7",
+          "item": "7",
+          "section_name": "Management’s Discussion and Analysis of Financial Condition and Results of Operations",
+          "start_char": 110373,
+          "end_char": 111019,
+          "content_block_indices": [
+            303,
+            304
+          ],
+          "contains_table": true,
+          "text": "The following table shows net sales by category for 2025, 2024 and 2023 (dollars in millions):\n\n| 2025 |  | Change |  | 2024 |  | Change |  | 2023\niPhone | $ | 209,586 |  |  | 4 | % |  | $ | 201,183 |  |  | — | % |  | $ | 200,583 | \nMac | 33,708 |  |  | 12 | % |  | 29,984 |  |  | 2 | % |  | 29,357 | \niPad | 28,023 |  |  | 5 | % |  | 26,694 |  |  | (6) | % |  | 28,300 | \nWearables, Home and Accessories | 35,686 |  |  | (4) | % |  | 37,005 |  |  | (7) | % |  | 39,845 | \nServices (1) | 109,158 |  |  | 14 | % |  | 96,169 |  |  | 13 | % |  | 85,200 | \nTotal net sales | $ | 416,161 |  |  | 6 | % |  | $ | 391,035 |  |  | 2 | % |  | $ | 383,285 |"
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-072",
+      "question": "From Apple’s fiscal 2023 income statement, give diluted earnings per share and the diluted share count used in the calculation, retaining the table’s share units.",
+      "category": "table_oriented",
+      "difficulty": "medium",
+      "answerable": true,
+      "expected_answer": "Diluted EPS: $6.13; diluted shares: 15,812,547 thousand shares.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019323000106",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2023-11-03",
+          "report_date": "2023-09-30",
+          "accession_number": "0000320193-23-000106",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "filing_year": 2023,
+          "report_year": 2023,
+          "items": [
+            "8"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019323000106",
+          "accession_number": "0000320193-23-000106",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019323000106/aapl-20230930.htm",
+          "section_id": "AAPL_000032019323000106:item_8",
+          "item": "8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "start_char": 120463,
+          "end_char": 122025,
+          "content_block_indices": [
+            388,
+            389
+          ],
+          "contains_table": true,
+          "text": "(In millions, except number of shares, which are reflected in thousands, and per-share amounts)\n\n| Years ended\n | September 30, 2023 |  | September 24, 2022 |  | September 25, 2021\nNet sales: |  |  |  |  | \nProducts | $ | 298,085 |  |  | $ | 316,199 |  |  | $ | 297,392 | \nServices | 85,200 |  |  | 78,129 |  |  | 68,425 | \nTotal net sales | 383,285 |  |  | 394,328 |  |  | 365,817 | \nCost of sales: |  |  |  |  | \nProducts | 189,282 |  |  | 201,471 |  |  | 192,266 | \nServices | 24,855 |  |  | 22,075 |  |  | 20,715 | \nTotal cost of sales | 214,137 |  |  | 223,546 |  |  | 212,981 | \nGross margin | 169,148 |  |  | 170,782 |  |  | 152,836 | \nOperating expenses: |  |  |  |  | \nResearch and development | 29,915 |  |  | 26,251 |  |  | 21,914 | \nSelling, general and administrative | 24,932 |  |  | 25,094 |  |  | 21,973 | \nTotal operating expenses | 54,847 |  |  | 51,345 |  |  | 43,887 | \nOperating income | 114,301 |  |  | 119,437 |  |  | 108,949 | \nOther income/(expense), net | (565) |  |  | (334) |  |  | 258 | \nIncome before provision for income taxes | 113,736 |  |  | 119,103 |  |  | 109,207 | \nProvision for income taxes | 16,741 |  |  | 19,300 |  |  | 14,527 | \nNet income | $ | 96,995 |  |  | $ | 99,803 |  |  | $ | 94,680 | \nEarnings per share: |  |  |  |  | \nBasic | $ | 6.16 |  |  | $ | 6.15 |  |  | $ | 5.67 | \nDiluted | $ | 6.13 |  |  | $ | 6.11 |  |  | $ | 5.61 | \nShares used in computing earnings per share: |  |  |  |  | \nBasic | 15,744,231 |  |  | 16,215,963 |  |  | 16,701,272 | \nDiluted | 15,812,547 |  |  | 16,325,819 |  |  | 16,864,919 |"
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent 15,812,547,000 shares is acceptable if units are explicit; the table reports shares in thousands, not millions.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2023
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-081",
+      "question": "How many iPhone 17 units did Apple sell during fiscal 2025?",
+      "category": "unanswerable",
+      "difficulty": "medium",
+      "answerable": false,
+      "expected_answer": null,
+      "required_documents": [],
+      "multiple_documents_required": false,
+      "evidence": [],
+      "unanswerable_reason": "The filing reports product-category sales in dollars, not model-specific iPhone 17 unit sales.",
+      "acceptable_answer_variants": "Expected behavior is to state that the corpus does not supply the requested fact; do not infer or invent a value.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": {
+        "document_ids": [
+          "AAPL_000032019325000079"
+        ],
+        "search_terms": [
+          "iPhone 17",
+          "unit sales",
+          "units sold"
+        ],
+        "inspection_notes": "Reviewed product descriptions and product-category revenue tables; model mentions and dollar sales do not establish unit counts."
+      }
+    },
+    {
+      "question_id": "SEC-082",
+      "question": "What is the legal name of NVIDIA’s largest direct customer in fiscal 2026?",
+      "category": "unanswerable",
+      "difficulty": "medium",
+      "answerable": false,
+      "expected_answer": null,
+      "required_documents": [],
+      "multiple_documents_required": false,
+      "evidence": [],
+      "unanswerable_reason": "The customer concentration disclosure does not identify the largest direct customer by legal name; named partners elsewhere do not establish that identity.",
+      "acceptable_answer_variants": "Expected behavior is to state that the corpus does not supply the requested fact; do not infer or invent a value.",
+      "review_status": "manual_review_recommended",
+      "review_notes": "Absence and anonymous-customer mapping require manual review; do not infer the customer from industry knowledge.",
+      "query_scope": {
+        "tickers": [
+          "NVDA"
+        ],
+        "report_years": [
+          2026
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": {
+        "document_ids": [
+          "NVDA_000104581026000021"
+        ],
+        "search_terms": [
+          "direct customer",
+          "Customer A",
+          "customer concentration"
+        ],
+        "inspection_notes": "Reviewed customer concentration disclosures and named customer/partner mentions; no defensible mapping from anonymous concentration labels to a legal entity."
+      }
+    },
+    {
+      "question_id": "SEC-091",
+      "question": "Does Apple’s fiscal 2025 filing use Intelligent Cloud as one of its reportable segments? Give the actual segment list.",
+      "category": "ambiguous_adversarial",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "No. Apple lists Americas, Europe, Greater China, Japan, and Rest of Asia Pacific.",
+      "required_documents": [
+        {
+          "document_id": "AAPL_000032019325000079",
+          "company": "Apple Inc.",
+          "ticker": "AAPL",
+          "cik": "0000320193",
+          "form": "10-K",
+          "filing_date": "2025-10-31",
+          "report_date": "2025-09-27",
+          "accession_number": "0000320193-25-000079",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "1"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "AAPL_000032019325000079",
+          "accession_number": "0000320193-25-000079",
+          "ticker": "AAPL",
+          "company": "Apple Inc.",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm",
+          "section_id": "AAPL_000032019325000079:item_1",
+          "item": "1",
+          "section_name": "Business",
+          "start_char": 11845,
+          "end_char": 12629,
+          "content_block_indices": [
+            75
+          ],
+          "contains_table": false,
+          "text": "The Company manages its business primarily on a geographic basis. The Company’s reportable segments consist of the Americas, Europe, Greater China, Japan and Rest of Asia Pacific. Americas includes both North and South America. Europe includes European countries, as well as India, the Middle East and Africa. Greater China includes China mainland, Hong Kong and Taiwan. Rest of Asia Pacific includes Australia, New Zealand and those Asian countries not included in the Company’s other reportable segments. Although the reportable segments provide similar hardware and software products and similar services, each one is managed separately to better align with the location of the Company’s customers and distribution partners and the unique market dynamics of each geographic region."
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "The wrong-company terminology is an intentional distractor, not evidence.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "AAPL"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    },
+    {
+      "question_id": "SEC-092",
+      "question": "Should a reader assume NVIDIA’s fiscal 2025 income-statement table is physically in Item 8 because that Item is titled Financial Statements? Identify the actual Item.",
+      "category": "ambiguous_adversarial",
+      "difficulty": "hard",
+      "answerable": true,
+      "expected_answer": "No. Item 8 is a cross-reference; the consolidated income statement is physically under Item 15.",
+      "required_documents": [
+        {
+          "document_id": "NVDA_000104581025000023",
+          "company": "NVIDIA Corporation",
+          "ticker": "NVDA",
+          "cik": "0001045810",
+          "form": "10-K",
+          "filing_date": "2025-02-26",
+          "report_date": "2025-01-26",
+          "accession_number": "0001045810-25-000023",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "filing_year": 2025,
+          "report_year": 2025,
+          "items": [
+            "15",
+            "8"
+          ]
+        }
+      ],
+      "multiple_documents_required": false,
+      "evidence": [
+        {
+          "evidence_id": "E1",
+          "document_id": "NVDA_000104581025000023",
+          "accession_number": "0001045810-25-000023",
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "section_id": "NVDA_000104581025000023:item_8",
+          "item": "8",
+          "section_name": "Financial Statements and Supplementary Data",
+          "start_char": 230025,
+          "end_char": 230232,
+          "content_block_indices": [
+            683,
+            684
+          ],
+          "contains_table": false,
+          "text": "Item 8. Financial Statements and Supplementary Data\n\nThe information required by this Item is set forth in our Consolidated Financial Statements and Notes thereto included in this Annual Report on Form 10-K."
+        },
+        {
+          "evidence_id": "E2",
+          "document_id": "NVDA_000104581025000023",
+          "accession_number": "0001045810-25-000023",
+          "ticker": "NVDA",
+          "company": "NVIDIA Corporation",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581025000023/nvda-20250126.htm",
+          "section_id": "NVDA_000104581025000023:item_15",
+          "item": "15",
+          "section_name": "Exhibits and Financial Statement Schedules",
+          "start_char": 249849,
+          "end_char": 251250,
+          "content_block_indices": [
+            769,
+            770,
+            771
+          ],
+          "contains_table": true,
+          "text": "Consolidated Statements of Income\n\n(In millions, except per share data)\n\n| Year Ended\n | Jan 26, 2025 |  | Jan 28, 2024 |  | Jan 29, 2023\nRevenue | $ | 130,497 |  |  | $ | 60,922 |  |  | $ | 26,974 | \nCost of revenue | 32,639 |  |  | 16,621 |  |  | 11,618 | \nGross profit | 97,858 |  |  | 44,301 |  |  | 15,356 | \nOperating expenses |  |  |  |  | \nResearch and development | 12,914 |  |  | 8,675 |  |  | 7,339 | \nSales, general and administrative | 3,491 |  |  | 2,654 |  |  | 2,440 | \nAcquisition termination cost | — |  |  | — |  |  | 1,353 | \nTotal operating expenses | 16,405 |  |  | 11,329 |  |  | 11,132 | \nOperating income | 81,453 |  |  | 32,972 |  |  | 4,224 | \nInterest income | 1,786 |  |  | 866 |  |  | 267 | \nInterest expense | (247) |  |  | (257) |  |  | (262) | \nOther, net | 1,034 |  |  | 237 |  |  | (48) | \nOther income (expense), net | 2,573 |  |  | 846 |  |  | (43) | \nIncome before income tax | 84,026 |  |  | 33,818 |  |  | 4,181 | \nIncome tax expense (benefit) | 11,146 |  |  | 4,058 |  |  | (187) | \nNet income | $ | 72,880 |  |  | $ | 29,760 |  |  | $ | 4,368 | \nNet income per share: |  |  |  |  | \nBasic | $ | 2.97 |  |  | $ | 1.21 |  |  | $ | 0.18 | \nDiluted | $ | 2.94 |  |  | $ | 1.19 |  |  | $ | 0.17 | \nWeighted average shares used in per share computation: |  |  |  |  | \nBasic | 24,555 |  |  | 24,690 |  |  | 24,870 | \nDiluted | 24,804 |  |  | 24,940 |  |  | 25,070 |"
+        }
+      ],
+      "unanswerable_reason": null,
+      "acceptable_answer_variants": "Equivalent wording is acceptable; preserve company, fiscal period, units, and all requested facts.",
+      "review_status": "source_checked",
+      "review_notes": "Checked against the cited parsed source passages; not independently human-adjudicated.",
+      "query_scope": {
+        "tickers": [
+          "NVDA"
+        ],
+        "report_years": [
+          2025
+        ],
+        "outside_corpus_company": null
+      },
+      "absence_audit": null
+    }
+  ]
+}

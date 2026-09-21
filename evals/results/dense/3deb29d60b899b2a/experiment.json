@@ -1,0 +1,102 @@
+{
+  "config": {
+    "benchmark_path": "evals/ground_truth/sec_retrieval_benchmark.json",
+    "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
+    "chunk_dirs": {
+      "fixed_size": "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b",
+      "recursive": "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b",
+      "sec_section": "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b"
+    },
+    "embedding_cache": "data/processed/dense/embeddings",
+    "evidence_match": {
+      "minimum_evidence_fraction": 0.5,
+      "minimum_nonwhitespace_characters": 32,
+      "strict_union_fraction": 0.95
+    },
+    "experiment_version": "3B.1",
+    "k_values": [
+      1,
+      3,
+      5,
+      10
+    ],
+    "model": {
+      "batch_size": 32,
+      "device": "cpu",
+      "dimensions": 384,
+      "max_sequence_length": 512,
+      "name": "BAAI/bge-small-en-v1.5",
+      "query_prefix": "Represent this sentence for searching relevant passages: ",
+      "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+      "seed": 0,
+      "threads": 4
+    },
+    "model_cache": "data/processed/dense/models",
+    "output_dir": "evals/results/dense",
+    "parsed_dir": "data/processed/parsed",
+    "save_top_k": 10,
+    "selection_metric": "recall@10"
+  },
+  "encoder": {
+    "batch_size": 32,
+    "device": "cpu",
+    "dimensions": 384,
+    "implementation": "sentence_transformers_normalized_v1",
+    "max_sequence_length": 512,
+    "name": "BAAI/bge-small-en-v1.5",
+    "query_prefix": "Represent this sentence for searching relevant passages: ",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "seed": 0,
+    "threads": 4,
+    "versions": {
+      "numpy": "2.5.3",
+      "sentence-transformers": "5.7.0",
+      "torch": "2.14.0",
+      "transformers": "5.17.0"
+    }
+  },
+  "input_sha256": {
+    "data/metadata/sources.json": "a7317797768dadaa82d819c4b5450b3f6be638953ef398c2e70349693d8221b6",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/AAPL_000032019323000106.json": "5ae798ccff146ec10a4ccbb2991185d3c181085f53ca34fa7e48f0bba27dec45",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/AAPL_000032019324000123.json": "42b5c50c525a184beb81d914a7e68bf070af83d8f90dab36adba8f4e657a97cc",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/AAPL_000032019325000079.json": "a2673007a8993c8fccde1c0f5eb39b19a45f31928ddb23ea178b9622ff2477f2",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/MSFT_000095017024087843.json": "9aba556053fd2dd46c2f5e40737fabb6a073b58a4e27b2f0584d811f16369a6f",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/MSFT_000095017025100235.json": "674986b5c046be89fd040f5137f126d424492e9052eba33a72d1cff7923aa664",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/MSFT_000119312526323660.json": "b07ff300d23c62a13e2cb21aeeb066a5491f73fb87d3a0df8785edf32fa190ac",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/NVDA_000104581024000029.json": "31bcb04bc069eb3cb157b4cac5ec4520a2f1c1242fd9a7236cfc1a45cf6e7f61",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/NVDA_000104581025000023.json": "2f32b85e0382a02d274158db2c281b2859dd6fd457765790bde293bc66ba3001",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/NVDA_000104581026000021.json": "0071fe68512c9460af62c76825d5b6e29f62d53e0e07277085023b7724bf8be9",
+    "data/processed/chunks/fixed_size/5d540e6528891489/e0d63ee1453fc40b/summary.json": "e18e90adbbf8efb60d341c344e41672654519061e45095da7a9f34a2d9a9b265",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/AAPL_000032019323000106.json": "ded96565b90cbacd7727e1db15e9e7b21eb994484de8667f72e7a694e846181e",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/AAPL_000032019324000123.json": "95e281dd8e62f6761247b690458a2dedc86be21517ad98c9d86f0065eab18fdd",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/AAPL_000032019325000079.json": "d0d2c37ed5ea534516a9080fb393891d769158f079e4fa87534c40976ad7a1a4",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/MSFT_000095017024087843.json": "433bc732fa90c738b5f8c1c3b8a3fd1d1c73c92f499f31f6299ee009477505a6",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/MSFT_000095017025100235.json": "013b0124d694ed6a1ee71048e49bff865d6f6ce483ac9b17d9af7daa615ba624",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/MSFT_000119312526323660.json": "0ebbd70ba691e1ad32e3a882314c0d2872e0ec4d3349be963015b3b85418c0b1",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/NVDA_000104581024000029.json": "db6446bf282874926eaeae383c32fa6beeac8fae5e910986c8bfb52910be5c3d",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/NVDA_000104581025000023.json": "511883c3e6452a9db85327bf2ebca7f4c6b5576e921e29c0997f686d8d2a5228",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/NVDA_000104581026000021.json": "f6ea401e1da98e85d67dc0b3a284a1e63cd1beaf8215bbba4b7defd5cd65fe32",
+    "data/processed/chunks/recursive/66d0b9a957cc8a2f/e0d63ee1453fc40b/summary.json": "971ee53fe23511c8aae8ec507f4bba6ad6254b13289e2d6f7f246e265ab56236",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/AAPL_000032019323000106.json": "33b6524089618150fe1bad4f8e33e22d271ce0ab2e750349a06a0af467bf368b",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/AAPL_000032019324000123.json": "d620d38651a7f1d77b31bfd1ecde31b5b8fb63c86cd8c08f82898f4bae44dbe2",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/AAPL_000032019325000079.json": "13e092dad58529275293940abed41478f1e43c10ed1e3675c219379dcb1e9e29",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/MSFT_000095017024087843.json": "7d72f7199b9813ad538f4d09b6d9ab60b20130a7b454190268bffcfa189657e6",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/MSFT_000095017025100235.json": "a7494209d0612ebf7cb0cbc450756bfe7446d8cae3c9ccd9833056f14bfdfeed",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/MSFT_000119312526323660.json": "c433216917ea0e700305cf1aca8668da41504cc885b340416348cdb016fd52f1",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/NVDA_000104581024000029.json": "652f8e50feaa0139b8acac2fefc6872d38e8636b6b69f6f2acd930e6c090d67f",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/NVDA_000104581025000023.json": "e620efb7b2dc5b33ed643ca134aa23020dbeb137dcee4b227f72c3bad2b04376",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/NVDA_000104581026000021.json": "54df74da9336c02da999e881dd4a57387af6aa88d922cd89d6ae6cdf70824a7c",
+    "data/processed/chunks/sec_section/e5f06301c28d0e32/e0d63ee1453fc40b/summary.json": "45be6bb7b63d8e487159cab0f4571de62aa68e566495cb21ab82ba9c6af00eaf",
+    "data/processed/parsed/AAPL_000032019323000106.json": "fbb924bcd078da9e1bf1373e73e5cc615b23b3153d79b9f124eadf84c2445530",
+    "data/processed/parsed/AAPL_000032019324000123.json": "50cca47123eb7bf5fdffbb49c8f54d7494259efc63c7cfe0e7f4282f76eaee54",
+    "data/processed/parsed/AAPL_000032019325000079.json": "e9eb7463dc0ebe5934dbf7912355ca98d928faede2b3aebbe407d36f1b601d81",
+    "data/processed/parsed/MSFT_000095017024087843.json": "cf3fe6ad7ab83a126571bc4da4242a69a65608c58120c4e0725dc574e94966f8",
+    "data/processed/parsed/MSFT_000095017025100235.json": "07f97754044ce09457b3e1901b4507ddf919a431a896842d224152f221081b1d",
+    "data/processed/parsed/MSFT_000119312526323660.json": "104a0af0d4d7fd7e0b0dbdbfcc3f124b75513bdd86ba1ca35f4706586cbe4506",
+    "data/processed/parsed/NVDA_000104581024000029.json": "19c44c533f380bbb19c2c13c0e0f6837adb7a668006beaebddcbedb286cbab89",
+    "data/processed/parsed/NVDA_000104581025000023.json": "e1e216c4ea84df81c63c750413121a0974352993c7c4268b6db34492410d4565",
+    "data/processed/parsed/NVDA_000104581026000021.json": "058b59d48a85b7558d9257d2f71e562ed2095d46a9cbac15ae63074bc0c2290c",
+    "evals/ground_truth/sec_retrieval_benchmark.json": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86"
+  },
+  "run_id": "3deb29d60b899b2a21f784cc0d48d27e47295bfe395477beb24f51842a018aba"
+}
