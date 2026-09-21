@@ -232,6 +232,17 @@ class ObservabilityAdditionalTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory, contextlib.redirect_stdout(io.StringIO()), patch('requests.sessions.Session.request', side_effect=AssertionError('network forbidden')):
             output=Path(directory)/'historical'
             self.assertEqual(main(['--output',str(output)]),0)
+            integrity=json.loads((output/'protected_audit.json').read_text())
+            self.assertEqual(integrity['verification_scope'],'current_repository_check')
+            self.assertFalse(integrity['unchanged'])
+            self.assertTrue(integrity['final_state_verified'])
+            self.assertEqual(integrity['changed_files'],[])
+            self.assertEqual(len(integrity['historical_differences']),1)
+            difference=integrity['historical_differences'][0]
+            self.assertEqual(difference['path'],'configs/dataset.json')
+            self.assertEqual(difference['classification'],'one_trailing_newline_removed')
+            self.assertTrue(difference['historical_hash_reconstructed'])
+            self.assertTrue(difference['parsed_json_values_identical'])
             before={str(p.relative_to(output)):p.read_bytes() for p in output.rglob('*') if p.is_file()}
             self.assertEqual(main(['--output',str(output)]),0)
             self.assertEqual(before,{str(p.relative_to(output)):p.read_bytes() for p in output.rglob('*') if p.is_file()})

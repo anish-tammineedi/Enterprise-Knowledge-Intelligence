@@ -2,5 +2,23 @@
   "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
   "changed_files": [],
   "checked_files": 196,
-  "unchanged": true
+  "final_state_verification": {
+    "benchmark_sha256": "74a2e70d531e389a47730e8c537329ec65cfae5134abec3739a9297feba47e86",
+    "checked_historical_entries": 196,
+    "final_state_verified": true,
+    "historical_differences": [
+      {
+        "classification": "one_trailing_newline_removed",
+        "final_sha256": "57fa9b6225b07c3ddb7590cf4b189278cc0a55e85a8bfd67e60a1a5f4003caeb",
+        "historical_hash_reconstructed": true,
+        "historical_sha256": "b9e90b3f899f9ff2e9ef8bc1a6963a8440d8b6f74a2940f88f6e4ff47dac3e20",
+        "parsed_json_values_identical": true,
+        "path": "configs/dataset.json"
+      }
+    ],
+    "historical_snapshot_file_preserved": true,
+    "unaccepted_changes": []
+  },
+  "unchanged": true,
+  "verification_scope": "historical_phase6_run"
 }

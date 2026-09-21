@@ -132,3 +132,7 @@ Remaining limits are historical telemetry gaps, reviewed-label dependence for se
 ### Later portfolio hygiene note
 
 Phase 8 replaced the absolute machine-local Ollama binary path in `evals/generation/phase4a_ollama/installation.json` with a generic placeholder. This file is installation metadata, not a generated model result. The Phase 5/6 protected-audit expected hashes were updated for this single privacy cleanup; benchmark data, filing data, rankings, generation outputs, and other protected files were not changed.
+
+### Final integrity metadata note
+
+During Git finalization, `configs/dataset.json` had one trailing newline removed to clear a whitespace check. Its parsed JSON values are identical: appending that newline to the final file reproduces the historical Phase 6 SHA-256 exactly. The frozen benchmark and experimental outputs were not changed. `protected_before.json` remains the historical snapshot; the existing `unchanged` field in `protected_audit.json` describes the original Phase 6 run, while `final_state_verification` records the final hash separately and identifies this formatting-only difference. Current CLI checks label their scope explicitly.
