@@ -1,3 +1,4 @@
+from prepared_artifacts import require_prepared_artifacts
 from copy import deepcopy
 import json
 import os
@@ -226,6 +227,8 @@ class ObservabilityTests(unittest.TestCase):
 
 class ObservabilityAdditionalTests(unittest.TestCase):
     def test_cli_idempotence_and_saved_trace_aggregation(self):
+        historical = json.loads((ROOT / 'evals/observability/phase6/protected_before.json').read_text())
+        require_prepared_artifacts(ROOT, historical=historical)
         import contextlib
         import io
         from scripts.run_phase6_observability import main

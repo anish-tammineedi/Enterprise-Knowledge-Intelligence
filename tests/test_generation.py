@@ -1,3 +1,4 @@
+from prepared_artifacts import require_prepared_artifacts
 from contextlib import redirect_stdout
 from copy import deepcopy
 import io
@@ -215,8 +216,7 @@ class GenerationTests(unittest.TestCase):
 
     def test_real_retrieval_and_protected_immutability(self):
         manifest = json.loads((ROOT / 'configs/generation_protected.json').read_text())
-        if not all((ROOT / path).is_file() for path in manifest['sha256']):
-            self.skipTest('Protected SEC corpus artifacts are not prepared')
+        require_prepared_artifacts(ROOT, manifest)
         verify_protected(ROOT, manifest)
         c = config()
         retriever = SECSectionRetriever(ROOT, c['retrieval'])
@@ -256,6 +256,7 @@ class GenerationTests(unittest.TestCase):
             self.assertNotIn('sensitive error', path.read_text())
 
     def test_default_cli_offline_and_idempotent(self):
+        require_prepared_artifacts(ROOT)
         with tempfile.TemporaryDirectory() as directory, redirect_stdout(io.StringIO()):
             c = config()
             c['output_dir'] = str(Path(directory) / 'outputs')
